@@ -16,3 +16,5 @@ gitpython
 wget 
 requests 
 redis
+pymupdf
+tqdm

@@ -23,6 +23,7 @@ var/
 # Virtual Environment
 venv/
 .env
+.venv/
 
 # Data and Models
 data/
@@ -39,3 +40,4 @@ models/
 *.log
 output*.txt
 .paddlex/
+.pytest_cache/
