@@ -16,6 +16,7 @@ from __future__ import annotations
 import csv
 import json
 import math
+import os
 import random
 import re
 import string
@@ -709,15 +710,23 @@ class CPUForm300DatasetBuilder:
         self.manifest_dir.mkdir(parents=True, exist_ok=True)
         backgrounds: Dict[str, Path] = {}
         real_rows: List[Dict[str, object]] = []
-        if pdf_dir and pdf_dir.exists():
-            pdf_paths = sorted(pdf_dir.glob("*.pdf"))
-            if pdf_paths:
-                bootstrap_pdf = pdf_paths[0]
-                backgrounds = BackgroundTemplateBuilder(self.background_dir).build(bootstrap_pdf)
-                real_rows = RealCropExtractor(self.real_dir).extract(pdf_dir)
-                _write_jsonl(self.manifest_dir / "real_crops_unlabeled.jsonl", real_rows)
-                _write_jsonl(self.manifest_dir / "weak_label_requests.jsonl", self._weak_label_requests(real_rows))
-                self._write_gold_csv(self._gold_label_sheet(real_rows), self.manifest_dir / "gold_label_sheet.csv")
+        
+        # Check for SKIP_PDF environment variable to skip PDF processing
+        skip_pdf = os.environ.get("SKIP_PDF", "0") == "1"
+        
+        if pdf_dir and pdf_dir.exists() and not skip_pdf:
+            try:
+                pdf_paths = sorted(pdf_dir.glob("*.pdf"))
+                if pdf_paths:
+                    bootstrap_pdf = pdf_paths[0]
+                    backgrounds = BackgroundTemplateBuilder(self.background_dir).build(bootstrap_pdf)
+                    real_rows = RealCropExtractor(self.real_dir).extract(pdf_dir)
+                    _write_jsonl(self.manifest_dir / "real_crops_unlabeled.jsonl", real_rows)
+                    _write_jsonl(self.manifest_dir / "weak_label_requests.jsonl", self._weak_label_requests(real_rows))
+                    self._write_gold_csv(self._gold_label_sheet(real_rows), self.manifest_dir / "gold_label_sheet.csv")
+            except Exception as e:
+                print(f"Warning: PDF processing failed: {e}")
+                print("Falling back to synthetic-only mode")
         if not backgrounds:
             # Fall back to synthetic white page backgrounds if no PDFs are available.
             self.background_dir.mkdir(parents=True, exist_ok=True)

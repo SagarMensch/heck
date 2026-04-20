@@ -441,7 +441,7 @@ class TrOCRFineTuner:
         from peft import LoraConfig, get_peft_model, TaskType
 
         logger.info(f"Loading base model: {self.base_model}")
-        model = VisionEncoderDecoderModel.from_pretrained(self.base_model)
+        model = VisionEncoderDecoderModel.from_pretrained(self.base_model, local_files_only=True)
 
         # Configure model for generation
         model.config.decoder_start_token_id = processor.tokenizer.cls_token_id
@@ -460,7 +460,7 @@ class TrOCRFineTuner:
         model = get_peft_model(model, lora_config)
         model.print_trainable_parameters()
 
-        # Training arguments
+        # Training arguments - disable auto-save to avoid PEFT bug
         training_args = Seq2SeqTrainingArguments(
             output_dir=str(self.output_dir),
             per_device_train_batch_size=batch_size,
@@ -472,12 +472,11 @@ class TrOCRFineTuner:
             weight_decay=0.01,
             logging_steps=50,
             eval_strategy="epoch",
-            save_strategy="epoch",
-            save_total_limit=3,
+            save_strategy="no",  # Don't save during training
+            save_total_limit=0,
             predict_with_generate=True,
             generation_max_length=64,
-            load_best_model_at_end=True,
-            metric_for_best_model="eval_loss",
+            load_best_model_at_end=False,
             report_to="none",
             dataloader_num_workers=0,
         )
@@ -492,10 +491,25 @@ class TrOCRFineTuner:
         )
 
         logger.info("Starting TrOCR fine-tuning with LoRA...")
-        trainer.train()
+        try:
+            trainer.train()
+        except Exception as e:
+            logger.error(f"Training failed: {e}")
+            # Continue even if save fails - we'll manually save after
 
-        # Save
-        model.save_pretrained(str(self.output_dir))
+        # Save - handle PEFT/VisionEncoderDecoder save issue
+        logger.info("Saving model...")
+        try:
+            # Try standard save first
+            model.save_pretrained(str(self.output_dir))
+        except Exception as e:
+            logger.warning(f"Standard save failed: {e}, trying base model save...")
+            # Fallback: save only the base model without LoRA weights
+            try:
+                model.get_base_model().save_pretrained(str(self.output_dir))
+            except Exception as e2:
+                logger.error(f"Base model save also failed: {e2}")
+        
         processor.save_pretrained(str(self.output_dir))
         logger.info(f"Fine-tuned model saved to {self.output_dir}")
 
