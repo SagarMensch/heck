@@ -259,11 +259,11 @@ class ProductionPipeline:
                     source="qwen_grouped",
                     status=status,
                     editable=True,
-                    anchor=field_name,
                     metadata={
                         "field_type": "handwritten",
                         "data_type": info.get("validation", "text"),
                         "mandatory": info.get("critical", False),
+                        "anchor": field_name,
                     },
                 )
                 # Assign bbox natively
