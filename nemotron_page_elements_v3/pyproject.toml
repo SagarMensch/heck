@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nemotron-page-elements-v3"
+version = "3.0.1"
+description = "NVIDIA Nemotron Page Elements v3: A specialized YOLOX-based object detection model for identifying tables, charts, infographics, titles, headers/footers, and text in document pages"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "NVIDIA Open Model License"}
+authors = [
+    {name = "NVIDIA Corporation", email = "boli@nvidia.com"},
+    {name = "Theo Viel", email = "tviel@nvidia.com"},
+    {name = "Bo Liu", email = "boli@nvidia.com"},
+]
+maintainers = [
+    {name = "Theo Viel", email = "tviel@nvidia.com"},
+    {name = "Bo Liu", email = "boli@nvidia.com"},
+]
+keywords = [
+    "object-detection",
+    "document-understanding",
+    "pdf-extraction",
+    "yolox",
+    "page-layout",
+    "nvidia",
+    "nemotron",
+    "deep-learning",
+    "computer-vision",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "numpy",
+    "torch>=1.7",
+    "opencv-python",
+    "loguru",
+    "tqdm",
+    "torchvision",
+    "thop",
+    "ninja",
+    "tabulate",
+    "psutil",
+    "tensorboard",
+    "pycocotools>=2.0.2",
+    "onnx>=1.13.0",
+    "huggingface_hub>=0.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=22.0",
+    "flake8>=4.0",
+    "mypy>=0.950",
+]
+
+[project.urls]
+Homepage = "https://huggingface.co/nvidia/nemotron-page-elements-v3"
+Documentation = "https://huggingface.co/nvidia/nemotron-page-elements-v3"
+Repository = "https://huggingface.co/nvidia/nemotron-page-elements-v3"
+"Bug Tracker" = "https://huggingface.co/nvidia/nemotron-page-elements-v3/discussions"
+"Model Card" = "https://huggingface.co/nvidia/nemotron-page-elements-v3"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nemotron_page_elements_v3*"]
+
+[tool.setuptools.package-data]
+"nemotron_page_elements_v3" = ["*.json", "*.png"]
+

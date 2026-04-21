@@ -1,0 +1,39 @@
+{
+  "document": "Techathon_Samples\\P10.pdf",
+  "pages_processed": [
+    2,
+    3
+  ],
+  "total_processing_time_s": 230.79,
+  "pipeline_layers": [
+    "L1_Preprocess",
+    "L2_Nemotron",
+    "L3_PaddleOCR",
+    "L4_QwenVL",
+    "L5_ValidationKB"
+  ],
+  "pages": {
+    "2": {
+      "page_num": 2,
+      "image_size": "2550x3430",
+      "preprocess_ms": 7087.3,
+      "nemotron_cells": 0,
+      "nemotron_rows": 0,
+      "nemotron_cols": 0,
+      "ocr_time_ms": 106454.8,
+      "full_page_lines": [],
+      "cell_extractions": []
+    },
+    "3": {
+      "page_num": 3,
+      "image_size": "2546x3492",
+      "preprocess_ms": 7885.5,
+      "nemotron_cells": 0,
+      "nemotron_rows": 0,
+      "nemotron_cols": 0,
+      "ocr_time_ms": 27687.7,
+      "full_page_lines": [],
+      "cell_extractions": []
+    }
+  }
+}

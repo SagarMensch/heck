@@ -1,0 +1,207 @@
+{
+  "document_id": "P10.pdf",
+  "total_fields": 10,
+  "overall_confidence": 51.2,
+  "fields": [
+    {
+      "field_name": "Prefix_Name",
+      "value": "6 丽  a 9M  可  3G awe a",
+      "confidence": 41.4,
+      "status": "Review Needed",
+      "anchor": "prefix_name",
+      "bbox": [
+        1200,
+        630,
+        2374,
+        730
+      ],
+      "ui_coords": {
+        "top": "18.37%",
+        "left": "47.06%",
+        "width": "46.04%"
+      },
+      "page_num": 2,
+      "editable": true
+    },
+    {
+      "field_name": "First_Name",
+      "value": "Sdnvike Mididvold 白",
+      "confidence": 63.1,
+      "status": "Review Needed",
+      "anchor": "first_name",
+      "bbox": [
+        1200,
+        730,
+        2374,
+        860
+      ],
+      "ui_coords": {
+        "top": "21.28%",
+        "left": "47.06%",
+        "width": "46.04%"
+      },
+      "page_num": 2,
+      "editable": true
+    },
+    {
+      "field_name": "Last_Name",
+      "value": "W M anshi ksisme",
+      "confidence": 69.0,
+      "status": "Review Needed",
+      "anchor": "last_name",
+      "bbox": [
+        1200,
+        860,
+        2374,
+        950
+      ],
+      "ui_coords": {
+        "top": "25.07%",
+        "left": "47.06%",
+        "width": "46.04%"
+      },
+      "page_num": 2,
+      "editable": true
+    },
+    {
+      "field_name": "Father_Name",
+      "value": "2 Bhenane",
+      "confidence": 35.1,
+      "status": "Review Needed",
+      "anchor": "father_name",
+      "bbox": [
+        1200,
+        950,
+        2374,
+        1030
+      ],
+      "ui_coords": {
+        "top": "27.7%",
+        "left": "47.06%",
+        "width": "46.04%"
+      },
+      "page_num": 2,
+      "editable": true
+    },
+    {
+      "field_name": "Mother_Name",
+      "value": "SS2 -Female -Male",
+      "confidence": 68.7,
+      "status": "Review Needed",
+      "anchor": "mother_name",
+      "bbox": [
+        1200,
+        1030,
+        2374,
+        1100
+      ],
+      "ui_coords": {
+        "top": "30.03%",
+        "left": "47.06%",
+        "width": "46.04%"
+      },
+      "page_num": 2,
+      "editable": true
+    },
+    {
+      "field_name": "Gender",
+      "value": "",
+      "confidence": 0.0,
+      "status": "Review Needed",
+      "anchor": "gender",
+      "bbox": [
+        1200,
+        1100,
+        2374,
+        1170
+      ],
+      "ui_coords": {
+        "top": "32.07%",
+        "left": "47.06%",
+        "width": "46.04%"
+      },
+      "page_num": 2,
+      "editable": true
+    },
+    {
+      "field_name": "Marital_Status",
+      "value": "",
+      "confidence": 0.0,
+      "status": "Review Needed",
+      "anchor": "marital_status",
+      "bbox": [
+        1200,
+        1170,
+        2374,
+        1250
+      ],
+      "ui_coords": {
+        "top": "34.11%",
+        "left": "47.06%",
+        "width": "46.04%"
+      },
+      "page_num": 2,
+      "editable": true
+    },
+    {
+      "field_name": "Date_of_Birth",
+      "value": "18110/2026",
+      "confidence": 82.3,
+      "status": "Review Needed",
+      "anchor": "date_of_birth",
+      "bbox": [
+        1200,
+        1250,
+        2374,
+        1360
+      ],
+      "ui_coords": {
+        "top": "36.44%",
+        "left": "47.06%",
+        "width": "46.04%"
+      },
+      "page_num": 2,
+      "editable": true
+    },
+    {
+      "field_name": "Place_of_Birth",
+      "value": "Bish cectitit",
+      "confidence": 59.4,
+      "status": "Review Needed",
+      "anchor": "place_of_birth",
+      "bbox": [
+        1200,
+        1650,
+        2374,
+        1780
+      ],
+      "ui_coords": {
+        "top": "48.1%",
+        "left": "47.06%",
+        "width": "46.04%"
+      },
+      "page_num": 2,
+      "editable": true
+    },
+    {
+      "field_name": "ID_Proof",
+      "value": "ust be anyoneofthefollowing-1)Aadhar2)DrivingLiense",
+      "confidence": 92.7,
+      "status": "Verified",
+      "anchor": "id_proof",
+      "bbox": [
+        1200,
+        1920,
+        2374,
+        2110
+      ],
+      "ui_coords": {
+        "top": "55.98%",
+        "left": "47.06%",
+        "width": "46.04%"
+      },
+      "page_num": 2,
+      "editable": true
+    }
+  ]
+}

@@ -6,6 +6,8 @@ import re
 from difflib import SequenceMatcher
 from typing import List, Dict, Optional, Tuple
 
+from .name_resolver import ResolutionDecision, get_default_name_resolver
+
 # --- 1. KNOWLEDGE BASE (The "Encyclopedia") ---
 GENDER_CHOICES = ['MALE', 'FEMALE', 'TRANSGENDER', 'OTHER']
 MARITAL_CHOICES = ['MARRIED', 'UNMARRIED', 'DIVORCED', 'WIDOWED', 'SINGLE']
@@ -57,6 +59,7 @@ class LicCleaner:
     def __init__(self):
         self.gender_cache = None
         self.city_cache = None
+        self.name_resolver = get_default_name_resolver()
     
     def clean_text(self, text: str) -> str:
         """Basic text cleaning"""
@@ -64,6 +67,19 @@ class LicCleaner:
         # Remove non-printable chars, normalize spaces
         text = re.sub(r'[^\w\s/\.(\)-]', '', text)
         return re.sub(r'\s+', ' ', text).strip().upper()
+
+    def prettify_text(self, text: str) -> str:
+        """Convert cleaned OCR text into readable title case."""
+        clean = self.clean_text(text)
+        if not clean:
+            return ""
+        parts = []
+        for token in clean.split():
+            if len(token) <= 3 and token.isalpha() and token == token.upper():
+                parts.append(token)
+            else:
+                parts.append(token.capitalize())
+        return " ".join(parts)
     
     def correct_gender(self, raw: str) -> Optional[str]:
         """Extract gender from garbled text"""
@@ -160,6 +176,10 @@ class LicCleaner:
             elif len(y) == 1: y = '200' + y
             return f"{d.zfill(2)}/{m.zfill(2)}/{y}"
         return None
+
+    def resolve_name_or_entity(self, raw: str, field_name: str) -> ResolutionDecision:
+        """Resolve names, employer names, and plan names against the local lexicon."""
+        return self.name_resolver.resolve(raw, field_name=field_name)
 
 # Global instance
 cleaner = LicCleaner()

@@ -1,0 +1,2194 @@
+{
+  "document": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\Techathon_Samples\\P02.pdf",
+  "total_pages": 28,
+  "pages": [
+    {
+      "page_num": 1,
+      "processing_time_s": 43.91,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_1.png",
+      "blocks": [
+        {
+          "id": "p1_b0",
+          "type": "table",
+          "bbox": [
+            13.08748722076416,
+            0,
+            2501.9365234375,
+            3472.308349609375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td>LIC 3.300（TR03)/ T.300（TfRev.2023）FORM NO.300 (Rev. 2023） PROPOSAL FOR INSURANCE ON OWN LIFE LIFE INSURANCE CORPORATION OFINDIA -/MUBAI DIVISION (Not be used for insurance on the lives of minors) faTT:Division: TT fc/TaT fc/Branch Office HT ARIYI 1 &RTI/This form is to be completed in BLOcK LETTERS by the Life to be Assured. . (9) 北 () ()RR This form contains 4 sections namely : Section I : Details of Life to be Assured / Section ll: Proposed Plan Details, / Section ll : Details of personal and family health and habits / Section IV : Declaration. a  i 3. carefully and fill up the details truthfully gI/Please ensure that you affix your signatures in allthe places as required. In certain places more than one signature is required. This is in your own interest 5.. fI/If the Life to be assured signs this proposal in vernacular or puts his/her thumb impression upon it, then the respective declaration must be completed. 3 I /Answers should be legible. Questions should be answered in 'Yes' or 'No'(Strokes / dots / dashes / leaving the questions unanswered will not be accepted). . Details need to be provided in case of affrmative answers The Life to be assured must countersign any cancellation or alterations made in this form. White ink must not be used. &RT HRT Tg/ To be filled by Agent / Intermediary : . /D.O./CLIA/Chief Organizer/ Intermediary Agency Code No & Mobile number : 市 2.f gent's/Specified Person's/DSA's/Sup Agent's Name, Code No & Mobile number: 3. T / Licence No/ Registration No: 4.://Date of xpiry: peT afaamd/arafa a /For Offce Use Only : faic /faic / Date: / / Iard no : c而 TRAt of Depsit : Rs . /   / Proposal no : ....B.O.C No: fai / fai / Date (1)</td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 2,
+      "processing_time_s": 7.38,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_2.png",
+      "blocks": [
+        {
+          "id": "p2_b0",
+          "type": "other_text",
+          "bbox": [
+            734,
+            75,
+            1757,
+            172
+          ],
+          "confidence": null,
+          "text": "Section -I :Details of the Life to be assured"
+        },
+        {
+          "id": "p2_b1",
+          "type": "table",
+          "bbox": [
+            3.9930715560913086,
+            187.84042358398438,
+            2459.164306640625,
+            3410.004638671875
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td></td><td>/Personal Details</td><td></td></tr><tr><td>1.</td><td> idi / Customer ID</td><td></td></tr><tr><td>2.</td><td></td><td></td></tr><tr><td>3.</td><td>C KYC number (Central KYC Registry Number) //Name: uf Prefix</td><td>First Name Middle Name Last Name</td></tr><tr><td></td><td>Mr./Mrs./Ms./Mx.</td><td>Sunny Seth /ishs</td></tr><tr><td>4.</td><td>ather's Full nam</td><td></td></tr><tr><td>5.</td><td>thrsull Name //Gender</td><td></td></tr><tr><td>6.</td><td></td><td> Male /-Female / / TransganderFema</td></tr><tr><td>7.</td><td>daRerafRf/Marital Status</td><td>Marrieo</td></tr><tr><td>8.</td><td> </td><td>Sunny seth</td></tr><tr><td>9.</td><td>//ate of Birth</td><td>02/0111985</td></tr><tr><td>10. ：3g/Age**</td><td></td><td>/Years</td></tr><tr><td colspan=\"3\">** Depending upon the plan conditions, Age last birthday/Age nearer birthday shall be applied for the calculation of premium</td></tr><tr><td>11.</td><td> /lace/ City of Birth</td><td>Nagpuo</td></tr><tr><td>12.</td><td>/aturf Age Proof Submitted</td><td>Cerfice Birtt</td></tr><tr><td>13.</td><td>ationality</td><td>Ind'as</td></tr><tr><td>14. 15.</td><td>R/mRcp/Citizenship</td><td>ndian</td></tr><tr><td></td><td>Permanent Address as per Proof of Identity (Proof of ldentity must be any one of the following -1)Aadhar 2) Driving License</td><td></td></tr><tr><td colspan=\"3\"> 3) Voter ID 4) Passport</td></tr><tr><td></td><td>House No./Building Name/ Street</td><td>D≠3，Raj CuS L+d</td></tr><tr><td></td><td>//Town /Village/ Taluka City / District</td><td>Bonirele</td></tr><tr><td></td><td>／tat&Country</td><td>Munbai</td></tr><tr><td></td><td>./PIN Code</td><td>Maharashhs</td></tr><tr><td></td><td></td><td>A r0068</td></tr><tr><td>16.</td><td>Tel. No. with STD Code adT /a可  / Correspondence / Current Addressif dfferent from above</td><td>022</td></tr><tr><td colspan=\"2\"></td><td></td></tr><tr><td></td><td>House No./Bldg. Name / Street ////Tow/Village/ Taluka</td><td></td></tr><tr><td>f/fI City / District</td><td></td><td></td></tr><tr><td></td><td>／/Stat&Country</td><td></td></tr><tr><td></td><td>./ PIN Code</td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td colspan=\"3\"> Tel. No. with STD Code</td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 3,
+      "processing_time_s": 7.26,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_3.png",
+      "blocks": [
+        {
+          "id": "p3_b0",
+          "type": "table",
+          "bbox": [
+            3.4472951889038086,
+            9.034127235412598,
+            2534,
+            3500
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td rowspan=\"5\">17. 18.</td><td>/aR/Residential status</td><td>Resident Indian/ Non Resident Indian/ Foreign National of Indian</td></tr><tr><td>Whether holding valid Overseas Citizen of India Card (OCl Card)</td><td>Origin Y/N</td></tr><tr><td></td><td>(.3T.3T...3T.3.Address outside India（Applicable only for NRI/FNIO)</td></tr><tr><td colspan=\"2\"></td></tr><tr><td>House No./Building Name/ Street</td><td>Z A</td></tr><tr><td></td><td> /  /  / To / Village/ Taluka</td></tr><tr><td>City  District</td><td></td></tr><tr><td>StatCountry /PIN Code</td><td></td></tr><tr><td colspan=\"2\"></td></tr><tr><td colspan=\"2\"></td></tr><tr><td>   ? Are you Income Tax Assessee</td><td>/</td></tr><tr><td>Hic /i&r /Permanent Account Number (PAN) 2</td><td>AS0MN92993</td></tr><tr><td>3 Are you Registered under GST, if yes give GSTIN :</td><td>Z0 Votor ID Passport 2512 8810</td></tr><tr><td colspan=\"2\">4 3i 3I/ID details (*In case ofAadhar only last 4 digits is to be given as Id number) 3TR </td></tr><tr><td colspan=\"2\"> /g  /Prof of Identity ID Number*</td></tr><tr><td colspan=\"2\">Aadhar</td></tr><tr><td colspan=\"2\">Driving Licence 32154916 xpate of I</td></tr><tr><td colspan=\"2\">(DD/MM/YYYY) 5</td></tr><tr><td colspan=\"2\">Aadh Proof of Correspondence Address Submitted.</td></tr><tr><td colspan=\"2\"></td></tr><tr><td colspan=\"2\">/Occupation &/f/Educational qualification</td></tr><tr><td></td><td>BSC</td></tr><tr><td></td><td>/Pr Occuatio Ses6</td></tr><tr><td></td><td>/ / Surc f Icoe Mesc</td></tr><tr><td></td><td>T H / Name of the present employer LC</td></tr><tr><td>5</td><td>Manayer</td></tr><tr><td>Exact Nature of duties</td><td>engt of service 84</td></tr><tr><td></td><td>ad  / af  /Annual Incoe (Rs.)</td></tr><tr><td colspan=\"2\">8 the Armed Forces</td></tr><tr><td>a</td><td colspan=\"2\">NA</td></tr><tr><td></td><td colspan=\"2\">/ff Wing to which you belong /Rank therein</td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 4,
+      "processing_time_s": 6.89,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_4.png",
+      "blocks": [
+        {
+          "id": "p4_b0",
+          "type": "table",
+          "bbox": [
+            0,
+            0,
+            2516.685302734375,
+            3435.95068359375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td>? d)</td><td>ff / Date of last Medical Examination (DD/MM/YYYY)</td><td colspan=\"2\">No</td></tr><tr><td></td><td>aT uf / Medical category after Medical Examination</td><td colspan=\"2\"></td></tr><tr><td></td><td>q ?/ Were you ever below A-1 category?</td><td colspan=\"2\"></td></tr><tr><td></td><td>If so, when? 3/3/Others</td><td colspan=\"2\"></td></tr><tr><td></td><td colspan=\"2\"> occupation associated with any specific hazard or do you take part in hazardous activities or have hobbies that could be dangerous in any way? If yes, give details and submit respective questionnaire</td><td></td></tr><tr><td>2</td><td colspan=\"2\">Have you ever been or are currently being investigated charge sheeted, prosecuted or convicted or having pending charges in respect of any criminal/civil offences in any court of law in India or abroad? If yes, give</td><td></td></tr><tr><td>3</td><td colspan=\"2\">details ?  而 ？ d  gI/ Are you a Politically Exposed Person OR are you a family member or close relative of Politically Exposed Person? [As per RBl guidelines PEPs are the individuals who are or have been entrusted with prominent public functions by a foreign country)</td><td></td></tr><tr><td></td><td colspan=\"3\">Existing Insurance : Please give details of your previous insurance taken from LIC as well as from other insurers (including policies surrendered / lapsed during last 3 years)   Note: 1) If space is not suffcient for all existing policies, please use separate sheet in the same format. It must be duly signed by the Life to be assured. 2) Corporation normally does not entertain any fresh proposal forinsurance where a policy has lapsed orhas been converted into paid up policy within the last 3 years.</td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 5,
+      "processing_time_s": 8.37,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_5.png",
+      "blocks": [
+        {
+          "id": "p5_b0",
+          "type": "table",
+          "bbox": [
+            1.577742338180542,
+            0,
+            2529.046875,
+            3479.254150390625
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td></td><td>ifi/gif /Policy Number</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>y T H Name of the Insurer/Division/ Branch a a er</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>faHT crc /T T / Sum Assured (Rs.)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Term Rider Sum Assured (Rs.)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>HT T / CI Rider Sum Assured (Rs.)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>AB/ ADDB Sum Assured (Rs.)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>/ff/Date of Commenceent (DD/MM/YYYY)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td>a /gff/Date f Revival (DD/MM/YYYY)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>1/ Whether accepted at ordinary rate, if not give</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td>details pfcpfcp -ffcpMedical/ Non medical</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td>哥 Whether Inforce? (Yes / No)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>13</td><td>FUP/ Date of Surrender (DD/MM/YYYY)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>14</td><td colspan=\"4\"> proposal (or an application for revival of a policy) on your life made to any office of the Corporation or to any other Insurer ever been</td><td>Yes/No</td><td>Details</td></tr><tr><td>2</td><td colspan=\"4\">     agf g, gf faufWithdran,Deferred,Dropped or Declined?, if yes give details. ？</td><td>No</td><td></td></tr><tr><td></td><td colspan=\"4\">cRfa Tr ?f TR gg, quf faaRu fI /Accepted with extra Premium or Lien?, if yes give details. </td><td>No</td><td></td></tr><tr><td></td><td colspan=\"4\">？/Accp  e other than those proposed?, if yes give details. </td><td>No</td><td></td></tr><tr><td>d</td><td colspan=\"4\">Haveyou during the past one year returned any policy of the Corporation as the same was not acceptable to you?, if yes give details.</td><td>N0</td><td></td></tr><tr><td>VI</td><td colspan=\"4\">(It is in the interest of theLife to be assured to avail the facilityofnomination) </td><td colspan=\"2\">Details of Nominee and Appointee </td></tr><tr><td></td><td colspan=\"4\">TT-/T&T T/Type of Nomination: Single/Multiple</td><td colspan=\"2\">Sunny</td></tr><tr><td></td><td colspan=\"4\"></td><td colspan=\"2\"></td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 6,
+      "processing_time_s": 8.0,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_6.png",
+      "blocks": [
+        {
+          "id": "p6_b0",
+          "type": "table",
+          "bbox": [
+            9.903547286987305,
+            3.551955223083496,
+            2447.986572265625,
+            3430.61083984375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td></td><td colspan=\"7\">2 . / In case of Minor Nominee please give Appointee details</td></tr><tr><td></td><td rowspan=\"2\">i q/ame and</td><td rowspan=\"2\">% / 可 % Tg Share Age</td><td rowspan=\"2\"></td><td rowspan=\"2\">R/fGfa RTAIT I 3RT /Relationship with the Lifeto be Assured</td><td rowspan=\"2\"> gaT /Appointee's full name age and address</td><td rowspan=\"2\">aRAARIS R 善 Relationship to the nominee</td><td rowspan=\"2\">动 iHdaRIO Appointee's Signature orThumb impression as a token</td></tr><tr><td>address of Nominee</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td> of consent</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td colspan=\"7\">HUT / Id proof of Nominee / Appointee</td></tr><tr><td></td><td colspan=\"7\">24 6615 SS i / D Number</td></tr><tr><td>VII</td><td colspan=\"7\">/fa /Ban Details</td></tr><tr><td></td><td colspan=\"7\">/f/BanAccout details: / f Accav / Ce 000220056 b) i/    /Your Acct No :  Coe: /IFS Code: qaT / Name and Address of your bank: f fa /(Attach a cancelled cheque leaf (along with copy of bank passbook if name is not printed on the cheque leaf)</td></tr><tr><td colspan=\"7\">Tax Residency Is your country of Tax Residency outside India?</td></tr><tr><td>If yes, fill the Self Certification Form misrepresenting, I am aware that I may be held liable forit.</td><td colspan=\"6\">Y/N I hereby declare that the detail furnished above is true and correct to the best of my knowledge and belief and I undertake to inform</td></tr><tr><td colspan=\"7\">Mobile number of the Life to be assured: 可 E mail id of the Life to be assured Signature / Thumb impression of the Life to be assured (6)</td></tr></tbody></table></body></html>"
+        },
+        {
+          "id": "p6_b1",
+          "type": "number",
+          "bbox": [
+            1201.69091796875,
+            3351.06689453125,
+            1250.015625,
+            3390.762939453125
+          ],
+          "confidence": null,
+          "text": "(6)"
+        }
+      ]
+    },
+    {
+      "page_num": 7,
+      "processing_time_s": 10.52,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_7.png",
+      "blocks": [
+        {
+          "id": "p7_b0",
+          "type": "table",
+          "bbox": [
+            20.940204620361328,
+            3.5169317722320557,
+            2523.934326171875,
+            3492
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td colspan=\"6\">T I :  : Section-ll Proposed Plan Details</td></tr><tr><td rowspan=\"3\"></td><td colspan=\"2\">Objective of Insurance </td><td colspan=\"3\">Saving / Risk Cover/ Saving and Risk Cover </td></tr><tr><td colspan=\"2\">Whether proposal is under (please tick relevant options)</td><td colspan=\"3\">  Individual life / Employer- Employee Scheme /HUF /MWP **</td></tr><tr><td colspan=\"5\">*Note : If proposal is not under individual life, please submit relevant questionnaire / annexure/supporting documents along with the proposal form </td></tr><tr><td>Illness Benefit Rider fahaT /可T / OR LIC's Accidental Death and Disability Benefit Rider (AD & DB)</td><td colspan=\"5\">Please Tick the Riders which you want to avail along with the base plan as per the Plan conditions //  Asur Rie i /R/ L's Premm Waiver Bnfit Rider 3()s Accnt it Rier (AB) </td><td></td></tr><tr><td></td><td colspan=\"7\">Plan, Sum assured and Rider selected by the Life to be assured (Riders are subject to availability under the selected plan). Addendum for plan specific details to be completed for LiC's Aadhar Stambh, LiC's Aadhar Shila, LIC's New Jeevan Amar, LiC's Jeevan Azad, LiC's Dhan Sanchay and any other plan that require such details.</td></tr><tr><td></td><td>来 3rafe/Plan Term & Premium paying Term</td><td>ana fan RaropH)/ama /Sum Proposed (Basic Sum Assured)</td><td>(/g / U/Mode of Premium Payment (Yly) Hly/Qly./ SSS / NACH / Single)</td><td>(gefa as AM Raa T Term Rider Sum Proposed (if opted)</td><td>m TopcpH(qef Aasa 3HM ) Critical lllness benefit sum proposed (if opted)</td><td># (qf fag (i Accident benefit sum proposed (if opted)</td><td>aRTaHa ga 成 If policy is tobe dated backindicate date</td></tr><tr><td></td><td></td><td>(Rs.) N Death And Disability Benefit Rider is opted for :</td><td>(Rs.)</td><td>(Rs.)</td><td>(Rs.)</td><td>(Rs.)</td><td>(DD/MM/YYYY)</td></tr><tr><td colspan=\"6\"></td><td colspan=\"2\"></td></tr></tbody></table></body></html>"
+        },
+        {
+          "id": "p7_b1",
+          "type": "table_title",
+          "bbox": [
+            714.27099609375,
+            4.836893558502197,
+            1800.0762939453125,
+            111.71285247802734
+          ],
+          "confidence": null,
+          "text": "T I :  : \nSection-ll Proposed Plan Details"
+        },
+        {
+          "id": "p7_b2",
+          "type": "number",
+          "bbox": [
+            1222.9798583984375,
+            3460.8984375,
+            1273.40185546875,
+            3492
+          ],
+          "confidence": null,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "page_num": 8,
+      "processing_time_s": 6.62,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_8.png",
+      "blocks": [
+        {
+          "id": "p8_b0",
+          "type": "table",
+          "bbox": [
+            0,
+            0,
+            2461.333984375,
+            3430.2646484375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td>force? If \"Yes\", Authority code and Dept No</td><td>Whether you are engaged in police duty in any police organization other than paramilitary  B&TT lgg ?Whether you wish to avail the AB/AD& DB Rider while on police duty? ics :   </td><td>XIN XIN</td></tr><tr><td>the date of death of Proposer till the expiry of rider term. However, premiums in respect of any riders, if opted for, other than this rider under the base policy shallnot be waived and continue to be paid as per respective rider conditions. Further if premium paying term of the base policy exceeds the rider term all the premiums due under the base policy from the date of expiry of “LiC's Premium Waiver Benefit Rider\" shall be payable by the Life Assured as per the terms and conditions of the Base</td><td colspan=\"2\">To be answered only if proposing for \"LiC's Premium Waiver Benefit Rider\" in case of insurance on Minor Life.  Premium Waiver Benefit under this rider shall be equal to waiver of premiums payable under the Base Policy falling due on and after</td></tr><tr><td>policy. Do you agree with the above</td><td>Note: Proposal shall be considered for LiC's Premium Waiver Benefit Rider only, if your answer to the above question is \"Yes\"</td><td>. 1 2 Yes/ No</td></tr><tr><td>VI</td><td>a          ？</td><td>Y/N</td></tr><tr><td></td><td>Is your life now being proposed for another assurance or an application for revival of a policy on your life or any other proposal under consideration in any offce of the Corporation or to any other Insurer? If yes, give details    ? Whether proposed simultaneously on the life of spouse and children? If yes, give details</td><td>XIN</td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 9,
+      "processing_time_s": 4.9,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_9.png",
+      "blocks": [
+        {
+          "id": "p9_b0",
+          "type": "table",
+          "bbox": [
+            16.599655151367188,
+            0.5199604034423828,
+            2532.884033203125,
+            3488
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tr><td colspan=\"2\">VII. a ff (f/Settlement Option (As per plan conditions)</td><td></td></tr><tr><td>Bage RT 3T 可</td><td> Do you wish to avail \"Option to take Maturity Benefit in Instalments\": Do you wish to avail \"Option to take Death Benefit In Instalments\" :   If 'Yes', Kindly fillthe addendum which forms a part of the proposal form.         34412491 Note: You will have the option of altering the mode of receipt of payment of claim from lumpsum to instalment and vice versa during the policy duration till the point of claim</td><td>Yes /No Yes /No</td></tr><tr><td>V Are you registered with LiC Portal: </td><td> w.iiac If not, Please visit our site www.licindia.com and register yourself with LIC Portal after completion of this proposal to avail the benefit of e-services</td><td>Yes/No</td></tr><tr><td colspan=\"3\">Signature/Thumb impression of the Life to be assured (9)</td></tr></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 10,
+      "processing_time_s": 8.45,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_10.png",
+      "blocks": [
+        {
+          "id": "p10_b0",
+          "type": "table_title",
+          "bbox": [
+            604.6031494140625,
+            0.796008825302124,
+            1970.2891845703125,
+            207.10450744628906
+          ],
+          "confidence": null,
+          "text": "\n  : 3 可  R \n Section- Il : Personal and family details of health / habits"
+        },
+        {
+          "id": "p10_b1",
+          "type": "table",
+          "bbox": [
+            26.3612060546875,
+            217.73146057128906,
+            2525,
+            3420.546142578125
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td colspan=\"8\">aTT ar / Personal Health </td></tr><tr><td></td><td colspan=\"4\">Section- Il : Personal and family details of health / habits )可() Please state exact height ( in cms) and weight ( in Kgs) ( without shoes)</td><td>Height 160</td><td colspan=\"2\">Weight 68</td></tr><tr><td></td><td colspan=\"4\">         During the last five years did you consult a Medical Practitioner for any ailment requiring</td><td colspan=\"2\"></td><td colspan=\"2\"></td></tr><tr><td></td><td colspan=\"4\">treatment for more than a week ? If yes, give details        Have you ever been admitted to any hospital or nursing home for general check up,</td><td colspan=\"3\">XIN X/N</td><td colspan=\"2\"></td></tr><tr><td></td><td colspan=\"4\">observation, treatment or operation? If yes, give details Have you remained absent from place of work on grounds of health during the last 5 years?</td><td colspan=\"3\">X/N</td><td colspan=\"2\"></td></tr><tr><td></td><td colspan=\"7\">If yes, give details Are you sufering from or have you ever suffered or undergone investigation in the past or have you been advised to undergo investigation</td><td colspan=\"2\"></td></tr><tr><td></td><td colspan=\"5\">or treatment for the following ailments: rf / facT / Diseases Yes / No</td><td colspan=\"3\"> / facT/ Diseases</td><td colspan=\"2\">Yes / No</td></tr><tr><td></td><td colspan=\"5\">  ，， ，  Lungs/Respiratory / Persistent Cough, Asthma Bronchitis, Pneumonia, spitting of blood etc.</td><td colspan=\"3\">      </td><td colspan=\"2\">No</td></tr><tr><td>3.</td><td colspan=\"5\">，，， R   g 3 / Peptic ulcer/colitis, jaundice, anaemia, piles, dysentery, or any other disease of</td><td colspan=\"4\">? / Hypertension, Hypotension, rheumatic, fever, pain in chest breathlessness, palpitation, any diseaseof the heart or arteries?   ?/ A disease of kidny prostate or urinary system?</td><td>No</td></tr><tr><td>5</td><td colspan=\"2\">the stomach, liver, spleen, gallbladder or pancreas/digestive disorder. ， ，， / Paralysis / Epilepsy /lnsanity/ Tremors, Numbness, Double Vision, Dizzy or Fainting Spells / Head Injury / Insomnia / Nervous Breakdown / Any other disease of the brain or the nervous system.</td><td colspan=\"2\">4 6.</td><td colspan=\"3\">，，，， fR，  f   g， , ，，，，，   ？ / droce Varicocele, Fistula, Varicose Veins, Filariasis. Gonorrhoea, Syphilis or any other venereal disease?</td><td colspan=\"2\"></td><td></td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 11,
+      "processing_time_s": 9.39,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_11.png",
+      "blocks": [
+        {
+          "id": "p11_b0",
+          "type": "table",
+          "bbox": [
+            0.0657692551612854,
+            3.5490779876708984,
+            2524.91845703125,
+            3465.7392578125
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td></td><td colspan=\"2\">,f aT fach/ iferai/ Cancer/Leukemia/ Lymphoma/Tumour/Cyst/Any other growth/</td><td></td><td>8</td><td>f   π? / Any disease of ear, nose, throat or eyes, including defective sight or hearing and discharge from the ears.</td><td>No</td></tr><tr><td>9</td><td colspan=\"2\">Lumps/Blood Disorder/Enlarged Glands.          ? :fc/Endocrine disorders such as Diabetes, Goitre, Thyroid etc or have you ever</td><td></td><td>10.</td><td colspan=\"2\">T/Taqi/ Bone/Joint/ Spine Disease/Arthritis</td><td></td></tr><tr><td>11</td><td colspan=\"2\">passed sugar, albumin, pus or blood in urine. R 3(fa,危,.)/ R fa(fR，)， / Mental Disorder(Depression/Anxiety, etc.)</td><td></td><td>12</td><td colspan=\"2\">  Chrocifections Tuberculosis/Pleurisy / Skin Disease / Skin</td><td>No</td></tr><tr><td>13. 15.</td><td colspan=\"2\">Hepatitis orAlDS & HIV related condition.</td><td></td><td>eruption/ Leprosy. 14.</td><td colspan=\"2\">T fagf/ Any Operation, accident or injury/any</td><td></td></tr><tr><td>f.</td><td colspan=\"4\">3T 3/  rg ? /Any other disease? </td><td colspan=\"2\">bodily defect or deformity. o </td><td></td></tr><tr><td></td><td colspan=\"7\">discharge summary and allinvestigation papers along with the proposal form.)  fafc </td></tr><tr><td></td><td>gf /Nature of disease / illness</td><td>aR/Date of Diagnosis (DD/MM/YYYY)</td><td>Fully recovered (Y/N)</td><td></td><td>/ Still on treatment (Y/N), If Yes give details of treatment</td><td colspan=\"2\">R Name and address of Doctor/ Hospital</td></tr><tr><td></td><td colspan=\"2\">NA</td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr><tr><td></td><td colspan=\"5\">a afa d Persoa Habits     Trafp/Do you smoke/consume or have you ever</td><td colspan=\"2\"> f</td></tr><tr><td></td><td colspan=\"4\">smoked/consumed the following (a,b,c) N 2 d.u  &  ag f g  R,  </td><td colspan=\"2\">af / X/N, If yes quantity consumed and duration 1</td><td colspan=\"2\">， fg/If stopped since how many months</td></tr><tr><td colspan=\"7\">a. Haq / HayT / Alcoholic drinks b.   /   / arcotics T/Any other drugs, If yes, which one      (fapdt api s /fa /..... ， Do you smoke / consume or have you smoked/consumed tobacco in any form (Tobacco product includes but not limited to cigars, cigarettees, beedis, chewable tobacco like Gutkha, flavored paan masala etc.) in the past 60 months. (in sticks/packets/ sachets/day or gms / day)</td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 12,
+      "processing_time_s": 11.86,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_12.png",
+      "blocks": [
+        {
+          "id": "p12_b0",
+          "type": "table",
+          "bbox": [
+            9.553590774536133,
+            0,
+            2481.988525390625,
+            3423.5615234375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td>IV</td><td colspan=\"3\">3? 基 ? What has been yourusual state ofhealth? (Excellent/Good/Under Treatment/Poor) payla/RanRfaa/ Family Details</td><td>Excellen</td></tr><tr><td>T4 RTDaIaA TRUi 3T. 可 aRTT 3T4 市 半 4T 3 3T) pTe</td><td colspan=\"3\">可 HgRE, ，寸， 郭， Fagun       21512 iT HTR ： TBdRIaRIT 司 aR HafAa GaTRTeT # ,TgHE, 袭， 站 HiShHT T， ，#R . 可 Have your parents / spouse / Partner / children and/or any of your relations ever</td><td></td><td></td></tr><tr><td>a. b.</td><td colspan=\"5\">Relationship with the Life to be assured and Date / year ofDeath (DD/MM/YYYY) c. FdaaLiving</td></tr><tr><td rowspan=\"12\"></td><td colspan=\"5\">suffered from or t disease, / disease or any mellitus, cancer, kidney contagious diseases such as Tuberculosis, Hepatitis, specify Name of the disease T uRaIR Family History</td><td>Dead</td></tr><tr><td colspan=\"5\">/3Tg/Age</td><td></td></tr><tr><td colspan=\"2\"></td><td>stroke, high blood pressure, / hereditary disorders, Insanity, or any</td><td>diabetes AIDS / HIV etc.? If yes, please COart State of health</td><td>Age at death</td><td>ETRU Year/cause of death</td></tr><tr><td colspan=\"2\">af/fqa/Father</td><td>85</td><td>Good qod</td><td></td><td></td></tr><tr><td colspan=\"2\">/Mother HT /HT /Brothers</td><td>16</td><td>Geo</td><td></td><td></td></tr><tr><td colspan=\"2\">fda a/iving Dead Sisters</td><td>58 ST</td><td>G</td><td></td><td></td></tr><tr><td colspan=\"2\">frdafaa/ Living HaDead</td><td>S2 o</td><td>aad</td><td></td><td></td></tr><tr><td colspan=\"2\">a/spouse 可/Children</td><td>58</td><td>Swod</td><td></td><td></td></tr><tr><td colspan=\"2\">Giaa / Living Dead</td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"4\">For Female Proponents only</td><td></td><td></td></tr><tr><td colspan=\"4\"></td><td colspan=\"2\">No</td></tr><tr><td colspan=\"4\">?/Are you I pregnant now? 3YUT T TRTER</td><td colspan=\"2\">00611997</td></tr><tr><td> </td><td colspan=\"4\">f/Date of last delivery (DD/MM/YYYY) aR /3ifa RR </td><td colspan=\"2\">as 28</td></tr><tr><td> fa </td><td colspan=\"4\">or Cesarean section? If so, give details Have you had any abortion or miscarriage </td><td colspan=\"2\">Cesan?</td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 13,
+      "processing_time_s": 7.51,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_13.png",
+      "blocks": [
+        {
+          "id": "p13_b0",
+          "type": "table",
+          "bbox": [
+            73.51827239990234,
+            47.415565490722656,
+            2504.739501953125,
+            1820.126220703125
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td colspan=\"4\">h B  </td></tr><tr><td></td><td colspan=\"2\">e you ever consulted a Gynecologist or undergone any av gynaec ailment? (If yes, give details) investigation, treatment for any</td></tr><tr><td></td><td>/ Husband's details  / Husband's full name</td><td colspan=\"2\">Sunny</td></tr><tr><td></td><td></td><td colspan=\"2\">Sesc</td></tr><tr><td></td><td>Occupation Rae His</td><td colspan=\"2\"></td></tr><tr><td colspan=\"2\">His Annual Income </td><td colspan=\"2\">Red</td></tr><tr><td colspan=\"4\">Details of Husband's Insurance </td></tr><tr><td></td><td>iag / fa af fa T eT Policy number Name of branch/ Division/ Name of the insurer ( if other than LiC) from where policy has been taken</td><td>faRT / Sum Assured</td><td>Re 3TafeT/Plan & Term Present status of the policy</td></tr><tr><td></td><td>NA</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>"
+        },
+        {
+          "id": "p13_b1",
+          "type": "other_text",
+          "bbox": [
+            115,
+            1980,
+            1387,
+            2053
+          ],
+          "confidence": null,
+          "text": "     "
+        },
+        {
+          "id": "p13_b2",
+          "type": "other_text",
+          "bbox": [
+            650,
+            2042,
+            1118,
+            2115
+          ],
+          "confidence": null,
+          "text": "  "
+        },
+        {
+          "id": "p13_b3",
+          "type": "other_text",
+          "bbox": [
+            122,
+            2056,
+            668,
+            2107
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b4",
+          "type": "other_text",
+          "bbox": [
+            118,
+            2100,
+            1197,
+            2177
+          ],
+          "confidence": null,
+          "text": "Signature/Thumb impression of the Life to be assured"
+        },
+        {
+          "id": "p13_b5",
+          "type": "other_text",
+          "bbox": [
+            1380,
+            2223,
+            2013,
+            2293
+          ],
+          "confidence": null,
+          "text": "/ Section IV : Declaration"
+        },
+        {
+          "id": "p13_b6",
+          "type": "other_text",
+          "bbox": [
+            970,
+            2231,
+            1211,
+            2293
+          ],
+          "confidence": null,
+          "text": "HTT-IV"
+        },
+        {
+          "id": "p13_b7",
+          "type": "other_text",
+          "bbox": [
+            579,
+            2234,
+            952,
+            2296
+          ],
+          "confidence": null,
+          "text": "8"
+        },
+        {
+          "id": "p13_b8",
+          "type": "other_text",
+          "bbox": [
+            1215,
+            2234,
+            1380,
+            2289
+          ],
+          "confidence": null,
+          "text": "TTqUT"
+        },
+        {
+          "id": "p13_b9",
+          "type": "other_text",
+          "bbox": [
+            1182,
+            2307,
+            1337,
+            2376
+          ],
+          "confidence": null,
+          "text": "市"
+        },
+        {
+          "id": "p13_b10",
+          "type": "other_text",
+          "bbox": [
+            1441,
+            2307,
+            1614,
+            2373
+          ],
+          "confidence": null,
+          "text": "aTqui"
+        },
+        {
+          "id": "p13_b11",
+          "type": "other_text",
+          "bbox": [
+            952,
+            2311,
+            1168,
+            2376
+          ],
+          "confidence": null,
+          "text": "Rana"
+        },
+        {
+          "id": "p13_b12",
+          "type": "other_text",
+          "bbox": [
+            1337,
+            2314,
+            1448,
+            2369
+          ],
+          "confidence": null,
+          "text": "RT"
+        },
+        {
+          "id": "p13_b13",
+          "type": "other_text",
+          "bbox": [
+            632,
+            2380,
+            1944,
+            2453
+          ],
+          "confidence": null,
+          "text": "DECLARATION BY THE LIFE TO BE ASSURED"
+        },
+        {
+          "id": "p13_b14",
+          "type": "other_text",
+          "bbox": [
+            431,
+            2500,
+            2480,
+            2565
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b15",
+          "type": "other_text",
+          "bbox": [
+            108,
+            2558,
+            2480,
+            2631
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b16",
+          "type": "other_text",
+          "bbox": [
+            575,
+            2623,
+            1445,
+            2689
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b17",
+          "type": "other_text",
+          "bbox": [
+            115,
+            2634,
+            575,
+            2685
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b18",
+          "type": "other_text",
+          "bbox": [
+            1714,
+            2627,
+            2476,
+            2681
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b19",
+          "type": "other_text",
+          "bbox": [
+            1445,
+            2634,
+            1721,
+            2678
+          ],
+          "confidence": null,
+          "text": "动"
+        },
+        {
+          "id": "p13_b20",
+          "type": "other_text",
+          "bbox": [
+            108,
+            2681,
+            1607,
+            2754
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b21",
+          "type": "other_text",
+          "bbox": [
+            111,
+            2754,
+            1269,
+            2827
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b22",
+          "type": "other_text",
+          "bbox": [
+            108,
+            2819,
+            1459,
+            2885
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b23",
+          "type": "other_text",
+          "bbox": [
+            115,
+            2885,
+            1175,
+            2947
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b24",
+          "type": "other_text",
+          "bbox": [
+            111,
+            2943,
+            618,
+            3012
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b25",
+          "type": "other_text",
+          "bbox": [
+            597,
+            2950,
+            1021,
+            3001
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b26",
+          "type": "other_text",
+          "bbox": [
+            111,
+            3019,
+            546,
+            3085
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b27",
+          "type": "other_text",
+          "bbox": [
+            1667,
+            2754,
+            2480,
+            2820
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b28",
+          "type": "other_text",
+          "bbox": [
+            1261,
+            2765,
+            1696,
+            2816
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b29",
+          "type": "other_text",
+          "bbox": [
+            1463,
+            2823,
+            2476,
+            2885
+          ],
+          "confidence": null,
+          "text": "，，，"
+        },
+        {
+          "id": "p13_b30",
+          "type": "other_text",
+          "bbox": [
+            1157,
+            2881,
+            2480,
+            2947
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b31",
+          "type": "other_text",
+          "bbox": [
+            561,
+            3019,
+            2476,
+            3081
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b32",
+          "type": "other_text",
+          "bbox": [
+            111,
+            3081,
+            557,
+            3140
+          ],
+          "confidence": null,
+          "text": "R"
+        },
+        {
+          "id": "p13_b33",
+          "type": "other_text",
+          "bbox": [
+            579,
+            3085,
+            2120,
+            3136
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b34",
+          "type": "other_text",
+          "bbox": [
+            2117,
+            3088,
+            2480,
+            3139
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b35",
+          "type": "other_text",
+          "bbox": [
+            111,
+            3252,
+            2491,
+            3332
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b36",
+          "type": "other_text",
+          "bbox": [
+            118,
+            3310,
+            2487,
+            3394
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p13_b37",
+          "type": "other_text",
+          "bbox": [
+            1258,
+            3419,
+            1344,
+            3481
+          ],
+          "confidence": null,
+          "text": "(13)"
+        }
+      ]
+    },
+    {
+      "page_num": 14,
+      "processing_time_s": 129.43,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_14.png",
+      "blocks": [
+        {
+          "id": "p14_b0",
+          "type": "content",
+          "bbox": [
+            32.777095794677734,
+            0,
+            2402.578369140625,
+            3419.029541015625
+          ],
+          "confidence": null,
+          "text": "\n\n\n\n\n\n the person whose life is herein being proposed to be assured, do hereby declare tha\nthe foregoing statements and answers have been given by me after fully understanding the questions and the same are true anc\ncomplete in every particular and thatI have not withheld any information and Ido hereby agree and declare that these statements\n and this declaration shallbe the basis of the contract of assurance between me and the Life Insurance Corporation of India and thal\n if any untrue averment be contained therein the said contract shallbe dealt with as per provisions of Section 45 of the Insurance Act\n1938 as amended from time to time.\nNot-withstanding the provision of any law, usage, custom or convention for the time being in force prohibiting any doctor, hospital\ndiagnostic center and/or employer, reinsurer/ credit bureau from divulging any knowledge or information about me concerning my\nhealth or employment, occupation, insurance, financial etc. on the grounds of privacy, I, my heirs, executors, administrators anc\n assignees or any other person or persons, having interest of any kind whatsoever in the policy contract issued to me, hereby agree\nthat such authority, having such knowledge or information, shall at any time be at liberty to divulge any such knowledge ol\n information to the Corporation and the Corporation to divulge the same to any Authorised Organisation / Institution / Agency / anc\n Governmental / Regulatory Authority for the sole purpose of underwriting / investigation / risk mitigation / fraud control and/or claim\nsettlement\nAnd I further agree thatif after the date of submission of the proposal but before the issue of First Premium Receipt (i)any change ir\n my occupation or any adverse circumstances connected with my financial position or the general health of myself or that of any\nmembers of my family occurs or (ij if a proposal for assurance or an application for revival of a policy on my life made to any office o\nthe Corporation is withdrawn or dropped, deferred or accepted at an increased premium or subject to a lien or on terms other than as\nproposed. I shallforthwith intimate the same to the Corporation in writing to reconsider the terms of acceptance of assurance. An)\nomission on my part to do so shallrender this contract to be dealt with as per provisions of Section 45 of the Insurance Act, 1938 as\namended from time to time\nI undertake to inform the Corporation immediately of any changes in KYC documents such as residence. I also give my consent t\nshare my data with Central KYC Registry and to receive phone calls, SMS/E-mail from Central KYC registry in this regard\nI understand that the Corporation reserves the right to accept/ Postphone/ drop/ decline or offer alternate terms on this proposal fo\nlifeinsurance\nI hereby give my consent to receive phone calls, SMS/E-mail on the above mentioned registered number/E-mail address from / or\nbehalf of the Corporation with respect to my life insurance policy / regarding servicing of insurance policies notifying about the status\nof Claim etc\nI also understand that the premium and benefits under the policy are subject to taxes / duties / charges in accordance with the laws\nas applicable from time to time\nfaaicp\nfaaifonaT\naRg\nDated at\non the\n20\n \nSignature or Thumb Impression of Witness\na gf o \n\n/ame\nSignature or Thumb impression of the Life to be assured\na Occupation\nqTT Address\n\n\n\n \n\n#\n(14)"
+        },
+        {
+          "id": "p14_b1",
+          "type": "reference",
+          "bbox": [
+            32.777095794677734,
+            0,
+            2402.578369140625,
+            3419.029541015625
+          ],
+          "confidence": null,
+          "text": "\n\n\n\n\n\n the person whose life is herein being proposed to be assured, do hereby declare tha\nthe foregoing statements and answers have been given by me after fully understanding the questions and the same are true anc\ncomplete in every particular and thatI have not withheld any information and Ido hereby agree and declare that these statements\n and this declaration shallbe the basis of the contract of assurance between me and the Life Insurance Corporation of India and thal\n if any untrue averment be contained therein the said contract shallbe dealt with as per provisions of Section 45 of the Insurance Act\n1938 as amended from time to time.\nNot-withstanding the provision of any law, usage, custom or convention for the time being in force prohibiting any doctor, hospital\ndiagnostic center and/or employer, reinsurer/ credit bureau from divulging any knowledge or information about me concerning my\nhealth or employment, occupation, insurance, financial etc. on the grounds of privacy, I, my heirs, executors, administrators anc\n assignees or any other person or persons, having interest of any kind whatsoever in the policy contract issued to me, hereby agree\nthat such authority, having such knowledge or information, shall at any time be at liberty to divulge any such knowledge ol\n information to the Corporation and the Corporation to divulge the same to any Authorised Organisation / Institution / Agency / anc\n Governmental / Regulatory Authority for the sole purpose of underwriting / investigation / risk mitigation / fraud control and/or claim\nsettlement\nAnd I further agree thatif after the date of submission of the proposal but before the issue of First Premium Receipt (i)any change ir\n my occupation or any adverse circumstances connected with my financial position or the general health of myself or that of any\nmembers of my family occurs or (ij if a proposal for assurance or an application for revival of a policy on my life made to any office o\nthe Corporation is withdrawn or dropped, deferred or accepted at an increased premium or subject to a lien or on terms other than as\nproposed. I shallforthwith intimate the same to the Corporation in writing to reconsider the terms of acceptance of assurance. An)\nomission on my part to do so shallrender this contract to be dealt with as per provisions of Section 45 of the Insurance Act, 1938 as\namended from time to time\nI undertake to inform the Corporation immediately of any changes in KYC documents such as residence. I also give my consent t\nshare my data with Central KYC Registry and to receive phone calls, SMS/E-mail from Central KYC registry in this regard\nI understand that the Corporation reserves the right to accept/ Postphone/ drop/ decline or offer alternate terms on this proposal fo\nlifeinsurance\nI hereby give my consent to receive phone calls, SMS/E-mail on the above mentioned registered number/E-mail address from / or\nbehalf of the Corporation with respect to my life insurance policy / regarding servicing of insurance policies notifying about the status\nof Claim etc\nI also understand that the premium and benefits under the policy are subject to taxes / duties / charges in accordance with the laws\nas applicable from time to time\nfaaicp\nfaaifonaT\naRg\nDated at\non the\n20\n \nSignature or Thumb Impression of Witness\na gf o \n\n/ame\nSignature or Thumb impression of the Life to be assured\na Occupation\nqTT Address\n\n\n\n \n\n#\n(14)"
+        }
+      ]
+    },
+    {
+      "page_num": 15,
+      "processing_time_s": 4.57,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_15.png",
+      "blocks": [
+        {
+          "id": "p15_b0",
+          "type": "content",
+          "bbox": [
+            147.79193115234375,
+            5.159955978393555,
+            2522.18359375,
+            3296.409423828125
+          ],
+          "confidence": null,
+          "text": "where he/she is not able to fill the proposal form himself/ herself.)\nor in case the Life to be assured is person with disability (PWD)\nthereof.\"\n\nName of the Declarent :\nq \nSignature of Declarant\nqu cp  /gcpf   / Address of the Declarant:\n\n\n\n\n\"I certify that the contents of the form have been fully explained to me by (Name, Designation, occupation)\nMr. /Ms..\nf f  f / \n\nSignature/Thumb impression of the Life to be assured\n \n\n\n  \n\n\n\n\n\nIn case the Life to be assured is illiterate, his/her thumb impression should be attested by a person of standing whose identity\n can easily be established, but unconnected with the Corporation and this declaration should be made by him/her.\n\"1 hereby declare that I have fully explained the above questions and contents of the proposal form to the Life to be assured in\nlanguage, and that the Life to be assured has affixed the thumb impression above after fully understanding the contents thereof.\nSigtur\nq / gud / a of the Declarant\nqu r  / qucpd   / Address of the Declarant\n  9  98  45\nSECTION 45 OF THE INSURANCE ACT, 1938\n(    \n    \n      \n\n\n(1) No policy of life insurance shall be called in question on any ground whatsoever after the expiry of three years from the date of\nthe policy, i.e., from the date of issuance of the policy or the date of commencement of risk or the date of revival of the policy or the\ndate of the rider to the policy, whichever is later"
+        },
+        {
+          "id": "p15_b1",
+          "type": "number",
+          "bbox": [
+            1271.2335205078125,
+            3363.629638671875,
+            1333.701171875,
+            3403.03759765625
+          ],
+          "confidence": null,
+          "text": "(15)"
+        }
+      ]
+    },
+    {
+      "page_num": 16,
+      "processing_time_s": 5.88,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_16.png",
+      "blocks": [
+        {
+          "id": "p16_b0",
+          "type": "reference",
+          "bbox": [
+            32.88996887207031,
+            0,
+            2377.44384765625,
+            3349.238525390625
+          ],
+          "confidence": null,
+          "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n the date of commencement of risk or the date of revival of the policy orthe date of the rider to the policy, whichever is later, on the\nground of fraud :\nProvided that the insurer shall have to communicate in writing to the insured or the legal representatives or nominees or assignees\nof the insured the grounds and the materials on which such decision is based\nExplanation I- For the purpose of this sub section, the expression 'fraud' means any of the following acts committed by the insured\nor by his agent, with the intent to deceive the insurer orto induce the insurerto issue alife insurance policy\n The suggestion, as a fact of that which is not true and which the insured does not believe to be true;\nThe active concealment of afact by the insured having knowledge orbelief of the fact\n(c)Any other act fitted to deceive; and\n(d) Any such act or omission as the law specially declares to be fraudulent\nExplanation Il - Mere silence as to facts likely to affect the assessment of the risk by the insurer is not fraud, unless the\ncircumstances of the case are such that regard being had to them, it is the duty of the insured or his agent, keeping silence to speak,\nor unless his silence is, in itself, equivalent to speak\n\n \n  \n\n\n\n\n\n\n\n(3)Notwithstanding anything contained in sub-section (2), no insurer shallrepudiate a life insurance policy on the ground of fraud if\nthe insured can prove that the mis-statement of or suppression of a material fact was true to the best of his knowledge and belief or\nthat there was no deliberate intension to suppress the fact or that such mis-statement of or suppression of a material fact are wit\nthe knowledge of the insurer\nProvided that in case offraud, the onus of disproving lies upon the beneficiaries, in case the policyholderis not alive\ncontract, to be agent of the insurer"
+        },
+        {
+          "id": "p16_b1",
+          "type": "number",
+          "bbox": [
+            1189.0772705078125,
+            3348.365478515625,
+            1259.84130859375,
+            3389.408203125
+          ],
+          "confidence": null,
+          "text": "(16)"
+        }
+      ]
+    },
+    {
+      "page_num": 17,
+      "processing_time_s": 7.63,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_17.png",
+      "blocks": [
+        {
+          "id": "p17_b0",
+          "type": "text",
+          "bbox": [
+            137.08372497558594,
+            56.64950180053711,
+            2517.8369140625,
+            393.3628845214844
+          ],
+          "confidence": null,
+          "text": " \n3\n "
+        },
+        {
+          "id": "p17_b1",
+          "type": "other_text",
+          "bbox": [
+            134,
+            501,
+            1094,
+            582
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p17_b2",
+          "type": "other_text",
+          "bbox": [
+            134,
+            599,
+            2496,
+            691
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p17_b3",
+          "type": "text",
+          "bbox": [
+            135.56396484375,
+            741.3584594726562,
+            2498.7431640625,
+            971.8997802734375
+          ],
+          "confidence": null,
+          "text": "\n\n\n\nTRTT T T faRIT TT TI"
+        },
+        {
+          "id": "p17_b4",
+          "type": "text",
+          "bbox": [
+            135.55673217773438,
+            983.3272705078125,
+            2487.962158203125,
+            1196.962158203125
+          ],
+          "confidence": null,
+          "text": "\n\n\n"
+        },
+        {
+          "id": "p17_b5",
+          "type": "text",
+          "bbox": [
+            136.53472900390625,
+            1218.2010498046875,
+            2479.510986328125,
+            1391.8997802734375
+          ],
+          "confidence": null,
+          "text": "\n\n"
+        },
+        {
+          "id": "p17_b6",
+          "type": "text",
+          "bbox": [
+            137.79945373535156,
+            1424.98779296875,
+            2471.64306640625,
+            1618.8463134765625
+          ],
+          "confidence": null,
+          "text": "(4)APolicy of the Life Insurance may be called in question at any time within three years from the date of issuance of the policy or the\ndate ofcommencement of risk orthe date ofrevival of the policy or the date ofthe rider to the policy, whicheveris later, on the ground\nthat any statement of or suppression of a fact material to the expectancy of the life of the insured was incorrectly made in the\n proposal or other document on the basis of which the policy was issued or revied or rider issued :"
+        },
+        {
+          "id": "p17_b7",
+          "type": "other_text",
+          "bbox": [
+            149,
+            1628,
+            2467,
+            1679
+          ],
+          "confidence": null,
+          "text": "Provided that the insurer shall have to communicate in writing to the insured or the legal representatives or nominees or assignees"
+        },
+        {
+          "id": "p17_b8",
+          "type": "other_text",
+          "bbox": [
+            145,
+            1675,
+            2119,
+            1726
+          ],
+          "confidence": null,
+          "text": "of the insured the grounds and materials on which such decision to repudiate the policy of life insurance is based"
+        },
+        {
+          "id": "p17_b9",
+          "type": "text",
+          "bbox": [
+            141.31585693359375,
+            1736.908203125,
+            2467.82373046875,
+            1882.2213134765625
+          ],
+          "confidence": null,
+          "text": "Provided further that in case of repudiation of the policy on the ground of misstatement or suppression of a material fact, and not on\nground of fraud, the premiums collected on the policy till the date of repudiation shall be paid to the insured or the legal\nrepresentatives of nominees or assignees of the insured within a period of ninety days from the date of such repudiation.\nExplanation - For the purposes of this sub-section, the mis-statement of or suppression of fact shall not be considered materia"
+        },
+        {
+          "id": "p17_b10",
+          "type": "other_text",
+          "bbox": [
+            145,
+            1929,
+            2467,
+            1995
+          ],
+          "confidence": null,
+          "text": "unless it has a direct bearing on the risk undertaken by the insurer, the onus is on the insurer to show that had the insurer been"
+        },
+        {
+          "id": "p17_b11",
+          "type": "other_text",
+          "bbox": [
+            152,
+            1980,
+            1615,
+            2031
+          ],
+          "confidence": null,
+          "text": "aware of the said fact nolife insurance policy would have been issued to the insured"
+        },
+        {
+          "id": "p17_b12",
+          "type": "other_text",
+          "bbox": [
+            152,
+            2035,
+            2463,
+            2096
+          ],
+          "confidence": null,
+          "text": "   "
+        },
+        {
+          "id": "p17_b13",
+          "type": "other_text",
+          "bbox": [
+            152,
+            2085,
+            2463,
+            2158
+          ],
+          "confidence": null,
+          "text": "     "
+        },
+        {
+          "id": "p17_b14",
+          "type": "other_text",
+          "bbox": [
+            362,
+            2147,
+            844,
+            2195
+          ],
+          "confidence": null,
+          "text": "R"
+        },
+        {
+          "id": "p17_b15",
+          "type": "text",
+          "bbox": [
+            142.38694763183594,
+            2207.938232421875,
+            2461.4970703125,
+            2470.969482421875
+          ],
+          "confidence": null,
+          "text": "\n\n(5) Nothing in this section shall prevent the insurer from calling for proof ofage atany time if he is entitled to do so and no policy shall\n be deemed to be called in question merely because the terms of the policy are adjusted on subsequent proof that the age of the life\ninsured was incorrectly stated in the proposal."
+        },
+        {
+          "id": "p17_b16",
+          "type": "text",
+          "bbox": [
+            356.9044494628906,
+            2514.0654296875,
+            2269.878662109375,
+            2641.620849609375
+          ],
+          "confidence": null,
+          "text": "93\n In accordance with the applicable provision of Section 41 of the Insurance Act. 1938"
+        },
+        {
+          "id": "p17_b17",
+          "type": "text",
+          "bbox": [
+            439.2068176269531,
+            2577.556396484375,
+            2208.16064453125,
+            2638.49853515625
+          ],
+          "confidence": null,
+          "text": " In accordance with the applicable provision of Section 41 of the Insurance Act. 1938?"
+        },
+        {
+          "id": "p17_b18",
+          "type": "text",
+          "bbox": [
+            141.37179565429688,
+            2670.595703125,
+            2455.277099609375,
+            2902.1201171875
+          ],
+          "confidence": null,
+          "text": "     \n\n\n\n  "
+        },
+        {
+          "id": "p17_b19",
+          "type": "text",
+          "bbox": [
+            138.66482543945312,
+            2909.32861328125,
+            2457.8984375,
+            3047.238525390625
+          ],
+          "confidence": null,
+          "text": "\n"
+        },
+        {
+          "id": "p17_b20",
+          "type": "text",
+          "bbox": [
+            140.63653564453125,
+            3074.376220703125,
+            2462.458740234375,
+            3271.7236328125
+          ],
+          "confidence": null,
+          "text": "an insurance in respect of any kind of risk relating to lives or property in India, any rebate of the whole or part of the commission\nrebate,exc\nept such rebate as may be allowed in accordance with the puhlishad"
+        },
+        {
+          "id": "p17_b21",
+          "type": "number",
+          "bbox": [
+            1252.33251953125,
+            3413.986572265625,
+            1322.85400390625,
+            3455.44580078125
+          ],
+          "confidence": null,
+          "text": "(17)"
+        }
+      ]
+    },
+    {
+      "page_num": 18,
+      "processing_time_s": 9.53,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_18.png",
+      "blocks": [
+        {
+          "id": "p18_b0",
+          "type": "text",
+          "bbox": [
+            390.96539306640625,
+            27.55307388305664,
+            2116.2216796875,
+            131.1799774169922
+          ],
+          "confidence": null,
+          "text": "(To be furnished by\n/ the Life to be assured)"
+        },
+        {
+          "id": "p18_b1",
+          "type": "other_text",
+          "bbox": [
+            101,
+            183,
+            321,
+            233
+          ],
+          "confidence": null,
+          "text": "Proposal No."
+        },
+        {
+          "id": "p18_b2",
+          "type": "other_text",
+          "bbox": [
+            982,
+            240,
+            1123,
+            290
+          ],
+          "confidence": null,
+          "text": "Benefit)"
+        },
+        {
+          "id": "p18_b3",
+          "type": "other_text",
+          "bbox": [
+            97,
+            244,
+            979,
+            294
+          ],
+          "confidence": null,
+          "text": "Do you wish to avail Settlement Option (for Maturity"
+        },
+        {
+          "id": "p18_b4",
+          "type": "text",
+          "bbox": [
+            99.17858123779297,
+            303.1916809082031,
+            1143.0311279296875,
+            346.5894775390625
+          ],
+          "confidence": null,
+          "text": " If yes, please Tick/Strike \ne out (if not applicable) the following:"
+        },
+        {
+          "id": "p18_b5",
+          "type": "other_text",
+          "bbox": [
+            1126,
+            240,
+            1502,
+            294
+          ],
+          "confidence": null,
+          "text": " under the proposal ?"
+        },
+        {
+          "id": "p18_b6",
+          "type": "other_text",
+          "bbox": [
+            2151,
+            264,
+            2326,
+            323
+          ],
+          "confidence": null,
+          "text": "YES /NO"
+        },
+        {
+          "id": "p18_b7",
+          "type": "text",
+          "bbox": [
+            99.49854278564453,
+            372.9280700683594,
+            1535.2313232421875,
+            422.2771911621094
+          ],
+          "confidence": null,
+          "text": "1) Period for\nor settlement option (in years):\n: 5 / 10 / 15 (As applicable under the plan)"
+        },
+        {
+          "id": "p18_b8",
+          "type": "text",
+          "bbox": [
+            101.13134002685547,
+            445.59912109375,
+            1896.4237060546875,
+            497.5850830078125
+          ],
+          "confidence": null,
+          "text": "2) Whether\nty Benefit) is required for : Full/ Part of the benefits proceeds.\n Settlement Option (for Maturity\nIf in part\n specify the amount /\n percentage of the benefits\n proceeds :"
+        },
+        {
+          "id": "p18_b9",
+          "type": "other_text",
+          "bbox": [
+            711,
+            530,
+            1304,
+            598
+          ],
+          "confidence": null,
+          "text": " percentage of benefits proceeds"
+        },
+        {
+          "id": "p18_b10",
+          "type": "other_text",
+          "bbox": [
+            300,
+            541,
+            451,
+            591
+          ],
+          "confidence": null,
+          "text": " amount"
+        },
+        {
+          "id": "p18_b11",
+          "type": "other_text",
+          "bbox": [
+            148,
+            544,
+            314,
+            584
+          ],
+          "confidence": null,
+          "text": "Absolute"
+        },
+        {
+          "id": "p18_b12",
+          "type": "text",
+          "bbox": [
+            93.19908142089844,
+            606.7294311523438,
+            1394.5892333984375,
+            652.36669921875
+          ],
+          "confidence": null,
+          "text": " 3. Mode of Instalment payment : Yearly / Half-Yearly / Quarterly / Monthly"
+        },
+        {
+          "id": "p18_b13",
+          "type": "text",
+          "bbox": [
+            88.65597534179688,
+            685.0161743164062,
+            2399.589599609375,
+            781.7692260742188
+          ],
+          "confidence": null,
+          "text": " If the Net Claim Amount is less than the required amount to provide the minimum i\nn instalment amount (as mention below) as per the\n option exercised by the Proposal / Life to be assured,\nthe\n claim proceeds shall be\ne paid in lumpsum only."
+        },
+        {
+          "id": "p18_b14",
+          "type": "table",
+          "bbox": [
+            452.4306335449219,
+            790.1636962890625,
+            1859.4803466796875,
+            1236.4007568359375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tr><td>option exercised by the Proposal / Life to be assured, Mode of Instalment payment</td><td>e paid in lumpsum only. Minimum Instalment amount (Rs)</td></tr><tr><td>Monthly</td><td>Rs. 5,000/-</td></tr><tr><td>Quarterly</td><td>Rs. 15.000/-</td></tr><tr><td>Half-Yearly</td><td>Rs. 25,000/-</td></tr><tr><td>Yearly</td><td>Rs. . 50.000/-</td></tr></table></body></html>"
+        },
+        {
+          "id": "p18_b15",
+          "type": "other_text",
+          "bbox": [
+            75,
+            1428,
+            204,
+            1487
+          ],
+          "confidence": null,
+          "text": "Place "
+        },
+        {
+          "id": "p18_b16",
+          "type": "other_text",
+          "bbox": [
+            79,
+            1518,
+            199,
+            1569
+          ],
+          "confidence": null,
+          "text": "Date :"
+        },
+        {
+          "id": "p18_b17",
+          "type": "other_text",
+          "bbox": [
+            1123,
+            1483,
+            2138,
+            1529
+          ],
+          "confidence": null,
+          "text": "Signature / Thumb Impression of the Life to be assured"
+        },
+        {
+          "id": "p18_b18",
+          "type": "other_text",
+          "bbox": [
+            1119,
+            1529,
+            1621,
+            1583
+          ],
+          "confidence": null,
+          "text": " Name of Life to be assured"
+        },
+        {
+          "id": "p18_b19",
+          "type": "text",
+          "bbox": [
+            303.9485778808594,
+            1665.109619140625,
+            2164.833984375,
+            1784.6832275390625
+          ],
+          "confidence": null,
+          "text": " Addendum to Proposal Form for Option to take Death Benefit in Instalments\n(To be furnished by the Life to be assured)"
+        },
+        {
+          "id": "p18_b20",
+          "type": "text",
+          "bbox": [
+            307.8647766113281,
+            1666.523193359375,
+            2163.525390625,
+            1784.400634765625
+          ],
+          "confidence": null,
+          "text": " Addendum to Proposal Form for Option to take Death Benefit in Instalments\n(To be furnished by the Life to be assured)"
+        },
+        {
+          "id": "p18_b21",
+          "type": "text",
+          "bbox": [
+            73.57920837402344,
+            1836.2821044921875,
+            346.9759216308594,
+            1879.745361328125
+          ],
+          "confidence": null,
+          "text": "Proposal No.:"
+        },
+        {
+          "id": "p18_b22",
+          "type": "text",
+          "bbox": [
+            68.38228607177734,
+            1890.6053466796875,
+            1631.1171875,
+            1933.367431640625
+          ],
+          "confidence": null,
+          "text": " Do vou wish to avail Option to take Death Benefit in instalments under the proposal?"
+        },
+        {
+          "id": "p18_b23",
+          "type": "text",
+          "bbox": [
+            67.8940658569336,
+            1948.5006103515625,
+            1195.9459228515625,
+            1993.1405029296875
+          ],
+          "confidence": null,
+          "text": "If ves, please Tick / Strikeout (if not applicable the following):"
+        },
+        {
+          "id": "p18_b24",
+          "type": "other_text",
+          "bbox": [
+            2123,
+            1898,
+            2307,
+            1937
+          ],
+          "confidence": null,
+          "text": "YES/ NO"
+        },
+        {
+          "id": "p18_b25",
+          "type": "text",
+          "bbox": [
+            65.03591918945312,
+            2010.548828125,
+            2090.713134765625,
+            2058.967041015625
+          ],
+          "confidence": null,
+          "text": "Period for Option to take I\nn Benefit in instalments\n(in years): 5 / 10 / 15 (As applicable under the plan)\n Death\n1"
+        },
+        {
+          "id": "p18_b26",
+          "type": "text",
+          "bbox": [
+            63.032440185546875,
+            2071.3369140625,
+            1999.550537109375,
+            2115.974853515625
+          ],
+          "confidence": null,
+          "text": " Option to take Death\n Benefit in instalments is required for Full / Part of the benefit proceeds\n2.\nWhether"
+        },
+        {
+          "id": "p18_b27",
+          "type": "text",
+          "bbox": [
+            79.1559066772461,
+            2124.638916015625,
+            1353.9859619140625,
+            2176.106201171875
+          ],
+          "confidence": null,
+          "text": "If in part, specify\nthe amount /\npercentage\ne of the benefit proceeds."
+        },
+        {
+          "id": "p18_b28",
+          "type": "other_text",
+          "bbox": [
+            130,
+            2188,
+            296,
+            2228
+          ],
+          "confidence": null,
+          "text": "Absolute"
+        },
+        {
+          "id": "p18_b29",
+          "type": "other_text",
+          "bbox": [
+            300,
+            2188,
+            469,
+            2224
+          ],
+          "confidence": null,
+          "text": "amount :"
+        },
+        {
+          "id": "p18_b30",
+          "type": "other_text",
+          "bbox": [
+            343,
+            2242,
+            711,
+            2292
+          ],
+          "confidence": null,
+          "text": " of benefit proceeds"
+        },
+        {
+          "id": "p18_b31",
+          "type": "other_text",
+          "bbox": [
+            130,
+            2249,
+            350,
+            2288
+          ],
+          "confidence": null,
+          "text": "Percentage"
+        },
+        {
+          "id": "p18_b32",
+          "type": "text",
+          "bbox": [
+            56.23820495605469,
+            2307.93359375,
+            1488.9588623046875,
+            2353.888916015625
+          ],
+          "confidence": null,
+          "text": " Mode of instalment payment :\n3.\n Yearly / Half-Yearly / Quarterly / Monthly"
+        },
+        {
+          "id": "p18_b33",
+          "type": "text",
+          "bbox": [
+            53.83941650390625,
+            2370.239013671875,
+            2391.602294921875,
+            2462.063232421875
+          ],
+          "confidence": null,
+          "text": "If the Net Claim Amount is less\ns than the required amount to pro\novidethe\n minimum instalment amount \nt (as mentioned below)\nas per the option excercised by the Proposer/Life to be Assured,\n, the claim proceed shall be paid in lump\nsum only."
+        },
+        {
+          "id": "p18_b34",
+          "type": "table",
+          "bbox": [
+            536.1978759765625,
+            2510.37939453125,
+            1843.3131103515625,
+            3001.4990234375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tr><td>Mode of Instalment payment</td><td>Minimum Instalment Amount (Rs)</td></tr><tr><td>Monthly</td><td>Rs. 5.000/-</td></tr><tr><td>Quarterly</td><td>Rs. 15,000/-</td></tr><tr><td>Half-Yearly</td><td>Rs. . 25,000/-</td></tr><tr><td>Yearly</td><td>Rs.50.000/-</td></tr></table></body></html>"
+        },
+        {
+          "id": "p18_b35",
+          "type": "other_text",
+          "bbox": [
+            23,
+            3129,
+            153,
+            3192
+          ],
+          "confidence": null,
+          "text": "Place :"
+        },
+        {
+          "id": "p18_b36",
+          "type": "other_text",
+          "bbox": [
+            21,
+            3219,
+            142,
+            3267
+          ],
+          "confidence": null,
+          "text": "Date :"
+        },
+        {
+          "id": "p18_b37",
+          "type": "footer",
+          "bbox": [
+            1136.435302734375,
+            3200.9462890625,
+            2131.708251953125,
+            3238.84423828125
+          ],
+          "confidence": null,
+          "text": " Signature / Thumb Impression of the Life to be assured"
+        },
+        {
+          "id": "p18_b38",
+          "type": "footer",
+          "bbox": [
+            1138.054931640625,
+            3248.57470703125,
+            1624.388916015625,
+            3282.96240234375
+          ],
+          "confidence": null,
+          "text": "Name of Life to be assured"
+        },
+        {
+          "id": "p18_b39",
+          "type": "number",
+          "bbox": [
+            1187.7479248046875,
+            3346.420654296875,
+            1258.67578125,
+            3383.793212890625
+          ],
+          "confidence": null,
+          "text": "(18)"
+        }
+      ]
+    },
+    {
+      "page_num": 19,
+      "processing_time_s": 16.58,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_19.png",
+      "blocks": [
+        {
+          "id": "p19_b0",
+          "type": "table",
+          "bbox": [
+            112.52957153320312,
+            38.58207702636719,
+            2510.87060546875,
+            3401.25537109375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td colspan=\"4\">LIC ADDENDUM TO PROPOSAL FORM FOR PLAN SPECIFIC DETAILS (This will form a part of the proposal form) All details to be given in respect of Life to be assured To be answered only if proposing under LiC's Dhan Sanchay (Plan 865) The benefits payable under the plan shall depend on the Benefit Option chosen, Policy Terms, Premium Paying Term,and Payout Mode. The Benefit Option should be chosen carefully depending upon your specific needs Benefit Option Please select one of the Benefit Options* based on the Premium Payment Type opted (by 1.</td></tr><tr><td colspan=\"4\">ticking (√) in the appropriate box) : Premium Payment Type Benefit Option (Tick (√) the</td></tr><tr><td>Regular / Limited Premium</td><td>appropriate option) Option A : Level Income Benefit</td><td></td><td>Amount of Premium</td></tr><tr><td rowspan=\"2\">Single Premium</td><td colspan=\"2\">Option B : Increasing Income Benefit</td><td>Annualized Premium Rs.</td></tr><tr><td colspan=\"2\"></td><td>Annualized Premium Rs.</td></tr><tr><td rowspan=\"2\"></td><td colspan=\"2\">Option C : Single Premium Level Income Benefit Option D : Single Premium enhanced</td><td> Single Premium Rs.</td></tr><tr><td colspan=\"2\">cover with Level Income Benefit * Refer Sales Brochure for detailed benefits available in the respective Benefit Option.</td><td> Single Premium Rs.</td></tr><tr><td colspan=\"4\">2. Tick the appropriate Payout Mode forthe payment of Guaranteed Income Benefit Type opted (by ticking (V) in the appropriate box) : Yearly Monthly Half-yearly Quarterly I understand that once Benefit Option, Policy Term and Premium Paying Term is chosen the same shall not be</td></tr><tr><td colspan=\"4\">altered and shall become a part of the Policy contract. To be answered only if proposing under LiC's Jeevan Azad (Plan 868)</td></tr><tr><td colspan=\"4\">Total existing (excluding the proposal under consideration) Basic Sum Assured under LiC's Jeevan Azad a Rs. b. Is any other proposal being proposed simultaneously underthe same plan? Yes / No</td></tr><tr><td colspan=\"4\">If yes, give details : Note: The total Basic Sum Assured under allpolicies issued to an individual under LiC's Jeevan Azad (including</td></tr><tr><td colspan=\"4\">Basic Sum Assured under this proposal) should not exceed Rs. 5 lakhs. Any proposal even if inadvertently submitted shall be deemed null and void. To be answered only if proposing under LiC's Dhan Vriddhi (Plan 869)</td></tr><tr><td colspan=\"4\">The options should be chosen carefully depending on the individual's specific needs as the premium & benefits under the plan shallvary as per the option chosen and the same shall not be altered later.</td></tr><tr><td colspan=\"4\">Please select one of the Option for\"Sum Assured on Death\" (by ticking (√) in the appropriate box. Option Tick(√)the appropriate box</td></tr><tr><td colspan=\"4\">Option 1 : 1.25 times of Tabular Premium for the chosen Basic Sum Assured</td></tr><tr><td colspan=\"4\"> Option 2 : 10 times of Tabular Premium forthe choosen Basic SumAssured</td></tr><tr><td colspan=\"4\">Refer Saies Brochure for detailed benefits available under the respective option.</td></tr><tr><td colspan=\"4\">I understand that once Option is chosen the same shallnot be altered and shall become part of the Policy Document. Signature / Thumb impression of Proposer Signature / Thumb Impression of Place & Date : Life to be Assured</td></tr></tbody></table></body></html>"
+        },
+        {
+          "id": "p19_b1",
+          "type": "number",
+          "bbox": [
+            1262.48388671875,
+            3458.067138671875,
+            1331.4827880859375,
+            3492
+          ],
+          "confidence": null,
+          "text": "(19)"
+        }
+      ]
+    },
+    {
+      "page_num": 20,
+      "processing_time_s": 12.1,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_20.png",
+      "blocks": [
+        {
+          "id": "p20_b0",
+          "type": "image",
+          "bbox": [
+            29.825956344604492,
+            5.861705780029297,
+            2426.843994140625,
+            3309.517578125
+          ],
+          "confidence": null,
+          "text": " To be answered only if proposing under LIC's Jeevan Kiran (Plan 870)\nUnder which category do you wish to apply? (Tick one of the following :)\ni) Smoker\nii) Non Smoker\n Note: Non-smoker rates will be offered only on the basis of findings of Urine Cotinine Test\n To be answered only if proposing under LIC's Jeevan Utsav (Plan 871)\nThe options should be chosen carefully depending on the individual's specific needs as the benefits under the\nplan shall vary as per the option chosen :\nPlease select one of the following Options (by ticking\n（√）the appropriate box\nOption\nTick(√) the appropriate box\nOption 1 : Regular Income Benefit\nOption2 : Flexi Income Benefit\nRefer Sales Brochure for detailed benefits available under the respective option.\nI understand that once Option is chosen shallbecome part of the Policy Document\n Note : The policyholder can change the option exercised by him at the inception of the policy at any time upto six months\nbefore the beginning of the policy year in which the first Regular Income Benefit or Flexi Income Benefit becomes\ndue.\nTo be answered only if proposing under modified version of \"LiC' Aadhar Stambh\" (Plan 943) or \"LIC's\nAadhar Shila\" (Plan 944)\na. Total existing (excluding the proposal under consideration) sum assured under all versions of LIC's Aadhar\nStambh/ LIC's Aadhaar Shila :\nYes / No\nb. Is any other proposal being proposed simultaneously under the same plan?\nIf \"Yes\" give details :\nindividual should not exceed Rs. 5 lakhs\n To be answered only if applicable as per Plan specifications and for LiC's New Jeevan Amar (Plan 955)\na. Under which category do you wish to apply? (Tick one of the following)\ni) Smoker\n ii) Non-Smoker\nNote: Non-smoker rates will be offered only on the basis of findings of Urine Cotinine Test\nQuestion regarding Death Benefit : Please select one of the options for Sum Assured on Death (by ticking (√)\nin the appropriate box) depending upon your specific needs :\nOptionl: \"Level Sum Assured\", where Sum Assured on Death shall be an amount equal to\nBasic Sum Assured and shall remain constant throughout policy term.\nOption lI: \"Increasing Sum Assured\" where Sum Assured on Death shall remain equal to Basic\nSum Assured till completion of fifth policy year. Thereafter, it increases by 10% of\nBasic Sum Assured each year from the sixth policy year till fifteenth policy year till it\nbecomes twice the Basic SumAssured. This increase will continue under an inforce\n policy till the end of policy term, or till the Date of Death, or till the fifteenth policy year,\n whichever is earlier. From sixteenth policy year and onwards, the Sum Assured on\n Death remains constanti.e. twice the Basic Sum Assured tillthe policy term ends.\nSignature / Thumb Impression of Proposer\nSignature / Thumb Impression of\nLife to be Assured\nPlace & Date :"
+        },
+        {
+          "id": "p20_b1",
+          "type": "other_text",
+          "bbox": [
+            1210,
+            3327,
+            1285,
+            3370
+          ],
+          "confidence": null,
+          "text": "(20)"
+        }
+      ]
+    },
+    {
+      "page_num": 21,
+      "processing_time_s": 30.11,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_21.png",
+      "blocks": [
+        {
+          "id": "p21_b0",
+          "type": "other_text",
+          "bbox": [
+            712,
+            0,
+            1073,
+            69
+          ],
+          "confidence": null,
+          "text": "AA"
+        },
+        {
+          "id": "p21_b1",
+          "type": "other_text",
+          "bbox": [
+            1087,
+            7,
+            1229,
+            58
+          ],
+          "confidence": null,
+          "text": "T"
+        },
+        {
+          "id": "p21_b2",
+          "type": "other_text",
+          "bbox": [
+            1269,
+            11,
+            1432,
+            62
+          ],
+          "confidence": null,
+          "text": "3EC1d"
+        },
+        {
+          "id": "p21_b3",
+          "type": "other_text",
+          "bbox": [
+            1487,
+            11,
+            1621,
+            62
+          ],
+          "confidence": null,
+          "text": "d"
+        },
+        {
+          "id": "p21_b4",
+          "type": "other_text",
+          "bbox": [
+            1636,
+            18,
+            1803,
+            69
+          ],
+          "confidence": null,
+          "text": "TTEF"
+        },
+        {
+          "id": "p21_b5",
+          "type": "other_text",
+          "bbox": [
+            1799,
+            25,
+            1963,
+            76
+          ],
+          "confidence": null,
+          "text": "3E10"
+        },
+        {
+          "id": "p21_b6",
+          "type": "other_text",
+          "bbox": [
+            1080,
+            65,
+            1240,
+            131
+          ],
+          "confidence": null,
+          "text": "mga"
+        },
+        {
+          "id": "p21_b7",
+          "type": "other_text",
+          "bbox": [
+            785,
+            69,
+            1003,
+            134
+          ],
+          "confidence": null,
+          "text": "Banaf"
+        },
+        {
+          "id": "p21_b8",
+          "type": "other_text",
+          "bbox": [
+            1254,
+            69,
+            1399,
+            138
+          ],
+          "confidence": null,
+          "text": "Rult"
+        },
+        {
+          "id": "p21_b9",
+          "type": "other_text",
+          "bbox": [
+            1436,
+            76,
+            1581,
+            142
+          ],
+          "confidence": null,
+          "text": ""
+        },
+        {
+          "id": "p21_b10",
+          "type": "other_text",
+          "bbox": [
+            1603,
+            80,
+            1897,
+            142
+          ],
+          "confidence": null,
+          "text": "RarRe"
+        },
+        {
+          "id": "p21_b11",
+          "type": "header",
+          "bbox": [
+            541.8721923828125,
+            161.44134521484375,
+            2137.03662109375,
+            218.6240997314453
+          ],
+          "confidence": null,
+          "text": "REPORT / MORAL\nHAZARD REPORT\nAGENT'S CONFIDENTIAL"
+        },
+        {
+          "id": "p21_b12",
+          "type": "table",
+          "bbox": [
+            130.0946502685547,
+            286.0836181640625,
+            2553.0732421875,
+            3276.13623046875
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td colspan=\"2\">Agent's / Specified Person's / DSA's/ Sup.Agent's Name : /Code No.: a Hicn /Mobile Number : HaRa /Club Membership icense No: ua / Date of Expiry</td><td colspan=\"2\">D.O./CLIChief Organizer/ Intermediary Agency /Code No /Mobie No</td></tr><tr><td colspan=\"4\">AT Product related information ge #e </td></tr><tr><td></td><td colspan=\"2\"></td><td></td></tr><tr><td>6</td><td colspan=\"2\">: Age of the proposer / Life to be assured :</td><td></td></tr><tr><td></td><td colspan=\"2\">(3T) 3i 3af /Plan (s) and Term</td><td></td></tr><tr><td>d</td><td colspan=\"2\">() ) / Sum Assured (in lakhs</td><td></td></tr><tr><td></td><td colspan=\"2\">(agk) 市 to the proposer/life to be assured?</td><td></td></tr><tr><td></td><td colspan=\"2\"> 可 / # 可？ Whether the proposed plar (s) matches the objectives of insurance of the proposer/life to be assured?</td><td></td></tr><tr><td></td><td colspan=\"2\">守 可？ BARI9417 ？ Have you provided the Benefit lustration statement of the proposed plan(s) to the proposer/</td><td></td></tr><tr><td colspan=\"4\">life to be assured? BaRTaLTET </td></tr><tr><td></td><td colspan=\"2\">How long do you know the proposer/life to be assured?</td><td>aT / Information about the proposer/Life to be assured</td></tr><tr><td>b</td><td colspan=\"2\">可？ </td><td></td></tr><tr><td></td><td colspan=\"2\">Are you related to him/her? If so, give details BARIdY1aT </td><td></td></tr><tr><td></td><td colspan=\"2\">What is the educational qualifications of the proposer / Life to be assured?  鸟 可？ 可？ HICha # ？ </td><td></td></tr><tr><td></td><td colspan=\"2\">If proposer/Life to be a e assured is FNIO, whether OCI (Overseas Citizen of India)card is verified? g  ？ 市 a (?</td><td></td></tr><tr><td></td><td colspan=\"2\"> have been entrusted with prominent public functions by a foreign country.)</td><td></td></tr></tbody></table></body></html>"
+        },
+        {
+          "id": "p21_b13",
+          "type": "table",
+          "bbox": [
+            143.3136749267578,
+            294.9413146972656,
+            2527.6767578125,
+            757.0983276367188
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tr><td>Agent's / Specified Person's / DSA's/ Sup.Agent's Name : /Code No.: a Hicn /Mobile Number : HaRa /Club Membership icense No: ua / Date of Expiry</td><td>D.O./CLIChief Organizer/ Intermediary Agency /Code No /Mobie No</td></tr></table></body></html>"
+        },
+        {
+          "id": "p21_b14",
+          "type": "number",
+          "bbox": [
+            1286.0758056640625,
+            3372.1474609375,
+            1357.974853515625,
+            3412.503173828125
+          ],
+          "confidence": null,
+          "text": "(21)"
+        }
+      ]
+    },
+    {
+      "page_num": 22,
+      "processing_time_s": 16.6,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_22.png",
+      "blocks": [
+        {
+          "id": "p22_b0",
+          "type": "table",
+          "bbox": [
+            0,
+            6.429891586303711,
+            2391.0341796875,
+            3325.77099609375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td>g</td><td>Are you satisfied that the proposer/Life to be assured is not connected with any terrorist activities?</td><td></td></tr><tr><td></td><td>？ Whether KYC/ PMLA norms are fulfilled for the proposer/Life to be assured?</td><td></td></tr><tr><td>1</td><td></td><td></td></tr><tr><td>a.</td><td>  /    /xact Source f Incoe</td><td></td></tr><tr><td>b</td><td>Income through employment/Business/Profession. (Rs.)</td><td></td></tr><tr><td></td><td>/   .</td><td></td></tr><tr><td></td><td> /nco through other sources ietail (Rs.)</td><td></td></tr><tr><td></td><td>HU T BceTg  / Mention the proof of income verified by you in respect of income stated above</td><td></td></tr><tr><td></td><td>1. 16/26 ITRs/Form 16/26 AS 2.  ● Bak statement</td><td></td></tr><tr><td></td><td>3.   </td><td></td></tr><tr><td></td><td>Salary Sheet with appointment letter or salary certificate issued by the Employer</td><td></td></tr><tr><td></td><td>CA Certificate / Audited accounts etc.</td><td></td></tr><tr><td>f</td><td>What is the PAN number? Whether verified and compared with the PAN mentioned in the Income Proof?</td><td></td></tr><tr><td>g IV.</td><td>/R    Are you personally satisfied with the financial standing of the proposer/life assured and justify the current proposal?</td><td></td></tr><tr><td colspan=\"3\">av uc Details including from other insurers   ?</td></tr><tr><td></td><td>Did you discuss with the proposer/Life to be assured the status of Previous Policies and are you satisfied that no policy has lapsed within the last three years?</td><td></td></tr><tr><td></td><td>Are you aware of any Proposal (or Revival of any Policy) of the proposer/life to be assured having</td><td></td></tr><tr><td>V Health,Habit and Occupation/Avocation etc</td><td>been deferred, declined, dropped or accepted at terms other than those proposed? a</td><td></td></tr><tr><td></td><td>HTr Refa 3dr ay? What is the general state of health of the life to be assured?</td><td></td></tr><tr><td></td><td>      rcT ? Does he/she have any physical deformity or Mental Retardation?</td><td></td></tr></tbody></table></body></html>"
+        },
+        {
+          "id": "p22_b1",
+          "type": "number",
+          "bbox": [
+            1163.00146484375,
+            3368.818603515625,
+            1232.5618896484375,
+            3408.491455078125
+          ],
+          "confidence": null,
+          "text": "(22)"
+        }
+      ]
+    },
+    {
+      "page_num": 23,
+      "processing_time_s": 12.39,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_23.png",
+      "blocks": [
+        {
+          "id": "p23_b0",
+          "type": "table",
+          "bbox": [
+            102.46482849121094,
+            0,
+            2471.618408203125,
+            3495.577880859375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td></td><td>Do you have any knowiedge of his/her having suffered from any illness or injury or undergone</td><td></td></tr><tr><td>any operation or medical investigation? d. Height of the life tobe assured (in cms)</td><td></td><td></td></tr><tr><td></td><td> (f) /cdf  (f)/eight of the life to be assured (in Kgs)</td><td></td></tr><tr><td></td><td>  </td><td></td></tr><tr><td></td><td>Are you aware of anything in the occupation, financial or social position of the life to be assured, his/her personal habits or any other circumstances which might be likely to add to the risk? / c/A other inforation</td><td>Signature of the Agent along with seal / stamp</td></tr><tr><td colspan=\"3\">I further hereby declare that the foregoing statements are true and correct to the best of my knowledge and belief /Place fi/fi/ Date</td></tr><tr><td colspan=\"3\"> </td></tr><tr><td colspan=\"3\">To be completed by the Dev. Officer/ CLIA/ Mentor Iam satisfied withthe identityof the party on the basis ofmy independent enquiries.Ihereby declare that the foregoing statements are true and correct to the best of my knowledge and belief.</td></tr><tr><td colspan=\"3\">faqic /faaic /Date //ame  g// Designation</td></tr><tr><td colspan=\"3\">()/ 3(#)/ Standing / (. of years) Signature </td></tr><tr><td colspan=\"3\"></td></tr><tr><td colspan=\"3\">To be completed by ABMS/BM/Sr. BM Iam satisfied with the identity of the party on the basis of my independent enquiries. I hereby declare that the foregoing statements are true and correct to the best of my knowledge and belief. fic/f /Date</td></tr><tr><td colspan=\"3\">／/Name /gT/Designation </td></tr><tr><td colspan=\"3\">Signature Note : Incase of dispute in respect of interpretation of terms the English version shallstand valid. (23)</td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 24,
+      "processing_time_s": 27.16,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_24.png",
+      "blocks": [
+        {
+          "id": "p24_b0",
+          "type": "table",
+          "bbox": [
+            7.726961135864258,
+            0,
+            2417.12646484375,
+            3437.232177734375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td colspan=\"6\">RR LIC Annexure - I HEHSO # LIFE INSURANCE CORPORATION OF INDIA  ) 956 LIFE INSURANCE CORPORATION OF INDIA -3-I/UMBAI DIVISION-I (Established by the Life Insurance Corporation Act 1956) aeagur pPa BygRa 344 Aedqu p FORM FOR SUITABILITYANALYSIS</td></tr><tr><td colspan=\"6\">d /  /Full Nae of the proposer :</td></tr><tr><td colspan=\"6\">f /f/D.O.B /g/Age: Year /T  / Full Address:</td></tr><tr><td colspan=\"6\">aR fdga/faafa/Married aRef / Marital Status : aaa/Single indow</td></tr><tr><td colspan=\"6\">TEAIT / Divorced cuatio: 2. (Tick appropriate Box) g Rayy</td></tr><tr><td>Cc Business feeff / fef /</td><td>Govt. Service </td><td>Pvt. Service </td><td></td><td>Agriculture #41</td><td></td><td>/ Housewife</td></tr><tr><td>Student e SRH 3 a (ii) 1R /a</td><td>Professional (i) / /ployment Business orProfession</td><td>3aaR R/NRI ? I If Others, </td><td>, Please 5 3T / What is proposer's yearly income from : 万. Rs. 百. Rs.</td><td>危.3T.RR/ HUF Specify</td><td>可丽 d</td><td>到/酒 Others Per annum Per annum</td></tr><tr><td colspan=\"5\">() / Other sources (to be s specified) 百. Rs. a Per annum () /f.3T. RaR, HUF if any d 百. Rs Per annum the life to be assured if assured is different from the proposer. Rs fag/ Whether Income proof submitted : b) /YES IfYes a i relating to income verification</td><td>Income of Per annum /ature f docuens</td></tr><tr><td>IT Return /A</td><td>Salary Certificate</td><td>(Tick appropriate Box) </td><td> CA Certificate</td><td>TaIa/ P&L Account</td><td></td></tr><tr><td colspan=\"3\">Property Certificate Issued by Govt. Authority TaxBracket</td><td>%</td><td>/ Others</td><td></td></tr><tr><td colspan=\"6\">(ii) /YES e</td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 25,
+      "processing_time_s": 24.59,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_25.png",
+      "blocks": [
+        {
+          "id": "p25_b0",
+          "type": "table",
+          "bbox": [
+            120.48908996582031,
+            102.94281768798828,
+            2495.1591796875,
+            3487.605712890625
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td>Ra 4.</td><td></td><td colspan=\"8\">TAqrut / Details of Previous Insurance</td></tr><tr><td>Policy No.</td><td></td><td>Plan Period</td><td>可 Year of issue</td><td>Self/ Dependent</td><td>p 道 Sum Company/ Assured BO/Division</td><td>HAARISS Term</td><td>Critical Illness Rider</td><td>TT ARaaTh T AB Rider</td><td></td><td>Annualized Premium</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>Rider SA</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>／TOTAL</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"8\">RR </td><td colspan=\"3\"></td></tr><tr><td colspan=\"8\">(In case NOPs are more use separate sheet as Annexure to this form) aq/ Family History :</td><td colspan=\"4\"></td></tr><tr><td rowspan=\"5\"></td><td colspan=\"2\" rowspan=\"2\">Relationship</td><td colspan=\"2\">Gda/aaa/LIVING </td><td colspan=\"2\"></td><td colspan=\"4\">/DEAD</td></tr><tr><td colspan=\"2\">HaRLey 3TT Age (Yrs.)</td><td colspan=\"2\">Age at the time of death (in Yrs)</td><td colspan=\"4\"></td></tr><tr><td colspan=\"2\">/ f/ Father 3</td><td>State of health</td><td colspan=\"2\"></td><td colspan=\"4\">Cause ofdeath</td></tr><tr><td colspan=\"2\">Mother HTg HT / Brother</td><td></td><td></td><td colspan=\"2\"></td><td colspan=\"4\"></td></tr><tr><td colspan=\"2\"></td><td></td><td></td><td colspan=\"2\"></td><td colspan=\"4\"></td></tr><tr><td colspan=\"2\">u/ / Sister</td><td></td><td></td><td colspan=\"2\"></td><td colspan=\"4\"></td></tr><tr><td colspan=\"2\">/wife/Husband</td><td colspan=\"2\"></td><td colspan=\"2\"></td><td colspan=\"4\"></td></tr><tr><td colspan=\"9\">Son Daughter</td></tr><tr><td colspan=\"9\">5. a)</td></tr><tr><td colspan=\"2\">Name</td><td></td><td>faaRu / Spouse details: </td><td colspan=\"2\"></td><td></td><td colspan=\"2\"></td></tr><tr><td colspan=\"8\">Occupation Annual Income / Need Analysis : 1 Annual Income : AaIRy Outstanding Liabilities : I）</td></tr><tr><td colspan=\"8\">Secured Loan : 1) Non-Secured Loan :  gR RA JA </td></tr><tr><td colspan=\"8\">fPmi 当 (FHAR) dg H / Based maximum Insurance that can be granted as per existing rule is :</td></tr><tr><td colspan=\"4\">H</td><td colspan=\"4\">/ Multiple of Avg. Annual Income</td><td colspan=\"2\" rowspan=\"5\"> on his age and income,the</td></tr><tr><td colspan=\"8\">HH / Age Group J 35/35 /Upto 35 years</td></tr><tr><td colspan=\"4\" rowspan=\"3\">3645/3645/36 t045 years</td><td colspan=\"4\">25/25/25 times</td><td rowspan=\"2\">GRAA ARA reoprf fa Maximum Allowable Insurance:</td></tr><tr><td colspan=\"4\">20 /20 T / 20 times</td></tr><tr><td colspan=\"2\">4655/4655 / 46 to 55 years</td><td colspan=\"4\">15/15/15 times</td></tr><tr><td colspan=\"2\">5 5 56 years and above</td><td colspan=\"4\">10/10／10 times (25)</td><td colspan=\"3\"></td></tr></tbody></table></body></html>"
+        },
+        {
+          "id": "p25_b1",
+          "type": "table_title",
+          "bbox": [
+            167.1239013671875,
+            111.67280578613281,
+            1674.9541015625,
+            170.0120849609375
+          ],
+          "confidence": null,
+          "text": "Ra\n\n\n4.\nTAqrut / Details of Previous Insurance"
+        },
+        {
+          "id": "p25_b2",
+          "type": "table",
+          "bbox": [
+            108.6187973022461,
+            148.98663330078125,
+            2505.84375,
+            917.2542114257812
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tr><td>Ra 4. </td><td></td><td></td><td></td><td>TAqrut / Details of Previous Insurance </td><td>p 道</td><td>HAARISS </td><td></td><td>TT ARaaTh</td><td>Annualized</td></tr><tr><td>Policy No.</td><td>Plan Period</td><td>可 Year of issue</td><td>Self/ Dependent</td><td>Company/ BO/Division</td><td>Sum Assured</td><td>Term Rider SA</td><td>Critical Illness Rider</td><td>T AB Rider</td><td>Premium</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>／TOTAL</td><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>"
+        },
+        {
+          "id": "p25_b3",
+          "type": "text",
+          "bbox": [
+            167.76414489746094,
+            976.2021484375,
+            2497.113525390625,
+            1083.4969482421875
+          ],
+          "confidence": null,
+          "text": "\nRR\n\n\n(In case NOPs are more use separate sheet as Annexure to this form)"
+        },
+        {
+          "id": "p25_b4",
+          "type": "table_title",
+          "bbox": [
+            173.5522918701172,
+            1138.678955078125,
+            1250.393310546875,
+            1194.2674560546875
+          ],
+          "confidence": null,
+          "text": "\naq/ Family History :"
+        },
+        {
+          "id": "p25_b5",
+          "type": "table",
+          "bbox": [
+            162.45823669433594,
+            1202.87255859375,
+            2477.9912109375,
+            1932.2476806640625
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tr><td rowspan=\"2\">Relationship</td><td colspan=\"2\">Gda/aaa/LIVING</td><td colspan=\"2\">/DEAD</td></tr><tr><td>3TT Age (Yrs.)</td><td>HaRLey State of health</td><td>Age at the time of death (in Yrs)</td><td>Cause ofdeath</td></tr><tr><td>/ f/ Father</td><td></td><td></td><td></td><td></td></tr><tr><td>3 Mother</td><td></td><td></td><td></td><td></td></tr><tr><td>HTg HT / Brother</td><td></td><td></td><td></td><td></td></tr><tr><td>u/ / Sister</td><td></td><td></td><td></td><td></td></tr><tr><td>/wife/Husband</td><td></td><td></td><td></td><td></td></tr><tr><td>Son</td><td></td><td></td><td></td><td></td></tr><tr><td>Daughter</td><td></td><td></td><td></td><td></td></tr></table></body></html>"
+        },
+        {
+          "id": "p25_b6",
+          "type": "table_title",
+          "bbox": [
+            184.03961181640625,
+            1969.0709228515625,
+            1643.1627197265625,
+            2025.0087890625
+          ],
+          "confidence": null,
+          "text": "\n5. a)\nfaaRu / Spouse details:"
+        },
+        {
+          "id": "p25_b7",
+          "type": "table",
+          "bbox": [
+            177.28672790527344,
+            2042.27197265625,
+            2469.63916015625,
+            2179.937255859375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tr><td>Name</td><td></td><td>Occupation</td><td></td><td>Annual Income</td><td></td></tr></table></body></html>"
+        },
+        {
+          "id": "p25_b8",
+          "type": "text",
+          "bbox": [
+            180.57664489746094,
+            2219.934326171875,
+            1354.7415771484375,
+            2278.169189453125
+          ],
+          "confidence": null,
+          "text": "6.  c / A :"
+        },
+        {
+          "id": "p25_b9",
+          "type": "text",
+          "bbox": [
+            242.73793029785156,
+            2292.462890625,
+            1334.2325439453125,
+            2345.659423828125
+          ],
+          "confidence": null,
+          "text": "  / / Ttal Anal Income :"
+        },
+        {
+          "id": "p25_b10",
+          "type": "text",
+          "bbox": [
+            257.3050842285156,
+            2419.3876953125,
+            1103.4547119140625,
+            2471.561767578125
+          ],
+          "confidence": null,
+          "text": "\nI）\nSecured Loan :"
+        },
+        {
+          "id": "p25_b11",
+          "type": "text",
+          "bbox": [
+            249.60276794433594,
+            2489.270751953125,
+            1248.175537109375,
+            2543.80029296875
+          ],
+          "confidence": null,
+          "text": "1)\n\n Non-Secured Loan :"
+        },
+        {
+          "id": "p25_b12",
+          "type": "text",
+          "bbox": [
+            174.21522521972656,
+            2587.15869140625,
+            2429.498291015625,
+            2742.39453125
+          ],
+          "confidence": null,
+          "text": "  \ngR\nRA\n\n\n\nJA\nfPmi\n\n当\n(FHAR)\n\ndg\nH\n/\nBased\n on his age and income,the\n maximum Insurance that can be granted as per existing rule is :"
+        },
+        {
+          "id": "p25_b13",
+          "type": "table",
+          "bbox": [
+            117.47289276123047,
+            2800.437744140625,
+            2449.5634765625,
+            3388.109130859375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tr><td>HH / Age Group</td><td>H / Multiple of Avg. Annual Income J</td><td rowspan=\"5\">GRAA ARA reoprf fa Maximum Allowable Insurance:</td></tr><tr><td>35/35 /Upto 35 years</td><td>25/25/25 times</td></tr><tr><td>3645/3645/36 t045 years</td><td>20 /20 T / 20 times</td></tr><tr><td>4655/4655 / 46 to 55 years</td><td>15/15/15 times</td></tr><tr><td>5 5 56 years and above</td><td>10/10／10 times</td></tr></table></body></html>"
+        },
+        {
+          "id": "p25_b14",
+          "type": "number",
+          "bbox": [
+            1245.9989013671875,
+            3448.849609375,
+            1325.9989013671875,
+            3492.367431640625
+          ],
+          "confidence": null,
+          "text": "(25)"
+        }
+      ]
+    },
+    {
+      "page_num": 26,
+      "processing_time_s": 13.6,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_26.png",
+      "blocks": [
+        {
+          "id": "p26_b0",
+          "type": "table",
+          "bbox": [
+            17.879287719726562,
+            8.365228652954102,
+            2420.104248046875,
+            3446
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td colspan=\"5\">7a）/bject of insurance pa)</td></tr><tr><td colspan=\"2\">Risk Cover </td><td></td><td colspan=\"2\"> Riskoverage with savings</td></tr><tr><td colspan=\"2\">Money Bak with Risk Cover</td><td></td><td colspan=\"2\">Secured Return with Risk Cover</td></tr><tr><td colspan=\"2\">R&T H/ Marketlinked Return with Risk Cover</td><td></td><td colspan=\"2\">a/ensi /Annunity</td></tr><tr><td colspan=\"2\">／h Cover</td><td></td><td colspan=\"2\">/a/uitable for Children</td></tr><tr><td colspan=\"2\">// Others</td><td></td><td colspan=\"2\"></td></tr><tr><td colspan=\"5\">7.b）/ Rsk ofile :</td></tr><tr><td colspan=\"5\">oerativ oerate</td></tr><tr><td colspan=\"2\">7c)   3?3? w uld y like to pay your rums?</td><td colspan=\"3\">h/Aggresive</td></tr><tr><td colspan=\"2\"></td><td></td><td colspan=\"2\"></td></tr><tr><td colspan=\"2\">Lump Sum (Single Premium)</td><td>Regular Installments(Non-single Premium)</td><td colspan=\"2\"></td></tr><tr><td colspan=\"3\">7. d)可jaua?/T  af? / Tie Frame for this Investment?</td><td colspan=\"2\"></td></tr><tr><td colspan=\"3\">3-5/35/After3-5 Yrs</td><td colspan=\"2\"></td></tr><tr><td colspan=\"3\">6-10/610/After6-10Yrs.</td><td colspan=\"2\"></td></tr><tr><td colspan=\"3\">11-15/1115/After11-15Yrs</td><td colspan=\"2\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"2\"></td></tr><tr><td colspan=\"3\">16-20  /1620  /After 16-20 Yrs. 212/After 21Yrs.orMore</td><td colspan=\"2\"></td></tr><tr><td colspan=\"5\">r/ After Dath only</td></tr><tr><td colspan=\"5\">fhr than abase scify 8.Categrzation fans iationjetof Insuranc:</td></tr><tr><td>Pure Risk Cover</td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td></tr><tr><td></td><td>Risk Coverage with savings </td><td colspan=\"2\">Money Back with Risk Cover </td><td colspan=\"2\">Secured Return with Risk Cover Conservative to Moderate</td></tr><tr><td></td><td>Conservative to Moderate </td><td colspan=\"2\">Conservative to Moderate New Bima Bachat</td><td colspan=\"2\">New Bima Bachat</td></tr><tr><td>Tech Term </td><td>New Endowment Plan </td><td colspan=\"2\"></td><td>Jeevan Shiromani</td></tr><tr><td>Jeevan Amar </td><td>New Jeevan Anand </td><td colspan=\"2\">New Money Back - 20 Years. </td><td>Bima Shree</td></tr><tr><td>New Jeevan Mangal </td><td>New Bima Bachat </td><td colspan=\"2\">NewMoney Back-25 Years </td><td></td></tr><tr><td>Bhagya Lakshmi</td><td>auT/Single Premium Endowment Plan </td><td colspan=\"2\">New Children's Money Back Plan </td><td></td></tr><tr><td></td><td>New Jeevan Money Back - 20 Years </td><td colspan=\"2\">Jeevan Tarun </td><td></td></tr><tr><td></td><td>New Jeevan Money Back - 25 Years</td><td colspan=\"2\">Jeevan Umang /H/Bima Shree</td><td></td></tr><tr><td></td><td>vaksha abh</td><td colspan=\"2\"></td><td></td></tr><tr><td></td><td></td><td colspan=\"2\"></td><td></td></tr><tr><td></td><td>/Aadhaar Stambh</td><td colspan=\"2\"></td><td></td></tr><tr><td></td><td>RR / RRT /Aadhaar Shila</td><td colspan=\"2\"></td><td></td></tr><tr><td></td><td>/ /Jeea Uang</td><td colspan=\"2\"></td><td></td></tr><tr><td></td><td>a/R /Jeevan Shiroani</td><td colspan=\"2\"></td><td></td></tr><tr><td></td><td></td><td colspan=\"2\">(26)</td><td></td></tr><tr><td></td><td colspan=\"2\">//Bia Shree Bacha</td><td colspan=\"2\"></td></tr></tbody></table></body></html>"
+        },
+        {
+          "id": "p26_b1",
+          "type": "number",
+          "bbox": [
+            1209.980224609375,
+            3413.2431640625,
+            1284.275390625,
+            3446
+          ],
+          "confidence": null,
+          "text": "(26)"
+        }
+      ]
+    },
+    {
+      "page_num": 27,
+      "processing_time_s": 22.36,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_27.png",
+      "blocks": [
+        {
+          "id": "p27_b0",
+          "type": "table",
+          "bbox": [
+            39.550601959228516,
+            15.288777351379395,
+            2477.889404296875,
+            3472.57470703125
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td>  Market linked Return with Risk cover</td><td colspan=\"2\">R R Pension / Annuity</td><td>R Health Cover</td><td>Suitable for Children</td></tr><tr><td>Aggressive</td><td colspan=\"2\">Conservative to Moderate</td><td>Conservative to Moderate</td><td>Conservative to Moderate</td></tr><tr><td>New Endowment Plus</td><td colspan=\"2\">Jeevan Shanti</td><td>R R Jeevan Arogya</td><td>New Children's Money Back Plan</td></tr><tr><td></td><td colspan=\"2\">Jeevan Nidhi</td><td>Cancer Cover</td><td>Jeevan Tarun</td></tr><tr><td></td><td colspan=\"2\"></td><td></td><td>New Endowment Plan</td></tr><tr><td></td><td colspan=\"2\"></td><td></td><td>New Bima Bachat</td></tr><tr><td></td><td colspan=\"2\"></td><td></td><td>Single Premium Endowment Plan</td></tr><tr><td></td><td colspan=\"2\"></td><td></td><td>New Money Back - 20 Yrs.</td></tr><tr><td></td><td colspan=\"2\"></td><td></td><td>New Money yBack - 25 Yrs</td></tr><tr><td></td><td colspan=\"2\"></td><td></td><td>/J abh</td></tr><tr><td></td><td colspan=\"2\"></td><td></td><td>3T TH / Aadhaar Stambh</td></tr><tr><td></td><td colspan=\"2\"></td><td></td><td>/3TR RTT / Aadhaar Shila</td></tr><tr><td></td><td colspan=\"2\"></td><td></td><td> Jeeva Uang</td></tr><tr><td></td><td colspan=\"2\"></td><td></td><td>/ / Bima Shree</td></tr><tr><td colspan=\"6\">A PRODUCT CHOSEN :</td></tr><tr><td colspan=\"3\">HR pic /adchT ic / Table No.</td><td colspan=\"2\">可PaName</td></tr><tr><td colspan=\"2\"></td><td colspan=\"2\"></td><td>/3a / Term</td></tr><tr><td colspan=\"2\">  SAssured</td><td colspan=\"2\">Mode</td><td>国亚 /gm亚 / Premium</td></tr><tr><td colspan=\"5\"></td></tr><tr><td colspan=\"5\">9. (a) </td></tr><tr><td>If ULIP is proposed, allocation charges: //st Year</td><td colspan=\"2\">// Year</td><td colspan=\"2\">/ /3rdYear onwards</td></tr><tr><td colspan=\"5\"></td></tr><tr><td colspan=\"5\">可 9. (b) Other Charges which will be levied by cancelling UNITs</td></tr><tr><td>凹 %0 % Life Cover Charges %0</td><td colspan=\"2\">Policy Administration Charges</td><td colspan=\"2\">Fund Management Charges</td></tr><tr><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td></tr><tr><td colspan=\"5\">9. (c) 3igt Y AASMR If Annuity / Pension is opted</td></tr><tr><td colspan=\"5\">Target Annuity Per Annum Target Annuity Per Annum /ch  /mmediate Annuity</td></tr><tr><td colspan=\"4\"></td><td colspan=\"2\">RachH / T / Amount</td></tr><tr><td colspan=\"4\"></td><td colspan=\"2\"></td></tr><tr><td></td><td colspan=\"2\">Deferred Annuity :</td><td colspan=\"2\"></td></tr><tr><td></td><td></td><td colspan=\"2\">Deferment Period</td><td>/ / Amount</td></tr></tbody></table></body></html>"
+        },
+        {
+          "id": "p27_b1",
+          "type": "table",
+          "bbox": [
+            51.978363037109375,
+            20.7171573638916,
+            2467.3955078125,
+            1600.693359375
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tr><td>  Market linked Return with Risk cover</td><td>R R Pension / Annuity</td><td>R Health Cover</td><td>Suitable for Children</td></tr><tr><td>Aggressive</td><td>Conservative to Moderate</td><td>Conservative to Moderate</td><td>Conservative to Moderate</td></tr><tr><td>New Endowment Plus</td><td>Jeevan Shanti</td><td>R R Jeevan Arogya</td><td>New Children's Money Back Plan</td></tr><tr><td></td><td>Jeevan Nidhi</td><td>Cancer Cover</td><td>Jeevan Tarun</td></tr><tr><td></td><td></td><td></td><td>New Endowment Plan</td></tr><tr><td></td><td></td><td></td><td>New Bima Bachat</td></tr><tr><td></td><td></td><td></td><td>Single Premium Endowment Plan</td></tr><tr><td></td><td></td><td></td><td>New Money Back - 20 Yrs.</td></tr><tr><td></td><td></td><td></td><td>New Money yBack - 25 Yrs</td></tr><tr><td></td><td></td><td></td><td>/J abh</td></tr><tr><td></td><td></td><td></td><td>3T TH / Aadhaar Stambh</td></tr><tr><td></td><td></td><td></td><td>/3TR RTT / Aadhaar Shila</td></tr><tr><td></td><td></td><td></td><td> Jeeva Uang</td></tr><tr><td></td><td></td><td></td><td>/ / Bima Shree</td></tr></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_num": 28,
+      "processing_time_s": 5.82,
+      "image_path": "C:\\Users\\aigcp_gpuadmin\\Downloads\\LICRFP\\LICF\\output_detective\\page_images\\page_28.png",
+      "blocks": [
+        {
+          "id": "p28_b0",
+          "type": "table",
+          "bbox": [
+            141.40234375,
+            0,
+            2507.64306640625,
+            3420.211181640625
+          ],
+          "confidence": null,
+          "text": "<html><body><table><tbody><tr><td colspan=\"4\">(87) 1010/ 0020000101000</td></tr><tr><td colspan=\"4\">onnhanna 止 </td></tr><tr><td colspan=\"4\">Srreeeesreesesententee : </td></tr><tr><td colspan=\"4\">rnnnnnrnniiteninesrnrennneernnns rrerennnneea rrrnenes enrrsnnrennteennennnneenanrnreenntnerrrnenneeennnen</td></tr><tr><td colspan=\"4\">           </td></tr><tr><td colspan=\"4\">Sereerrernnn rnertncerennentne prreetesseetesentrntne </td></tr><tr><td colspan=\"3\"></td><td rowspan=\"6\">： prpphrrttnrdtteerctietrtsedrtcntrberrn hre enneeedreeeesrnaenaeheetanprneedeennen '(aweu) 和 RE 架 斤 年 </td></tr><tr><td colspan=\"3\"></td></tr><tr><td colspan=\"3\">ps / a hh ap//5</td></tr><tr><td colspan=\"3\"></td></tr><tr><td colspan=\"3\">Meesnens /. errenllereeaettleaetneetreenaes teerrnnnnnnnernnernn</td></tr><tr><td colspan=\"3\">ehpethnttesecrntenaenrtraetenrreecrrnneaertae nns srhrrennnnnnnprnnenenbeenentarrenn </td></tr><tr><td colspan=\"3\">(H) BEE（H） 栾 (b) B(b) </td></tr></tbody></table></body></html>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+include README.md
+include THIRD_PARTY_NOTICES.md
+recursive-include nemotron_page_elements_v3 *.py *.json *.png
+recursive-exclude nemotron_page_elements_v3 *.pth

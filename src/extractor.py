@@ -76,9 +76,8 @@ class ModelManager:
             QWEN_MODEL_ID,
             dtype=torch.float16,
             device_map="auto",
-            attn_implementation="eager",
         )
-        self._qwen_processor = AutoProcessor.from_pretrained(QWEN_MODEL_ID)
+        self._qwen_processor = AutoProcessor.from_pretrained(QWEN_MODEL_ID, use_fast=False)
         self._active_model = "qwen"
 
         vram_used = torch.cuda.memory_allocated() / 1e9

@@ -1,0 +1,292 @@
+{
+  "document_id": "Techathon_Samples\\P10.pdf",
+  "total_fields": 11,
+  "fields": [
+    {
+      "field_name": "Prefix_Name",
+      "value": "MR./MRS./MS./MX. / HTE 394",
+      "confidence": 79,
+      "status": "Review Needed",
+      "anchor": "prefix_name",
+      "bbox": [
+        222,
+        630,
+        1192,
+        874
+      ],
+      "ui_coords": {
+        "top": "18.37%",
+        "left": "8.71%",
+        "width": "38.04%"
+      },
+      "page_num": 2,
+      "editable": true,
+      "metadata": {
+        "type": "Printed",
+        "length": "2-10",
+        "mandatory": true,
+        "data_type": "Alphabetic"
+      }
+    },
+    {
+      "field_name": "First_Name",
+      "value": "FA / / 3IF THAH HE 1496 3IGGIC   WTAAN  NA $ SKNVIKE MIDIDUDDI",
+      "confidence": 70,
+      "status": "Review Needed",
+      "anchor": "first_name",
+      "bbox": [
+        1202,
+        623,
+        2374,
+        865
+      ],
+      "ui_coords": {
+        "top": "18.16%",
+        "left": "47.14%",
+        "width": "45.96%"
+      },
+      "page_num": 2,
+      "editable": true,
+      "metadata": {
+        "type": "Handwritten",
+        "length": "1-50",
+        "mandatory": true,
+        "data_type": "Alphabetic"
+      }
+    },
+    {
+      "field_name": "Last_Name",
+      "value": "use .JBuilding ) Street H/ dcmaFia /uy",
+      "confidence": 64,
+      "status": "Review Needed",
+      "anchor": "last_name",
+      "bbox": [
+        237,
+        734,
+        1207,
+        843
+      ],
+      "ui_coords": {
+        "top": "21.4%",
+        "left": "9.29%",
+        "width": "38.04%"
+      },
+      "page_num": 2,
+      "editable": true,
+      "metadata": {
+        "type": "Handwritten",
+        "length": "1-50",
+        "mandatory": true,
+        "data_type": "Alphabetic"
+      }
+    },
+    {
+      "field_name": "Father_Name",
+      "value": "UF AIA /FAT CN GR  /FATHER'S FULL",
+      "confidence": 81,
+      "status": "Review Needed",
+      "anchor": "father_name",
+      "bbox": [
+        229,
+        869,
+        1189,
+        955
+      ],
+      "ui_coords": {
+        "top": "25.34%",
+        "left": "8.98%",
+        "width": "37.65%"
+      },
+      "page_num": 2,
+      "editable": true,
+      "metadata": {
+        "type": "Handwritten",
+        "length": "1-50",
+        "mandatory": false,
+        "data_type": "Alphabetic"
+      }
+    },
+    {
+      "field_name": "Mother_Name",
+      "value": "Ie Shmng",
+      "confidence": 45,
+      "status": "Review Needed",
+      "anchor": "mother_name",
+      "bbox": [
+        1206,
+        947,
+        2358,
+        1025
+      ],
+      "ui_coords": {
+        "top": "27.61%",
+        "left": "47.29%",
+        "width": "45.18%"
+      },
+      "page_num": 2,
+      "editable": true,
+      "metadata": {
+        "type": "Handwritten",
+        "length": "1-50",
+        "mandatory": false,
+        "data_type": "Alphabetic"
+      }
+    },
+    {
+      "field_name": "Gender",
+      "value": "Transgander  Male /   Female / g q /",
+      "confidence": 90,
+      "status": "Verified",
+      "anchor": "gender",
+      "bbox": [
+        1229,
+        1020,
+        2242,
+        1097
+      ],
+      "ui_coords": {
+        "top": "29.74%",
+        "left": "48.2%",
+        "width": "39.73%"
+      },
+      "page_num": 2,
+      "editable": true,
+      "metadata": {
+        "type": "Handwritten/Tick",
+        "length": "1-15",
+        "mandatory": true,
+        "data_type": "Alphabetic"
+      }
+    },
+    {
+      "field_name": "Marital_Status",
+      "value": "S ched",
+      "confidence": 65,
+      "status": "Review Needed",
+      "anchor": "marital_status",
+      "bbox": [
+        1200,
+        1094,
+        2388,
+        1167
+      ],
+      "ui_coords": {
+        "top": "31.9%",
+        "left": "47.06%",
+        "width": "46.59%"
+      },
+      "page_num": 2,
+      "editable": true,
+      "metadata": {
+        "type": "Handwritten/Tick",
+        "length": "1-15",
+        "mandatory": true,
+        "data_type": "Alphabetic"
+      }
+    },
+    {
+      "field_name": "Date_of_Birth",
+      "value": "PahE I ?/ 3TTETT cT CRTT 3TT9 Acphlle xe a  a  ssssssse",
+      "confidence": 63,
+      "status": "Review Needed",
+      "anchor": "date_of_birth",
+      "bbox": [
+        241,
+        1242,
+        1211,
+        1360
+      ],
+      "ui_coords": {
+        "top": "36.21%",
+        "left": "9.45%",
+        "width": "38.04%"
+      },
+      "page_num": 2,
+      "editable": true,
+      "metadata": {
+        "type": "Handwritten",
+        "length": "10",
+        "mandatory": true,
+        "data_type": "Date"
+      }
+    },
+    {
+      "field_name": "PAN",
+      "value": "NA",
+      "confidence": 93,
+      "status": "Review Needed",
+      "anchor": "pan",
+      "bbox": [
+        1197,
+        1356,
+        2392,
+        1433
+      ],
+      "ui_coords": {
+        "top": "38.83%",
+        "left": "47.01%",
+        "width": "46.94%"
+      },
+      "page_num": 3,
+      "editable": true,
+      "metadata": {
+        "type": "Handwritten",
+        "length": "10",
+        "mandatory": true,
+        "data_type": "AlphaNumeric"
+      }
+    },
+    {
+      "field_name": "Place_of_Birth",
+      "value": "12.",
+      "confidence": 100,
+      "status": "Verified",
+      "anchor": "place_of_birth",
+      "bbox": [
+        143,
+        1658,
+        227,
+        1784
+      ],
+      "ui_coords": {
+        "top": "48.34%",
+        "left": "5.61%",
+        "width": "3.29%"
+      },
+      "page_num": 2,
+      "editable": true,
+      "metadata": {
+        "type": "Handwritten",
+        "length": "2-50",
+        "mandatory": false,
+        "data_type": "Alphabetic"
+      }
+    },
+    {
+      "field_name": "ID_Proof",
+      "value": "15.",
+      "confidence": 95,
+      "status": "Verified",
+      "anchor": "id_proof",
+      "bbox": [
+        146,
+        1925,
+        227,
+        2114
+      ],
+      "ui_coords": {
+        "top": "56.12%",
+        "left": "5.73%",
+        "width": "3.18%"
+      },
+      "page_num": 2,
+      "editable": true,
+      "metadata": {
+        "type": "Handwritten",
+        "length": "5-50",
+        "mandatory": true,
+        "data_type": "AlphaNumeric"
+      }
+    }
+  ]
+}

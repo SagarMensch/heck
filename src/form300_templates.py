@@ -88,30 +88,30 @@ COVER_PAGE_FIELDS = (
 # ──────────────────────────── PAGE 2: PROPOSER DETAILS ────────────────────────────
 
 PROPOSER_DETAILS_FIELDS = (
-    _f("customer_id", "short_id", "proposer_details", "2", (0.50, 0.107, 0.89, 0.138), required=True),
-    _f("ckyc_number", "short_id", "proposer_details", "2", (0.50, 0.140, 0.89, 0.173), required=True),
-    _f("first_name", "name_text", "proposer_details", "2", (0.51, 0.181, 0.63, 0.233), required=True),
-    _f("middle_name", "name_text", "proposer_details", "2", (0.63, 0.181, 0.79, 0.233)),
-    _f("last_name", "name_text", "proposer_details", "2", (0.79, 0.181, 0.93, 0.233), required=True),
-    _f("father_full_name", "name_text", "proposer_details", "2", (0.51, 0.236, 0.92, 0.273), required=True),
-    _f("mother_full_name", "name_text", "proposer_details", "2", (0.51, 0.273, 0.92, 0.309)),
-    _f("gender_mark", "binary_mark", "proposer_details", "2", (0.82, 0.307, 0.93, 0.346), renderer="mark", required=True),
-    _f("marital_status", "short_text", "proposer_details", "2", (0.59, 0.344, 0.92, 0.383)),
-    _f("spouse_full_name", "name_text", "proposer_details", "2", (0.58, 0.383, 0.92, 0.421)),
-    _f("date_of_birth", "date", "proposer_details", "2", (0.64, 0.422, 0.92, 0.459), required=True),
-    _f("age_years", "numeric", "proposer_details", "2", (0.69, 0.460, 0.81, 0.497), required=True),
-    _f("place_of_birth", "short_text", "proposer_details", "2", (0.62, 0.551, 0.92, 0.588)),
-    _f("nature_of_age_proof", "short_text", "proposer_details", "2", (0.61, 0.588, 0.92, 0.626)),
-    _f("nationality", "short_text", "proposer_details", "2", (0.63, 0.628, 0.92, 0.664), required=True),
-    _f("citizenship", "short_text", "proposer_details", "2", (0.63, 0.663, 0.92, 0.701), required=True),
-    _f("address_line1", "long_text", "proposer_details", "2", (0.56, 0.788, 0.92, 0.822), multiline=True, max_lines=1, required=True),
-    _f("address_line2", "long_text", "proposer_details", "2", (0.56, 0.818, 0.92, 0.849), multiline=True, max_lines=1),
-    _f("address_city", "short_text", "proposer_details", "2", (0.56, 0.845, 0.92, 0.878), required=True),
-    _f("address_state_country", "short_text", "proposer_details", "2", (0.56, 0.872, 0.92, 0.908), required=True),
-    _f("address_pincode", "numeric", "proposer_details", "2", (0.68, 0.899, 0.92, 0.930), required=True),
-    _f("current_address_same", "short_text", "proposer_details", "2", (0.72, 0.932, 0.92, 0.968)),
-    _f("mobile_number", "numeric", "proposer_details", "2", (0.56, 0.968, 0.78, 0.995), required=True),
-    _f("email", "short_id", "proposer_details", "2", (0.78, 0.968, 0.95, 0.995)),
+    _f("customer_id", "short_id", "proposer_details", "2", (0.4839, 0.1425, 0.9573, 0.1596), required=True),
+    _f("ckyc_number", "short_id", "proposer_details", "2", (0.4839, 0.1596, 0.9573, 0.1795), required=True),
+    _f("first_name", "name_text", "proposer_details", "2", (0.5645, 0.2081, 0.7661, 0.2337), required=True),
+    _f("middle_name", "name_text", "proposer_details", "2", (0.7661, 0.2081, 0.8468, 0.2337)),
+    _f("last_name", "name_text", "proposer_details", "2", (0.8468, 0.2081, 0.9573, 0.2337), required=True),
+    _f("father_full_name", "name_text", "proposer_details", "2", (0.4839, 0.2337, 0.9573, 0.2559), required=True),
+    _f("mother_full_name", "name_text", "proposer_details", "2", (0.4839, 0.2770, 0.9573, 0.2935)),
+    _f("gender_mark", "binary_mark", "proposer_details", "2", (0.5645, 0.2981, 0.8306, 0.3135), renderer="mark", required=True),
+    _f("marital_status", "short_text", "proposer_details", "2", (0.4839, 0.3163, 0.9573, 0.3340)),
+    _f("spouse_full_name", "name_text", "proposer_details", "2", (0.4839, 0.3363, 0.9573, 0.3539)),
+    _f("date_of_birth", "date", "proposer_details", "2", (0.4839, 0.3562, 0.7258, 0.3750), required=True),
+    _f("age_years", "numeric", "proposer_details", "2", (0.7258, 0.3562, 0.8468, 0.3750), required=True),
+    _f("place_of_birth", "short_text", "proposer_details", "2", (0.4839, 0.4275, 0.9573, 0.4457)),
+    _f("nature_of_age_proof", "short_text", "proposer_details", "2", (0.4839, 0.4469, 0.9573, 0.4788)),
+    _f("nationality", "short_text", "proposer_details", "2", (0.4839, 0.4816, 0.9573, 0.4984), required=True),
+    _f("citizenship", "short_text", "proposer_details", "2", (0.4839, 0.5001, 0.9573, 0.5172), required=True),
+    _f("address_line1", "long_text", "proposer_details", "2", (0.4839, 0.5986, 0.9573, 0.6271), multiline=True, max_lines=1, required=True),
+    _f("address_line2", "long_text", "proposer_details", "2", (0.4839, 0.6271, 0.9573, 0.6499), multiline=True, max_lines=1),
+    _f("address_city", "short_text", "proposer_details", "2", (0.4839, 0.6499, 0.7258, 0.6727), required=True),
+    _f("address_state_country", "short_text", "proposer_details", "2", (0.7258, 0.6499, 0.9573, 0.6727), required=True),
+    _f("address_pincode", "numeric", "proposer_details", "2", (0.4839, 0.6727, 0.6452, 0.6927), required=True),
+    _f("current_address_same", "short_text", "proposer_details", "2", (0.4839, 0.7119, 0.9573, 0.7310)),
+    _f("mobile_number", "numeric", "proposer_details", "2", (0.7258, 0.6727, 0.9573, 0.6927), required=True),
+    _f("email", "short_id", "proposer_details", "2", (0.4839, 0.8181, 0.9573, 0.8381)),
 )
 
 
@@ -138,36 +138,36 @@ KYC_OCCUPATION_FIELDS = (
 # ──────────────────────────── PAGE 5: EXISTING POLICIES ────────────────────────────
 
 EXISTING_POLICIES_FIELDS = (
-    _f("existing_policy_number", "short_id", "existing_policies", "5", (0.02, 0.04, 0.18, 0.08), required=False),
-    _f("existing_insurer_name", "short_text", "existing_policies", "5", (0.18, 0.04, 0.38, 0.08)),
-    _f("existing_plan_term", "short_text", "existing_policies", "5", (0.38, 0.04, 0.55, 0.08)),
-    _f("existing_sum_assured", "amount", "existing_policies", "5", (0.55, 0.04, 0.72, 0.08)),
-    _f("existing_premium", "amount", "existing_policies", "5", (0.72, 0.04, 0.88, 0.08)),
+    _f("existing_policy_number", "short_id", "existing_policies", "5", (0.4899, 0.3876, 0.5798, 0.4389), required=False),
+    _f("existing_insurer_name", "short_text", "existing_policies", "5", (0.5839, 0.3876, 0.6742, 0.4389)),
+    _f("existing_plan_term", "short_text", "existing_policies", "5", (0.6782, 0.3876, 0.7710, 0.4389)),
+    _f("existing_sum_assured", "amount", "existing_policies", "5", (0.7750, 0.3876, 0.8661, 0.4389)),
+    _f("existing_premium", "amount", "existing_policies", "5", (0.8710, 0.3876, 0.9597, 0.4389)),
 )
 
 
 # ──────────────────────────── PAGE 6: NOMINEE DETAILS ────────────────────────────
 
 NOMINEE_DETAILS_FIELDS = (
-    _f("nominee_name", "name_text", "nominee_details", "6", (0.08, 0.04, 0.45, 0.10), required=True),
-    _f("nominee_relationship", "short_text", "nominee_details", "6", (0.45, 0.04, 0.65, 0.10), required=True),
-    _f("nominee_age", "numeric", "nominee_details", "6", (0.65, 0.04, 0.78, 0.10), required=True),
-    _f("nominee_address", "long_text", "nominee_details", "6", (0.08, 0.14, 0.65, 0.24), multiline=True, max_lines=2),
-    _f("appointee_name", "name_text", "nominee_details", "6", (0.08, 0.32, 0.45, 0.38)),
-    _f("appointee_relationship", "short_text", "nominee_details", "6", (0.45, 0.32, 0.65, 0.38)),
+    _f("nominee_name", "name_text", "nominee_details", "6", (0.4871, 0.3528, 0.6403, 0.3705), required=True),
+    _f("nominee_relationship", "short_text", "nominee_details", "6", (0.6444, 0.3528, 0.7903, 0.3705), required=True),
+    _f("nominee_age", "numeric", "nominee_details", "6", (0.7952, 0.3528, 0.8823, 0.3705), required=True),
+    _f("nominee_address", "long_text", "nominee_details", "6", (0.4871, 0.3853, 0.8823, 0.4315), multiline=True, max_lines=2),
+    _f("appointee_name", "name_text", "nominee_details", "6", (0.4871, 0.4554, 0.6403, 0.4816)),
+    _f("appointee_relationship", "short_text", "nominee_details", "6", (0.6444, 0.4554, 0.7903, 0.4816)),
 )
 
 
 # ──────────────────────────── PAGE 7: PLAN DETAILS ────────────────────────────
 
 PLAN_DETAILS_FIELDS = (
-    _f("proposed_plan_name", "short_text", "plan_details", "7", (0.30, 0.06, 0.65, 0.12), required=True),
-    _f("proposed_plan_term", "numeric", "plan_details", "7", (0.65, 0.06, 0.80, 0.12), required=True),
-    _f("proposed_sum_assured", "amount", "plan_details", "7", (0.30, 0.14, 0.55, 0.20), required=True),
-    _f("proposed_premium_paying_term", "numeric", "plan_details", "7", (0.55, 0.14, 0.75, 0.20), required=True),
-    _f("proposed_premium_amount", "amount", "plan_details", "7", (0.30, 0.22, 0.55, 0.28), required=True),
-    _f("proposed_premium_mode", "short_text", "plan_details", "7", (0.55, 0.22, 0.75, 0.28), required=True),
-    _f("objective_of_insurance", "short_text", "plan_details", "7", (0.30, 0.30, 0.75, 0.36)),
+    _f("proposed_plan_name", "short_text", "plan_details", "7", (0.4532, 0.3545, 0.7129, 0.4047), required=True),
+    _f("proposed_plan_term", "numeric", "plan_details", "7", (0.7177, 0.3545, 0.8395, 0.4047), required=True),
+    _f("proposed_sum_assured", "amount", "plan_details", "7", (0.4532, 0.4246, 0.7129, 0.4959), required=True),
+    _f("proposed_premium_paying_term", "numeric", "plan_details", "7", (0.7177, 0.4246, 0.8395, 0.4959), required=True),
+    _f("proposed_premium_amount", "amount", "plan_details", "7", (0.4532, 0.5130, 0.7129, 0.5392), required=True),
+    _f("proposed_premium_mode", "short_text", "plan_details", "7", (0.7177, 0.5130, 0.8395, 0.5392), required=True),
+    _f("objective_of_insurance", "short_text", "plan_details", "7", (0.4532, 0.5420, 0.9016, 0.6025)),
 )
 
 

@@ -1,0 +1,242 @@
+[
+  {
+    "pdf": "P31",
+    "field": "office_inward_no",
+    "text": "3",
+    "valid": false
+  },
+  {
+    "pdf": "P31",
+    "field": "office_proposal_no",
+    "text": "(Not be used for insura",
+    "valid": true
+  },
+  {
+    "pdf": "P31",
+    "field": "office_receipt_date",
+    "text": "n the lives of minors)",
+    "valid": false
+  },
+  {
+    "pdf": "P31",
+    "field": "date_of_birth",
+    "text": "\u092c\u094b\u0921\u0932\u093e\u092f\u0947 \u0938\u0941\u092a\u094d\u092a\u0923\u094d \u0928\u093e\u0935 /\u093f\u092e\u0924\u093e \u0915\u093e \u092a\u0941\u094d\u096f\u093e",
+    "valid": true
+  },
+  {
+    "pdf": "P31",
+    "field": "first_name",
+    "text": "\u0924\u094d\u0935\u0940\u0928\u094d\u0940 \u0915\u093f\u092f\u094b\u0902 \u0938\u094d\u093e\u0925\u093e\u0928 \u0938\u093f\u094d\ufffd\u0925\u0940/\u0924\u0935\u093e\u0921\u093f \u0938\u093e\u0936\u094d/Marital",
+    "valid": true
+  },
+  {
+    "pdf": "P31",
+    "field": "last_name",
+    "text": "nash",
+    "valid": true
+  },
+  {
+    "pdf": "P31",
+    "field": "pan_number",
+    "text": "\u092f\u094b\u091c\u0928\u093e \u0915\u0940 \u0936\u094d\u0930\u0940\u0902 \u0915\u0930\u0924\u094d \u0915 \u0905\u0902\u0917\u093e\u0930 \u092a\u094d.\u0930, \u092d\u0940\u0964\u093f\u0938\u094d\u093e\u0925\u092e \u0915\u093e \u092a\u0923\u0928\u094d\u0964\n**\nDonding unon the plan conditions",
+    "valid": false
+  },
+  {
+    "pdf": "P31",
+    "field": "ckyc_number",
+    "text": "\u092a\u0941\u0924\u094d\u0930\u0940 \u091c\u0928\u092e\u0940\u0924\u0928 / \u0906\u092f \u0928\u093f\u0932\u0924\u093e\u0928 \u091c\u0941-\u0928\u094d\u094d\u093e\u092e\u093f\u0964\u0924 \u092c\u093e\u0917 \u0915\u093f \u0928\u093e",
+    "valid": true
+  },
+  {
+    "pdf": "P25",
+    "field": "office_inward_no",
+    "text": "0",
+    "valid": false
+  },
+  {
+    "pdf": "P25",
+    "field": "office_proposal_no",
+    "text": "(Not be used for insura",
+    "valid": true
+  },
+  {
+    "pdf": "P25",
+    "field": "office_receipt_date",
+    "text": "n the lives of minors)",
+    "valid": false
+  },
+  {
+    "pdf": "P25",
+    "field": "date_of_birth",
+    "text": "\u092c\u0940\u0921\u0932\u093e\u092f\u0947 \u0938\u094d\u092a\u0941\u092a\u0923 \u0928\u093e\u0935 /\u093f\u092a\u093e\u0928\u093e \u0915\u093e \u092a\u094d\u0941\u0941 \u0930\u093e",
+    "valid": true
+  },
+  {
+    "pdf": "P25",
+    "field": "first_name",
+    "text": "\u0935\u094d\u0935\u093e\u0930\u094d\u093e\u0915\u094d\u0964 \u0938\u093f\u0936\u094d\ufffd\u0924\u0940 / \u0924\u094d \u0935\u093f\u093e\u0928\u094d/ \u0935\u0940\u0928\u093e\u0939\u093f \u0938\u094d.\u0935\u0936\u093f/Marital S",
+    "valid": true
+  },
+  {
+    "pdf": "P25",
+    "field": "last_name",
+    "text": "Manied",
+    "valid": true
+  },
+  {
+    "pdf": "P25",
+    "field": "pan_number",
+    "text": "\u092a\u094b\u091c\u0928\u093e \u0915\u0940 \u0938\u094d\u0935\u093e\u0930\u0940\u0924\u0940\u0964 \u0915\u093f \u0915\u093e \u0905\u0927\u093e\u092f \u092a\u0930, \u092a\u094d\u0940\u093e\u0938\u092e\u0938 \u0915 \u092a\u093e\u0928\u094d\u093e\u092e\u093e\u0924 \u0939\u0948\u0902\n*\nDendending upon the plan conditions\nAge la",
+    "valid": false
+  },
+  {
+    "pdf": "P25",
+    "field": "ckyc_number",
+    "text": "\u092a\u0941\u0924\u0947 \u091c\u0928\u092e\u094d\u0924\u093f\u0928 /\u0906\u092f \u0928\u093f\u094d\u094d\u093e\u0932\u0924\u093e \u091c\u0941-\u0928\u094d-\u092e\u0928\u093e\u0928 \u0915\u093e\u092f\u093e \u0928\u093e\nav/Ane nearer birthday shall be applied for th",
+    "valid": true
+  },
+  {
+    "pdf": "P07",
+    "field": "office_inward_no",
+    "text": "-",
+    "valid": false
+  },
+  {
+    "pdf": "P07",
+    "field": "office_proposal_no",
+    "text": "(NOT be used tor insu",
+    "valid": true
+  },
+  {
+    "pdf": "P07",
+    "field": "office_receipt_date",
+    "text": "the lives of mmors)",
+    "valid": false
+  },
+  {
+    "pdf": "P07",
+    "field": "date_of_birth",
+    "text": "\u092c\u0940\u0921\u0932\u093e\u092f \u0938\u0941\u092a\u094d\u092a\u0923 \u0928\u093e\u0935 /\u093f\u092a\u093e\u0928\u093e \u0915\u093e \u092a\u0941\u0941 \u0930\u0936",
+    "valid": true
+  },
+  {
+    "pdf": "P07",
+    "field": "first_name",
+    "text": "\u0935\u094d\u0935\u093e\u0930\u094d\u093e\u0915 \u0938\u093f\u0925\u094d\u0940 /\u0924\u094d \u0935\u0940\u0917\u094d\u09b0\u0940 \u0938\u094d.\u0915\u094d-\u0938\u0925\u093f\u0940/Marital S",
+    "valid": true
+  },
+  {
+    "pdf": "P07",
+    "field": "last_name",
+    "text": "M",
+    "valid": true
+  },
+  {
+    "pdf": "P07",
+    "field": "pan_number",
+    "text": "\u092f\u094b\u091c\u0928\u093e \u0915\u0940 \u0916\u094d\u092f\u093e\u0930\u0940\u0902 \u0915\u0930\u0928\u0947 \u0915 \u0915\u093e \u0906\u092f\u0930 \u092a\u0930, \u092a\u094d\u093e\u0938\u092e\u0938\u093e\u092e \u0915\u043f \u0917\u0923\u0928\u0928 \u0915\n** Depending upon the plan conditions. Age la",
+    "valid": false
+  },
+  {
+    "pdf": "P07",
+    "field": "ckyc_number",
+    "text": "\u092a\u0941\u0924\u0947 \u091c\u0928\u093e\u0932\u093f\u0928 / \u0914\u0930\u0941 \u0928\u093f\u094d\u0935\u0932\u094d\u093e\u0928 \u091c\u094d\u094d-\u0928\u092e\u093e\u0926\u093f \u0932\u093e\u0917 \u0915\u093f\u093e\u092f\u093e \u091c\u093e\nav/Age nearer birthday shall be applied for th",
+    "valid": true
+  },
+  {
+    "pdf": "P11",
+    "field": "office_inward_no",
+    "text": "-",
+    "valid": false
+  },
+  {
+    "pdf": "P11",
+    "field": "office_proposal_no",
+    "text": "(Not be used tor Insura",
+    "valid": true
+  },
+  {
+    "pdf": "P11",
+    "field": "office_receipt_date",
+    "text": "n the lives of minors)",
+    "valid": false
+  },
+  {
+    "pdf": "P11",
+    "field": "date_of_birth",
+    "text": "\u092c\u0940\u0921\u0932\u094b\u0902 \u0938\u0941\u092a\u094d\u0930\u0941 \u092d\u093e\u0924\u094d \u0928\u093e\u0935 /\u093f\u092a\u0924\u093e \u0915\u093e \u092a\u0941\u094d\u096f\u093e",
+    "valid": true
+  },
+  {
+    "pdf": "P11",
+    "field": "first_name",
+    "text": "\u0935\u094d\u0935\u093e\u0930\u0940\u0915 \u0938\u093f\u0936\u094d\u0940 / \u0935\u0940\u093e\u0937\u094d\u093e\u0915\u0915\u094d \u0938\u094d.\u0936\u093f\u0940 \u0938/Marital S",
+    "valid": true
+  },
+  {
+    "pdf": "P11",
+    "field": "last_name",
+    "text": "Married",
+    "valid": true
+  },
+  {
+    "pdf": "P11",
+    "field": "pan_number",
+    "text": "\u092f\u094b\u091c\u0928\u093e \u0915\u0940 \u0936\u094d\u0930\u0940\u0924\u0940\u0964 \u0915\u0930\u0928\u094d\u0940 \u0964\u0964\u0915\u0947 \u0905\u0927\u094d\u093e\u092f\u0930 \u092a\u094d.\u0930, \u092a\u0930. \u092a\u093e\u0938\u094d \u092a \u092a.\u0938\u093f\u0938\u093e\u092e\u0928 \u0915\u093e \u092a\n**\n*\nDepending upon the plan conditions\nAge",
+    "valid": false
+  },
+  {
+    "pdf": "P11",
+    "field": "ckyc_number",
+    "text": "\u092a\u0941\u0924\u094d\u0930\u0940 \u091c\u0928\u093e\u0932\u093f\u0928 / \u0905\u092a\u0930 \u0928\u093f\u094d\u094d\u093e\u091f\u0932\u094d \u091c\u094d.\u0928\u092e\u093e\u0928\u094d-\u0928 \u0915\u093e\u092f\u093e \u091c\u093e\nav/Age nearer birthday shall be applied for th",
+    "valid": true
+  },
+  {
+    "pdf": "P38",
+    "field": "office_inward_no",
+    "text": "2",
+    "valid": false
+  },
+  {
+    "pdf": "P38",
+    "field": "office_proposal_no",
+    "text": "(Not be used for insur",
+    "valid": true
+  },
+  {
+    "pdf": "P38",
+    "field": "office_receipt_date",
+    "text": "n the lives of minors",
+    "valid": false
+  },
+  {
+    "pdf": "P38",
+    "field": "date_of_birth",
+    "text": "\u092c\u0940\u0921\u0932\u094b\u0902 \u0938\u094d\u092a\u0941\u092a\u0923 \u0928\u093e\u0935 /\u093f\u092a\u093e\u0924\u093e \u0915\u093e \u092a\u094d\u0941\u0941 \u0930\u093e",
+    "valid": true
+  },
+  {
+    "pdf": "P38",
+    "field": "first_name",
+    "text": "\u0935\u094d\u0935\u093e\u0930\u0940\u0915 \u0938\u093f\u0936\u094d\u0940 / \u0924\u094d \u0935\u093f\u093e\u0936\u0915\u0915\u094d\u093e \u0938\u094d.\u0936\u093e\u0928\u0940/Marital S",
+    "valid": true
+  },
+  {
+    "pdf": "P38",
+    "field": "last_name",
+    "text": "Unmarried",
+    "valid": true
+  },
+  {
+    "pdf": "P38",
+    "field": "pan_number",
+    "text": "\u092f\u094b\u091c\u0928\u093e \u0915\u0940 \u0938\u094d\u0935\u093e\u0930\u0940\u0924\u0940\u0964 \u0915\u093f \u0915\u093e \u0905\u0927\u093e\u092f \u092a\u0930, \u092d\u0940-\u092a\u094d\u0940\n\u092a\u093f\u0930\u093f-\u0938\u092e\u0938\u0940 \u0964\u0964\u0915\u094d \u092a\u0941\u092a\u093e\u0928\u0940.\n*\n* Dendending upon the plan conditions\nAge la",
+    "valid": false
+  },
+  {
+    "pdf": "P38",
+    "field": "ckyc_number",
+    "text": "\u092a\u0941\u0924\u0947 \u091c\u0928\u093e\u0928\u094d\u0926\u093f\u0928 /\u0906\u092f \u0928\u093f\u094d\u094d\u093e\u0932\u094d \u0928\u0947\u0928\u0932\u0928 \u091c\u094d\nav/Age nearer birthday shall be applied for th",
+    "valid": true
+  }
+]

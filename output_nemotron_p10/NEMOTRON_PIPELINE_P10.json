@@ -1,0 +1,2539 @@
+{
+  "document": "Techathon_Samples\\P10.pdf",
+  "pipeline": "Nemotron PageElements v3 → TableStructure v1 → PaddleOCR v5 → ValidationKB",
+  "gpu": "NVIDIA L4 (24GB)",
+  "total_time_s": 98.71,
+  "pages": {
+    "2": {
+      "page_num": 2,
+      "image_size": "2550x3430",
+      "stage1_elements": [
+        {
+          "label": "table",
+          "bbox": [
+            135,
+            170,
+            2407,
+            3209
+          ],
+          "score": 0.84
+        },
+        {
+          "label": "title",
+          "bbox": [
+            190,
+            182,
+            2330,
+            324
+          ],
+          "score": 0.471
+        }
+      ],
+      "stage2_tables": [
+        {
+          "table_idx": 0,
+          "bbox": [
+            135,
+            170,
+            2407,
+            3209
+          ],
+          "cells": 78,
+          "rows": 32,
+          "cols": 4
+        }
+      ],
+      "stage3_cell_extractions": [
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            135,
+            304,
+            2407,
+            353
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.091
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            142,
+            361,
+            225,
+            448
+          ],
+          "text": ":",
+          "confidence": 0.717,
+          "nemotron_score": 0.898
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            228,
+            356,
+            1191,
+            447
+          ],
+          "text": "H18 Personal Details",
+          "confidence": 0.459,
+          "nemotron_score": 0.954
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1204,
+            351,
+            2383,
+            444
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.156
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1209,
+            439,
+            2372,
+            514
+          ],
+          "text": "N",
+          "confidence": 0.279,
+          "nemotron_score": 0.724
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            141,
+            448,
+            226,
+            519
+          ],
+          "text": "1.",
+          "confidence": 0.999,
+          "nemotron_score": 0.898
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            227,
+            444,
+            1194,
+            517
+          ],
+          "text": "ciy Customer 0",
+          "confidence": 0.773,
+          "nemotron_score": 0.94
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            142,
+            518,
+            224,
+            634
+          ],
+          "text": "2.",
+          "confidence": 0.999,
+          "nemotron_score": 0.909
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            232,
+            514,
+            1193,
+            634
+          ],
+          "text": "ca14A s. - KYC number (Central KYC Registry Number)",
+          "confidence": 0.628,
+          "nemotron_score": 0.948
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1204,
+            516,
+            2376,
+            629
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.252
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            144,
+            635,
+            224,
+            872
+          ],
+          "text": "3.",
+          "confidence": 0.999,
+          "nemotron_score": 0.826
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            143,
+            635,
+            225,
+            691
+          ],
+          "text": "3.",
+          "confidence": 0.999,
+          "nemotron_score": 0.079
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            222,
+            630,
+            1192,
+            874
+          ],
+          "text": "Mr./Mrs./Ms./Mx. / hte 394 Prefix Name",
+          "confidence": 0.792,
+          "nemotron_score": 0.928
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1202,
+            623,
+            2374,
+            865
+          ],
+          "text": "Fa / / 3if thah HE 1496 3IGGIC First Name Wtaan Last Na $ Sknvike Mididuddi",
+          "confidence": 0.707,
+          "nemotron_score": 0.84
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            2099,
+            625,
+            2380,
+            861
+          ],
+          "text": "3IGGIC 3if F Last Name",
+          "confidence": 0.75,
+          "nemotron_score": 0.332
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            241,
+            750,
+            1184,
+            806
+          ],
+          "text": "ST",
+          "confidence": 0.313,
+          "nemotron_score": 0.076
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1208,
+            864,
+            2371,
+            949
+          ],
+          "text": "3 Wamsh korisme",
+          "confidence": 0.889,
+          "nemotron_score": 0.741
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            142,
+            873,
+            225,
+            956
+          ],
+          "text": "4.",
+          "confidence": 1.0,
+          "nemotron_score": 0.887
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            229,
+            869,
+            1189,
+            955
+          ],
+          "text": "uf aia /faT cn gR  /Father's Full name",
+          "confidence": 0.815,
+          "nemotron_score": 0.935
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            142,
+            957,
+            225,
+            1028
+          ],
+          "text": "5.",
+          "confidence": 1.0,
+          "nemotron_score": 0.902
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            230,
+            953,
+            1192,
+            1028
+          ],
+          "text": "H /H T g H /Mother's Full Name",
+          "confidence": 0.803,
+          "nemotron_score": 0.932
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1206,
+            947,
+            2358,
+            1025
+          ],
+          "text": "Ie Shmng",
+          "confidence": 0.455,
+          "nemotron_score": 0.729
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            2102,
+            1017,
+            2374,
+            1092
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.194
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            142,
+            1029,
+            226,
+            1102
+          ],
+          "text": "6.",
+          "confidence": 0.999,
+          "nemotron_score": 0.902
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            229,
+            1025,
+            1191,
+            1101
+          ],
+          "text": "T /Gender",
+          "confidence": 0.876,
+          "nemotron_score": 0.934
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1229,
+            1020,
+            2242,
+            1097
+          ],
+          "text": "Transgander - Male /  - Female / g q /",
+          "confidence": 0.908,
+          "nemotron_score": 0.747
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            141,
+            1103,
+            226,
+            1173
+          ],
+          "text": "7.",
+          "confidence": 0.999,
+          "nemotron_score": 0.891
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            237,
+            1098,
+            1185,
+            1171
+          ],
+          "text": "a  /Marital Status",
+          "confidence": 0.84,
+          "nemotron_score": 0.935
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1200,
+            1094,
+            2388,
+            1167
+          ],
+          "text": "S ched",
+          "confidence": 0.652,
+          "nemotron_score": 0.723
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            235,
+            1169,
+            1189,
+            1248
+          ],
+          "text": "u  sasnods /hlk iah 1 h/Ph /p jah",
+          "confidence": 0.657,
+          "nemotron_score": 0.931
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            142,
+            1173,
+            227,
+            1248
+          ],
+          "text": "8.",
+          "confidence": 0.999,
+          "nemotron_score": 0.901
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            142,
+            1250,
+            228,
+            1321
+          ],
+          "text": "9.",
+          "confidence": 0.998,
+          "nemotron_score": 0.891
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            237,
+            1246,
+            1185,
+            1320
+          ],
+          "text": "42  1 552 Date of Birth",
+          "confidence": 0.356,
+          "nemotron_score": 0.897
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1185,
+            1239,
+            2381,
+            1314
+          ],
+          "text": "20L /01/81",
+          "confidence": 0.705,
+          "nemotron_score": 0.803
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            142,
+            1321,
+            227,
+            1390
+          ],
+          "text": "10.",
+          "confidence": 0.999,
+          "nemotron_score": 0.87
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            225,
+            1318,
+            1197,
+            1391
+          ],
+          "text": "3TR Age kk",
+          "confidence": 0.799,
+          "nemotron_score": 0.865
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1187,
+            1310,
+            2367,
+            1388
+          ],
+          "text": "Years /",
+          "confidence": 0.72,
+          "nemotron_score": 0.707
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            2101,
+            1381,
+            2377,
+            1579
+          ],
+          "text": "of premium",
+          "confidence": 0.967,
+          "nemotron_score": 0.088
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            144,
+            1389,
+            225,
+            1584
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.137
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            203,
+            1385,
+            2325,
+            1584
+          ],
+          "text": "TTOUT HTRHR HT TH GTCT CT Dewobs GH Ec C PaH EU PIAaniS I.112 $$\\f1.$ 26 MIE  1   ale   $\\}$ EiltE/ PACCSH L 3ITY Pchu Ms epending upon the plan conditions, Age last birthday/Age nearer birthday shal) be appljed for the calculation",
+          "confidence": 0.557,
+          "nemotron_score": 0.754
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            143,
+            1588,
+            226,
+            1658
+          ],
+          "text": "11.",
+          "confidence": 1.0,
+          "nemotron_score": 0.884
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            227,
+            1584,
+            1186,
+            1657
+          ],
+          "text": "G  (Placel City of Birth 7",
+          "confidence": 0.545,
+          "nemotron_score": 0.904
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1215,
+            1578,
+            2287,
+            1654
+          ],
+          "text": "Hyde ab",
+          "confidence": 0.632,
+          "nemotron_score": 0.662
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            227,
+            1655,
+            1191,
+            1783
+          ],
+          "text": "Nt A PT aRAC oof Submitted",
+          "confidence": 0.769,
+          "nemotron_score": 0.938
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1201,
+            1651,
+            2303,
+            1780
+          ],
+          "text": "Bi cutificte",
+          "confidence": 0.603,
+          "nemotron_score": 0.717
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            143,
+            1658,
+            227,
+            1784
+          ],
+          "text": "12.",
+          "confidence": 1.0,
+          "nemotron_score": 0.889
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1188,
+            1775,
+            2320,
+            1850
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.681
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            144,
+            1783,
+            226,
+            1853
+          ],
+          "text": "13.",
+          "confidence": 1.0,
+          "nemotron_score": 0.888
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            223,
+            1780,
+            1197,
+            1853
+          ],
+          "text": "r4r9 Waod (Nationality",
+          "confidence": 0.569,
+          "nemotron_score": 0.896
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            143,
+            1853,
+            227,
+            1925
+          ],
+          "text": "14.",
+          "confidence": 1.0,
+          "nemotron_score": 0.869
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            227,
+            1849,
+            1205,
+            1922
+          ],
+          "text": "cry Rc/Citizenship -",
+          "confidence": 0.528,
+          "nemotron_score": 0.85
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1190,
+            1844,
+            2324,
+            1920
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.713
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            146,
+            1925,
+            227,
+            2114
+          ],
+          "text": "15.",
+          "confidence": 0.959,
+          "nemotron_score": 0.403
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            235,
+            1918,
+            2385,
+            2114
+          ],
+          "text": "Ptob of ldentity Proof of Identity must be any one of the following - 1) Aadhar2) DrivingLicens Rasspont",
+          "confidence": 0.782,
+          "nemotron_score": 0.72
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            228,
+            1919,
+            1242,
+            1993
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.308
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            228,
+            2106,
+            1200,
+            2233
+          ],
+          "text": "2w Fg rob/ 2 st HC c rab/HE ouse No./Building Namel Street",
+          "confidence": 0.629,
+          "nemotron_score": 0.939
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1204,
+            2103,
+            2373,
+            2227
+          ],
+          "text": "8356, Bhoomm Green *",
+          "confidence": 0.682,
+          "nemotron_score": 0.898
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            2102,
+            2099,
+            2379,
+            2224
+          ],
+          "text": "CHSL",
+          "confidence": 0.918,
+          "nemotron_score": 0.18
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            231,
+            2228,
+            1195,
+            2305
+          ],
+          "text": "/Tn/VieTalka",
+          "confidence": 0.657,
+          "nemotron_score": 0.931
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1201,
+            2221,
+            2379,
+            2300
+          ],
+          "text": "Bori vel East",
+          "confidence": 0.874,
+          "nemotron_score": 0.823
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            229,
+            2299,
+            1197,
+            2372
+          ],
+          "text": "TER Gity/Oistrict",
+          "confidence": 0.516,
+          "nemotron_score": 0.927
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1207,
+            2294,
+            2372,
+            2368
+          ],
+          "text": "Mumban",
+          "confidence": 0.691,
+          "nemotron_score": 0.861
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            228,
+            2367,
+            1199,
+            2444
+          ],
+          "text": "8  /1",
+          "confidence": 0.551,
+          "nemotron_score": 0.92
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1204,
+            2361,
+            2374,
+            2440
+          ],
+          "text": "a440W",
+          "confidence": 0.426,
+          "nemotron_score": 0.827
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            238,
+            2438,
+            1192,
+            2511
+          ],
+          "text": "PIN Code",
+          "confidence": 0.97,
+          "nemotron_score": 0.915
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1201,
+            2432,
+            2374,
+            2507
+          ],
+          "text": "79000h",
+          "confidence": 0.694,
+          "nemotron_score": 0.835
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1197,
+            2503,
+            2382,
+            2626
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.801
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            245,
+            2507,
+            1196,
+            2629
+          ],
+          "text": "No. with STD Code /",
+          "confidence": 0.719,
+          "nemotron_score": 0.933
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            249,
+            2620,
+            2336,
+            2705
+          ],
+          "text": "35π3  SodenCumenAddress'diterennom ae Same",
+          "confidence": 0.697,
+          "nemotron_score": 0.736
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            144,
+            2630,
+            226,
+            2705
+          ],
+          "text": "16.",
+          "confidence": 1.0,
+          "nemotron_score": 0.071
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            146,
+            2638,
+            228,
+            2961
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.119
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            235,
+            2702,
+            1203,
+            2822
+          ],
+          "text": "R./T rh/ HCF./ b/ 1 ouse  No./Bldg. Name / Street",
+          "confidence": 0.761,
+          "nemotron_score": 0.94
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1195,
+            2699,
+            2382,
+            2818
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.087
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            232,
+            2819,
+            1195,
+            2891
+          ],
+          "text": "/Tw/Vila Taluka",
+          "confidence": 0.618,
+          "nemotron_score": 0.926
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            227,
+            2888,
+            1202,
+            2959
+          ],
+          "text": "WWa City / District",
+          "confidence": 0.638,
+          "nemotron_score": 0.912
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            241,
+            2955,
+            1191,
+            3024
+          ],
+          "text": "3State &Country",
+          "confidence": 0.857,
+          "nemotron_score": 0.916
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            246,
+            3020,
+            1187,
+            3090
+          ],
+          "text": "PIN Code",
+          "confidence": 0.818,
+          "nemotron_score": 0.897
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            236,
+            3085,
+            1202,
+            3190
+          ],
+          "text": "No. with Std Code",
+          "confidence": 0.725,
+          "nemotron_score": 0.213
+        }
+      ],
+      "stage3_text_blocks": [],
+      "full_page_ocr_lines": 274
+    },
+    "3": {
+      "page_num": 3,
+      "image_size": "2546x3492",
+      "stage1_elements": [
+        {
+          "label": "table",
+          "bbox": [
+            133,
+            126,
+            2410,
+            3370
+          ],
+          "score": 0.756
+        },
+        {
+          "label": "table",
+          "bbox": [
+            130,
+            2360,
+            2396,
+            3313
+          ],
+          "score": 0.427
+        },
+        {
+          "label": "table",
+          "bbox": [
+            148,
+            198,
+            2390,
+            1149
+          ],
+          "score": 0.138
+        },
+        {
+          "label": "text",
+          "bbox": [
+            1215,
+            217,
+            2372,
+            504
+          ],
+          "score": 0.123
+        }
+      ],
+      "stage2_tables": [
+        {
+          "table_idx": 0,
+          "bbox": [
+            133,
+            126,
+            2410,
+            3370
+          ],
+          "cells": 74,
+          "rows": 31,
+          "cols": 3
+        },
+        {
+          "table_idx": 1,
+          "bbox": [
+            130,
+            2360,
+            2396,
+            3313
+          ],
+          "cells": 31,
+          "rows": 11,
+          "cols": 3
+        },
+        {
+          "table_idx": 2,
+          "bbox": [
+            148,
+            198,
+            2390,
+            1149
+          ],
+          "cells": 16,
+          "rows": 9,
+          "cols": 3
+        }
+      ],
+      "stage3_cell_extractions": [
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            145,
+            209,
+            231,
+            598
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.849
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            147,
+            210,
+            229,
+            286
+          ],
+          "text": "17.",
+          "confidence": 1.0,
+          "nemotron_score": 0.052
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            230,
+            209,
+            1182,
+            488
+          ],
+          "text": "PHb 3 / Residential status",
+          "confidence": 0.73,
+          "nemotron_score": 0.969
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1198,
+            206,
+            2390,
+            490
+          ],
+          "text": "J PλH /3TPaR hPlH HRA4 c Ua21 CJNE HTRG 0312 C lad hPλ 2l6b U21 CE W rP  rPH rlt/ WH 4 U21 C K CJNE PAIH C Resident Indian Non Resident Indian/ Foreign National of Indian Origin",
+          "confidence": 0.566,
+          "nemotron_score": 0.975
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            235,
+            485,
+            1174,
+            603
+          ],
+          "text": "Awl bud hnil Overseas Citizen of India Card (Ocl Card)",
+          "confidence": 0.627,
+          "nemotron_score": 0.922
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1205,
+            486,
+            2375,
+            602
+          ],
+          "text": "2",
+          "confidence": 0.921,
+          "nemotron_score": 0.9
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            146,
+            602,
+            232,
+            735
+          ],
+          "text": "18.",
+          "confidence": 1.0,
+          "nemotron_score": 0.914
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            215,
+            600,
+            2319,
+            737
+          ],
+          "text": "iFGRT HRARHRGY ET FCE RETGIGT AUnSIA RPaR pI3p U2R MSGBRI SANE ppye) .3TP.3T4...3T.3Address outside (ndia Cpdpccee Do  NRUENON PT CT TGT",
+          "confidence": 0.497,
+          "nemotron_score": 0.88
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            143,
+            734,
+            234,
+            843
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.203
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            241,
+            734,
+            1195,
+            843
+          ],
+          "text": "use No./Building Name) Street H./ rh/e",
+          "confidence": 0.716,
+          "nemotron_score": 0.934
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            142,
+            843,
+            233,
+            913
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.197
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            235,
+            840,
+            1192,
+            914
+          ],
+          "text": "///Ton /Village/ Taluka",
+          "confidence": 0.643,
+          "nemotron_score": 0.921
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            143,
+            913,
+            231,
+            986
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.296
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            237,
+            912,
+            1190,
+            986
+          ],
+          "text": "WAY CityDistrict",
+          "confidence": 0.656,
+          "nemotron_score": 0.905
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            143,
+            985,
+            232,
+            1057
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.426
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            236,
+            984,
+            1190,
+            1059
+          ],
+          "text": "State&Country",
+          "confidence": 0.914,
+          "nemotron_score": 0.902
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            142,
+            1058,
+            235,
+            1129
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.313
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            237,
+            1057,
+            1195,
+            1128
+          ],
+          "text": "aF. /PIN Code",
+          "confidence": 0.78,
+          "nemotron_score": 0.873
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            156,
+            1125,
+            2351,
+            1169
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.066
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            144,
+            1168,
+            235,
+            1243
+          ],
+          "text": "=",
+          "confidence": 0.745,
+          "nemotron_score": 0.885
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            207,
+            1167,
+            2335,
+            1245
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.756
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            146,
+            1242,
+            234,
+            1358
+          ],
+          "text": "1.",
+          "confidence": 0.999,
+          "nemotron_score": 0.926
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            241,
+            1242,
+            1211,
+            1360
+          ],
+          "text": "PahE I ?/ 3TTETT cT CRTT 3TT9 Acphlle xe a no a  ssssssse",
+          "confidence": 0.634,
+          "nemotron_score": 0.945
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1198,
+            1242,
+            2387,
+            1359
+          ],
+          "text": "N//",
+          "confidence": 0.559,
+          "nemotron_score": 0.833
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1197,
+            1356,
+            2392,
+            1433
+          ],
+          "text": "NA",
+          "confidence": 0.93,
+          "nemotron_score": 0.646
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            146,
+            1359,
+            234,
+            1433
+          ],
+          "text": "2.",
+          "confidence": 0.999,
+          "nemotron_score": 0.896
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            234,
+            1357,
+            1199,
+            1434
+          ],
+          "text": "/Permanent Account Number E 4014+45",
+          "confidence": 0.568,
+          "nemotron_score": 0.931
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            146,
+            1430,
+            234,
+            1661
+          ],
+          "text": "3",
+          "confidence": 0.999,
+          "nemotron_score": 0.913
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            237,
+            1432,
+            1198,
+            1663
+          ],
+          "text": "ASHE 3iarfa Un2 che 4/14 118 pHi  HIRWHtE (HS s ph 11 l/ 3TT9 under GST, if yes give GSTIN : you Registered",
+          "confidence": 0.509,
+          "nemotron_score": 0.952
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1207,
+            1432,
+            2388,
+            1664
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.268
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            148,
+            1670,
+            237,
+            2149
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.367
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            147,
+            1663,
+            235,
+            1783
+          ],
+          "text": "4.",
+          "confidence": 1.0,
+          "nemotron_score": 0.107
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            200,
+            1662,
+            2382,
+            1797
+          ],
+          "text": "CQUR E: ER E FOTECOTE OH TOORO 4/ details (In case of Aadhar only last 4 digits is to be given as (d num",
+          "confidence": 0.592,
+          "nemotron_score": 0.77
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            233,
+            1791,
+            1200,
+            1923
+          ],
+          "text": "/Prof of Identty",
+          "confidence": 0.799,
+          "nemotron_score": 0.949
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1213,
+            1790,
+            2376,
+            1923
+          ],
+          "text": "ETTR 2) JJSi Ahie (E 3009 LISDH Kh 8 tea Driving Licence Votor a",
+          "confidence": 0.744,
+          "nemotron_score": 0.496
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            2094,
+            1789,
+            2387,
+            1923
+          ],
+          "text": "(8 ?thlh Passport",
+          "confidence": 0.876,
+          "nemotron_score": 0.07
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            232,
+            1921,
+            1199,
+            2017
+          ],
+          "text": "D Number*",
+          "confidence": 0.946,
+          "nemotron_score": 0.936
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1204,
+            1920,
+            2369,
+            2019
+          ],
+          "text": "9652 SSB 2u",
+          "confidence": 0.572,
+          "nemotron_score": 0.635
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            233,
+            2017,
+            1204,
+            2158
+          ],
+          "text": "D/MMYYYY)      /",
+          "confidence": 0.797,
+          "nemotron_score": 0.957
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1198,
+            2015,
+            2381,
+            2160
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.294
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            149,
+            2157,
+            233,
+            2302
+          ],
+          "text": "5.",
+          "confidence": 1.0,
+          "nemotron_score": 0.911
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            233,
+            2158,
+            1206,
+            2303
+          ],
+          "text": "HIGR  (Kh21NCS Ub( 12lhih FRTCT 1Cb laltk TAK JoO of Correspondence Address paniuand",
+          "confidence": 0.528,
+          "nemotron_score": 0.949
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1206,
+            2156,
+            2368,
+            2305
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.706
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            158,
+            2308,
+            2410,
+            2378
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.674
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            150,
+            2369,
+            238,
+            2439
+          ],
+          "text": "III",
+          "confidence": 0.892,
+          "nemotron_score": 0.76
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            164,
+            2368,
+            2410,
+            2439
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.616
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            147,
+            2440,
+            235,
+            2515
+          ],
+          "text": "7",
+          "confidence": 0.483,
+          "nemotron_score": 0.896
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            233,
+            2440,
+            1211,
+            2517
+          ],
+          "text": "t 4 / zt  / Educational gualification",
+          "confidence": 0.802,
+          "nemotron_score": 0.929
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1200,
+            2440,
+            2395,
+            2516
+          ],
+          "text": "UN",
+          "confidence": 0.75,
+          "nemotron_score": 0.456
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            147,
+            2515,
+            235,
+            2589
+          ],
+          "text": "2",
+          "confidence": 1.0,
+          "nemotron_score": 0.897
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            233,
+            2516,
+            1209,
+            2590
+          ],
+          "text": "/  c / Presnt Occpaton",
+          "confidence": 0.622,
+          "nemotron_score": 0.922
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1199,
+            2514,
+            2391,
+            2588
+          ],
+          "text": "NA",
+          "confidence": 0.987,
+          "nemotron_score": 0.493
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            148,
+            2589,
+            234,
+            2658
+          ],
+          "text": "3",
+          "confidence": 1.0,
+          "nemotron_score": 0.887
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            232,
+            2588,
+            1209,
+            2659
+          ],
+          "text": "/3 / SOure  IncOmE",
+          "confidence": 0.615,
+          "nemotron_score": 0.919
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1203,
+            2587,
+            2391,
+            2661
+          ],
+          "text": "NA",
+          "confidence": 0.936,
+          "nemotron_score": 0.499
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            150,
+            2657,
+            235,
+            2769
+          ],
+          "text": "4",
+          "confidence": 1.0,
+          "nemotron_score": 0.906
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            234,
+            2657,
+            1200,
+            2770
+          ],
+          "text": "kph (214101t) FIApE J 41 FIG NNe of the Dresnn reoce",
+          "confidence": 0.534,
+          "nemotron_score": 0.95
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1208,
+            2659,
+            2387,
+            2769
+          ],
+          "text": "AN",
+          "confidence": 0.639,
+          "nemotron_score": 0.512
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            150,
+            2770,
+            235,
+            2867
+          ],
+          "text": "5",
+          "confidence": 1.0,
+          "nemotron_score": 0.897
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            238,
+            2768,
+            1201,
+            2868
+          ],
+          "text": "ct Nature of duties he/hbD26",
+          "confidence": 0.663,
+          "nemotron_score": 0.945
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1196,
+            2766,
+            2396,
+            2864
+          ],
+          "text": "NA",
+          "confidence": 0.948,
+          "nemotron_score": 0.461
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            149,
+            2867,
+            234,
+            2941
+          ],
+          "text": "9",
+          "confidence": 0.999,
+          "nemotron_score": 0.861
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            239,
+            2866,
+            1202,
+            2943
+          ],
+          "text": "TceaE / go  T a  3 /Lengh of servi",
+          "confidence": 0.664,
+          "nemotron_score": 0.929
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1207,
+            2867,
+            2378,
+            2942
+          ],
+          "text": "8su",
+          "confidence": 0.308,
+          "nemotron_score": 0.588
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            149,
+            2941,
+            233,
+            3007
+          ],
+          "text": "7",
+          "confidence": 0.954,
+          "nemotron_score": 0.707
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            252,
+            2941,
+            1206,
+            3013
+          ],
+          "text": "/",
+          "confidence": 0.53,
+          "nemotron_score": 0.903
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1194,
+            2941,
+            2376,
+            3011
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.535
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            150,
+            3008,
+            235,
+            3115
+          ],
+          "text": "8",
+          "confidence": 0.902,
+          "nemotron_score": 0.858
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            198,
+            3008,
+            2374,
+            3117
+          ],
+          "text": "EaZ  pS/    H      mnedForces",
+          "confidence": 0.595,
+          "nemotron_score": 0.812
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            150,
+            3114,
+            235,
+            3236
+          ],
+          "text": "a",
+          "confidence": 0.995,
+          "nemotron_score": 0.809
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            260,
+            3113,
+            1206,
+            3238
+          ],
+          "text": "37190 So tc/ bIlE /ISE P /aHTT A P I 12 Wing to which you belon",
+          "confidence": 0.619,
+          "nemotron_score": 0.93
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            1190,
+            3113,
+            2374,
+            3236
+          ],
+          "text": "2",
+          "confidence": 0.875,
+          "nemotron_score": 0.643
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            149,
+            3237,
+            235,
+            3306
+          ],
+          "text": "b",
+          "confidence": 1.0,
+          "nemotron_score": 0.755
+        },
+        {
+          "table_idx": 0,
+          "bbox_in_page": [
+            233,
+            3233,
+            1210,
+            3305
+          ],
+          "text": "/3c /Rank therein",
+          "confidence": 0.898,
+          "nemotron_score": 0.875
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            130,
+            2366,
+            2396,
+            2442
+          ],
+          "text": "ES66O ) UOMEGTT3I",
+          "confidence": 0.448,
+          "nemotron_score": 0.382
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            151,
+            2370,
+            234,
+            2440
+          ],
+          "text": "III",
+          "confidence": 0.921,
+          "nemotron_score": 0.685
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            151,
+            2440,
+            233,
+            2515
+          ],
+          "text": "7",
+          "confidence": 0.381,
+          "nemotron_score": 0.941
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            233,
+            2439,
+            1207,
+            2514
+          ],
+          "text": "T 4 / ta  / Educational qualificatio",
+          "confidence": 0.814,
+          "nemotron_score": 0.951
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            1215,
+            2439,
+            2377,
+            2515
+          ],
+          "text": "UN",
+          "confidence": 0.733,
+          "nemotron_score": 0.734
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            1209,
+            2513,
+            2375,
+            2589
+          ],
+          "text": "ON",
+          "confidence": 0.522,
+          "nemotron_score": 0.79
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            151,
+            2514,
+            233,
+            2589
+          ],
+          "text": "2",
+          "confidence": 1.0,
+          "nemotron_score": 0.944
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            233,
+            2514,
+            1207,
+            2589
+          ],
+          "text": "/ a  / Preent Occpn",
+          "confidence": 0.6,
+          "nemotron_score": 0.952
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            152,
+            2588,
+            234,
+            2658
+          ],
+          "text": "3",
+          "confidence": 1.0,
+          "nemotron_score": 0.943
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            232,
+            2588,
+            1208,
+            2658
+          ],
+          "text": "B/ 3 / SOuCe  IncOME",
+          "confidence": 0.545,
+          "nemotron_score": 0.948
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            1207,
+            2590,
+            2377,
+            2659
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.779
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            1210,
+            2656,
+            2396,
+            2769
+          ],
+          "text": "NE",
+          "confidence": 0.323,
+          "nemotron_score": 0.819
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            151,
+            2657,
+            234,
+            2769
+          ],
+          "text": "4",
+          "confidence": 1.0,
+          "nemotron_score": 0.948
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            234,
+            2658,
+            1202,
+            2768
+          ],
+          "text": "pph (21011) FT9  HItpE  Name of the present eece",
+          "confidence": 0.491,
+          "nemotron_score": 0.965
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            151,
+            2768,
+            235,
+            2867
+          ],
+          "text": "5",
+          "confidence": 1.0,
+          "nemotron_score": 0.942
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            233,
+            2768,
+            1204,
+            2866
+          ],
+          "text": "/h f  /h  Exact Nature of duties",
+          "confidence": 0.766,
+          "nemotron_score": 0.964
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            1242,
+            2767,
+            2369,
+            2866
+          ],
+          "text": "VN",
+          "confidence": 0.596,
+          "nemotron_score": 0.777
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            229,
+            2866,
+            1212,
+            2941
+          ],
+          "text": "0 4   2",
+          "confidence": 0.581,
+          "nemotron_score": 0.952
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            1222,
+            2866,
+            2368,
+            2941
+          ],
+          "text": "NA",
+          "confidence": 0.99,
+          "nemotron_score": 0.761
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            153,
+            2866,
+            234,
+            2941
+          ],
+          "text": "6",
+          "confidence": 1.0,
+          "nemotron_score": 0.944
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            152,
+            2940,
+            234,
+            3007
+          ],
+          "text": "7",
+          "confidence": 1.0,
+          "nemotron_score": 0.939
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            235,
+            2940,
+            1212,
+            3007
+          ],
+          "text": "/",
+          "confidence": 0.534,
+          "nemotron_score": 0.922
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            1207,
+            2940,
+            2366,
+            3008
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.532
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            151,
+            3007,
+            235,
+            3113
+          ],
+          "text": "8",
+          "confidence": 0.874,
+          "nemotron_score": 0.939
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            234,
+            3008,
+            1218,
+            3113
+          ],
+          "text": "e Armed Forces EHEPE HHE UA AE W",
+          "confidence": 0.732,
+          "nemotron_score": 0.925
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            1214,
+            3007,
+            2392,
+            3114
+          ],
+          "text": "podw  pase q  (    '  A",
+          "confidence": 0.496,
+          "nemotron_score": 0.827
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            151,
+            3112,
+            236,
+            3235
+          ],
+          "text": "a",
+          "confidence": 0.993,
+          "nemotron_score": 0.937
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            239,
+            3112,
+            1212,
+            3236
+          ],
+          "text": "hwpUs cc/ 311401 UBH 3TTEG. ble /AHTT 2 P! f FO Wing to which you belon",
+          "confidence": 0.657,
+          "nemotron_score": 0.954
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            1196,
+            3112,
+            2377,
+            3236
+          ],
+          "text": "2",
+          "confidence": 0.705,
+          "nemotron_score": 0.746
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            150,
+            3234,
+            235,
+            3305
+          ],
+          "text": "b",
+          "confidence": 1.0,
+          "nemotron_score": 0.92
+        },
+        {
+          "table_idx": 1,
+          "bbox_in_page": [
+            236,
+            3238,
+            1214,
+            3304
+          ],
+          "text": "//Rank therein",
+          "confidence": 0.797,
+          "nemotron_score": 0.694
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            153,
+            210,
+            233,
+            596
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.123
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            233,
+            209,
+            1208,
+            490
+          ],
+          "text": "/ 3 / Residentl status",
+          "confidence": 0.791,
+          "nemotron_score": 0.901
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            1159,
+            210,
+            2390,
+            488
+          ],
+          "text": "J hPlH /3FaR hPλlt APlH 21166 U6231 C  H   hPlt 2116b 62 SYE /PaR C rprlt /3c rpillt r(ρ2t/ LH 8 13231 CE PAH LK CYNE C Resident Indian Non Resident Indian/ Foreign National of liiie Origin",
+          "confidence": 0.55,
+          "nemotron_score": 0.925
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            244,
+            486,
+            1188,
+            603
+          ],
+          "text": "N bud nhil verseas Citizen of India Card (OCl Card)",
+          "confidence": 0.657,
+          "nemotron_score": 0.914
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            1202,
+            485,
+            2375,
+            598
+          ],
+          "text": "YN",
+          "confidence": 0.739,
+          "nemotron_score": 0.804
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            149,
+            603,
+            233,
+            733
+          ],
+          "text": "18.",
+          "confidence": 0.999,
+          "nemotron_score": 0.806
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            236,
+            602,
+            1205,
+            733
+          ],
+          "text": "PBIIPAI ( RPAK RPat 9 :12h 162 2b)  7.31T .3 C3T 9GT 57 3ITP 3TT4",
+          "confidence": 0.551,
+          "nemotron_score": 0.906
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            1225,
+            602,
+            2376,
+            733
+          ],
+          "text": "( ISE Rpa RI Heeen FIMRCS GIDAH TiGT GIN outside India JyC o NRIFNION SS",
+          "confidence": 0.453,
+          "nemotron_score": 0.858
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            237,
+            734,
+            1207,
+            843
+          ],
+          "text": "use No.JBuilding Name) Street H/ dcmaFia /uy",
+          "confidence": 0.643,
+          "nemotron_score": 0.949
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            1212,
+            733,
+            2390,
+            842
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.239
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            1222,
+            838,
+            2375,
+            912
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.05
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            239,
+            842,
+            1210,
+            914
+          ],
+          "text": "(c/Town / Village/ Taluka",
+          "confidence": 0.79,
+          "nemotron_score": 0.922
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            250,
+            913,
+            1195,
+            985
+          ],
+          "text": "STRT CtyDistrict",
+          "confidence": 0.719,
+          "nemotron_score": 0.906
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            150,
+            984,
+            233,
+            1057
+          ],
+          "text": "",
+          "confidence": 0.0,
+          "nemotron_score": 0.053
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            239,
+            984,
+            1205,
+            1058
+          ],
+          "text": "3 State & Country",
+          "confidence": 0.857,
+          "nemotron_score": 0.934
+        },
+        {
+          "table_idx": 2,
+          "bbox_in_page": [
+            235,
+            1057,
+            1208,
+            1127
+          ],
+          "text": "5 . / PIN Code",
+          "confidence": 0.851,
+          "nemotron_score": 0.883
+        }
+      ],
+      "stage3_text_blocks": [
+        {
+          "bbox": [
+            1215,
+            217,
+            2372,
+            504
+          ],
+          "text": "UIpH hprlk  hpalt ripalk 2l6p U62 CJNE 11n31 C 2ln2 hPλH 2116b U62 S /aH JEhprI hp r(plt/ WH 8 U62 SJNE HRG c H9R HRch esident Indian Non Resident Indian/ Foreign National iil j rigin",
+          "confidence": 0.558
+        }
+      ],
+      "full_page_ocr_lines": 340
+    }
+  }
+}

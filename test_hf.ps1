@@ -1,0 +1,2 @@
+$output = Start-Process -FilePath "python" -ArgumentList "-c", "from transformers import TrOCRProcessor; p = TrOCRProcessor.from_pretrained('microsoft/tocr-base-handwritten'); print('OK')" -NoNewWindow -Wait -PassThru -RedirectStandardOutput "out.txt" -RedirectStandardError "err.txt"
+Get-Content "out.txt", "err.txt"

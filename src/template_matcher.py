@@ -13,6 +13,7 @@ import numpy as np
 from typing import Dict, List, Tuple, Optional
 from PIL import Image
 import cv2
+from pathlib import Path
 
 from src.form300_templates import (
     FORM300_PAGE_TEMPLATES,
@@ -22,6 +23,7 @@ from src.form300_templates import (
     bbox_to_pixels,
     resolve_page_index,
 )
+from src.fixed_form_registration import FixedFormRegistrar
 
 logger = logging.getLogger(__name__)
 
@@ -65,9 +67,13 @@ PAGE_NUM_TO_TYPE = {v: k for k, v in PAGE_TYPE_TO_PAGE_NUM.items()}
 class FormTemplateMatcher:
     """Canonical-bbox-first field cropping with OCR anchor backup."""
 
-    def __init__(self, ocr_engine=None):
+    def __init__(self, ocr_engine=None, audit_dir: Optional[str] = None):
         self.page_router = PageRouter()
         self._ocr_engine = ocr_engine
+        self._registrar = FixedFormRegistrar()
+        self.audit_dir = Path(audit_dir) if audit_dir else None
+        if self.audit_dir is not None:
+            self.audit_dir.mkdir(parents=True, exist_ok=True)
 
     def _get_ocr_engine(self):
         if self._ocr_engine is not None:
@@ -111,13 +117,26 @@ class FormTemplateMatcher:
             return {}
 
         template = FORM300_PAGE_TEMPLATES[page_type]
+        registration = self._registrar.register(np_img_bgr, page_num)
+        use_aligned = registration.success or registration.method != "resize_fallback"
+        working_img = registration.aligned_bgr if use_aligned else np_img_bgr
+        cleaned_img = (
+            self._registrar.subtract_reference_form(working_img, page_num)
+            if use_aligned else working_img
+        )
+        h_img, w_img = working_img.shape[:2]
         crops = {}
 
         for field in template.fields:
             x1, y1, x2, y2 = bbox_to_pixels(field.bbox_norm, w_img, h_img)
             if x2 <= x1 or y2 <= y1:
                 continue
-            crop_img = np_img_bgr[y1:y2, x1:x2]
+            source_img = cleaned_img if field.renderer == "text" else working_img
+            crop_img = source_img[y1:y2, x1:x2]
+            if crop_img.size == 0:
+                continue
+            if field.renderer == "text" and np.mean(crop_img) > 252:
+                crop_img = working_img[y1:y2, x1:x2]
             if crop_img.size == 0:
                 continue
 
@@ -128,7 +147,24 @@ class FormTemplateMatcher:
 
             crops[field.name] = Image.fromarray(crop_rgb)
 
-        logger.info(f"Page {page_num} ({page_type}): cropped {len(crops)}/{len(template.fields)} fields")
+        if self.audit_dir is not None and use_aligned:
+            overlay = self._registrar.draw_template_overlay(working_img, template)
+            overlay_path = self.audit_dir / f"page_{page_num:02d}_{page_type}_overlay.png"
+            aligned_path = self.audit_dir / f"page_{page_num:02d}_{page_type}_aligned.png"
+            cleaned_path = self.audit_dir / f"page_{page_num:02d}_{page_type}_cleaned.png"
+            cv2.imwrite(str(overlay_path), overlay)
+            cv2.imwrite(str(aligned_path), working_img)
+            cv2.imwrite(str(cleaned_path), cleaned_img)
+
+        logger.info(
+            "Page %s (%s): registration=%s overlap=%.3f crops=%s/%s",
+            page_num,
+            page_type,
+            registration.method,
+            registration.structure_overlap,
+            len(crops),
+            len(template.fields),
+        )
         return crops
 
     def match_all_pages(

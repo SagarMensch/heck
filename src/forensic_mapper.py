@@ -29,6 +29,24 @@ class ForensicFieldMapper:
     def __init__(self):
         self.cleaner = cleaner
         self.base_mapper = FieldMapper()
+
+    def _is_name_or_entity_field(self, field_name: str) -> bool:
+        key = (field_name or "").lower()
+        return any(
+            needle in key
+            for needle in (
+                "name",
+                "father",
+                "mother",
+                "spouse",
+                "nominee",
+                "appointee",
+                "employer",
+                "branch",
+                "plan",
+                "officer",
+            )
+        )
     
     def map_and_validate(self, regions: List[Any], page_num: int) -> List[ForensicResult]:
         """
@@ -73,12 +91,19 @@ class ForensicFieldMapper:
     
     def _process_field(self, field_name: str, raw: str, page_num: int) -> ForensicResult:
         """Process a single field with forensic validation using field mappings"""
-        
-        # Step 1: Try to match label to canonical field using FIELD_MAPPINGS
-        canonical_field = match_label_to_field(field_name) or match_label_to_field(raw)
-        
-        if canonical_field:
-            field_name = canonical_field
+
+        # Step 1: Preserve structured field ids; only remap human-readable labels.
+        original_field_name = field_name or ''
+        structured_field_id = (
+            bool(re.fullmatch(r'[A-Za-z0-9_]+', original_field_name))
+            and ('_' in original_field_name or original_field_name.islower())
+        )
+        if not structured_field_id:
+            canonical_field = match_label_to_field(original_field_name)
+            if not canonical_field and raw and len(raw.split()) <= 6:
+                canonical_field = match_label_to_field(raw)
+            if canonical_field:
+                field_name = canonical_field
         
         # Get field mapping if exists
         field_mapping = FIELD_MAPPINGS.get(field_name)
@@ -206,20 +231,37 @@ class ForensicFieldMapper:
                     correction_method='occupation_map'
                 )
         
-        # 9. NAME fields (special handling)
-        if field_type == 'text' and ('name' in field_name.lower() or 'father' in field_name.lower() or 'mother' in field_name.lower()):
-            cleaned = self.cleaner.clean_text(raw)
-            # Names should be title case, preserve spaces
-            if cleaned:
+        # 9. NAME / ENTITY fields (lexicon-backed fuzzy resolution)
+        if field_type == 'text' and self._is_name_or_entity_field(field_name):
+            decision = self.cleaner.resolve_name_or_entity(raw, field_name)
+            fallback_text = self.cleaner.prettify_text(raw)
+            if decision.accepted:
+                status = 'corrected' if decision.resolved_text != fallback_text else 'valid'
+                notes = decision.reason
+                if decision.candidates:
+                    notes = f"{notes}; top_candidate={decision.candidates[0].text}"
                 return ForensicResult(
                     field_name=field_name,
                     raw_value=raw,
-                    cleaned_value=cleaned.title(),
-                    confidence=0.88,
-                    validation_status='valid',
-                    correction_method='name_cleaning'
+                    cleaned_value=decision.resolved_text,
+                    confidence=max(0.88, decision.confidence),
+                    validation_status=status,
+                    correction_method=decision.method,
+                    notes=notes,
                 )
-        
+
+            if fallback_text:
+                status = 'pending_review' if decision.review_required else 'valid'
+                return ForensicResult(
+                    field_name=field_name,
+                    raw_value=raw,
+                    cleaned_value=fallback_text,
+                    confidence=max(0.72, decision.confidence),
+                    validation_status=status,
+                    correction_method=decision.method,
+                    notes=decision.reason,
+                )
+
         # DEFAULT: Return cleaned text
         cleaned = self.cleaner.clean_text(raw)
         return ForensicResult(

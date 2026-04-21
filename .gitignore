@@ -41,3 +41,8 @@ models/
 output*.txt
 .paddlex/
 .pytest_cache/
+
+Techathon_Samples/
+nemotron_local/
+archive/
+debug_pages/

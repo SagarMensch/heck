@@ -1,0 +1,649 @@
+{
+  "document_id": "P10",
+  "file_name": "P10.pdf",
+  "total_pages": 28,
+  "processing_time_ms": 9500,
+  "overall_confidence": 0.94,
+  "form_status": "mostly_confident",
+  "pages": {
+    "page_1": {
+      "page_num": 1,
+      "template_type": "cover_instructions",
+      "fields": [
+        {
+          "field_name": "Division_Office",
+          "value": "",
+          "confidence": 0.0,
+          "source": "not_found",
+          "bbox": [600, 200, 900, 280],
+          "bbox_normalized": [0.47, 0.12, 0.71, 0.16],
+          "page_num": 1,
+          "status": "Missing",
+          "editable": true,
+          "anchor": "division",
+          "metadata": {
+            "field_type": "Printed_Text",
+            "expected_length": "1-50",
+            "mandatory": false,
+            "data_type": "Alphabetic"
+          }
+        },
+        {
+          "field_name": "Proposal_Number",
+          "value": "002352",
+          "confidence": 0.92,
+          "source": "paddleocr",
+          "bbox": [800, 1250, 1100, 1320],
+          "bbox_normalized": [0.63, 0.72, 0.86, 0.77],
+          "page_num": 1,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "proposal_no",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "6",
+            "mandatory": true,
+            "data_type": "Numeric"
+          }
+        },
+        {
+          "field_name": "Proposal_Date",
+          "value": "10/3/26",
+          "confidence": 0.88,
+          "source": "paddleocr",
+          "bbox": [1200, 1250, 1400, 1320],
+          "bbox_normalized": [0.94, 0.72, 1.10, 0.77],
+          "page_num": 1,
+          "status": "Needs_Review",
+          "editable": true,
+          "anchor": "proposal_date",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "6-10",
+            "mandatory": true,
+            "data_type": "Date",
+            "validation_issues": ["Year format ambiguous: 26 could be 2026 or 1926"]
+          }
+        },
+        {
+          "field_name": "Deposit_Amount",
+          "value": "25000",
+          "confidence": 0.90,
+          "source": "paddleocr",
+          "bbox": [1600, 1250, 1900, 1320],
+          "bbox_normalized": [1.26, 0.72, 1.49, 0.77],
+          "page_num": 1,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "deposit_amount",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "4-8",
+            "mandatory": true,
+            "data_type": "Currency"
+          }
+        }
+      ]
+    },
+    "page_2": {
+      "page_num": 2,
+      "template_type": "personal_details",
+      "section": "Section_I",
+      "fields": [
+        {
+          "field_name": "Proposer_Prefix",
+          "value": "✓",
+          "confidence": 0.85,
+          "source": "checkbox_detection",
+          "bbox": [1200, 630, 1250, 680],
+          "bbox_normalized": [0.94, 0.37, 0.98, 0.40],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "prefix",
+          "metadata": {
+            "field_type": "Checkbox",
+            "expected_length": "1-5",
+            "mandatory": false,
+            "data_type": "Symbol",
+            "options": ["Shri", "Shrimati", "Kumari", "Other"]
+          }
+        },
+        {
+          "field_name": "Proposer_First_Name",
+          "value": "Satvika",
+          "confidence": 0.94,
+          "source": "vlm_fallback",
+          "bbox": [1200, 730, 1800, 860],
+          "bbox_normalized": [0.94, 0.43, 1.41, 0.50],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "first_name",
+          "ocr_alternatives": [
+            {"value": "Satvika", "confidence": 0.88, "source": "paddleocr"},
+            {"value": "Satvika", "confidence": 0.94, "source": "qwen_vl"}
+          ],
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "1-30",
+            "mandatory": true,
+            "data_type": "Alphabetic",
+            "script": "English",
+            "style": "Cursive"
+          }
+        },
+        {
+          "field_name": "Proposer_Middle_Name",
+          "value": "Mididudd",
+          "confidence": 0.82,
+          "source": "vlm_fallback",
+          "bbox": [1800, 730, 2100, 860],
+          "bbox_normalized": [1.41, 0.43, 1.65, 0.50],
+          "page_num": 2,
+          "status": "Needs_Review",
+          "editable": true,
+          "anchor": "middle_name",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "0-30",
+            "mandatory": false,
+            "data_type": "Alphabetic",
+            "script": "English",
+            "style": "Cursive",
+            "validation_issues": ["Unusual name pattern - verify with applicant"]
+          }
+        },
+        {
+          "field_name": "Proposer_Last_Name",
+          "value": "",
+          "confidence": 0.0,
+          "source": "not_found",
+          "bbox": [2100, 860, 2374, 950],
+          "bbox_normalized": [1.65, 0.50, 1.86, 0.55],
+          "page_num": 2,
+          "status": "Missing",
+          "editable": true,
+          "anchor": "last_name",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "1-30",
+            "mandatory": true,
+            "data_type": "Alphabetic",
+            "validation_issues": ["Last name is mandatory but not filled"]
+          }
+        },
+        {
+          "field_name": "Proposer_Father_Husband_Name",
+          "value": "M Vamshi Krisme",
+          "confidence": 0.88,
+          "source": "paddleocr",
+          "bbox": [1200, 950, 2374, 1030],
+          "bbox_normalized": [0.94, 0.55, 1.86, 0.60],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "father_name",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "5-50",
+            "mandatory": false,
+            "data_type": "Alphabetic",
+            "script": "English",
+            "style": "Mixed"
+          }
+        },
+        {
+          "field_name": "Proposer_Mother_Name",
+          "value": "NB Bhavana",
+          "confidence": 0.90,
+          "source": "paddleocr",
+          "bbox": [1200, 1030, 2374, 1100],
+          "bbox_normalized": [0.94, 0.60, 1.86, 0.64],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "mother_name",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "5-50",
+            "mandatory": false,
+            "data_type": "Alphabetic"
+          }
+        },
+        {
+          "field_name": "Proposer_Gender",
+          "value": "Female",
+          "confidence": 0.99,
+          "source": "checkbox_detection",
+          "bbox": [1700, 1100, 1760, 1160],
+          "bbox_normalized": [1.33, 0.64, 1.38, 0.68],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "gender",
+          "metadata": {
+            "field_type": "Checkbox",
+            "expected_length": "4-11",
+            "mandatory": true,
+            "data_type": "Enum",
+            "options": ["Male", "Female", "Transgender"],
+            "ink_density": 0.34
+          }
+        },
+        {
+          "field_name": "Proposer_Marital_Status",
+          "value": "Single",
+          "confidence": 0.85,
+          "source": "vlm_fallback",
+          "bbox": [1200, 1170, 2374, 1250],
+          "bbox_normalized": [0.94, 0.68, 1.86, 0.73],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "marital_status",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "5-10",
+            "mandatory": true,
+            "data_type": "Enum",
+            "options": ["Single", "Married", "Divorced", "Widowed"],
+            "correction_note": "Strikethrough on 'Married', 'Single' written above"
+          }
+        },
+        {
+          "field_name": "Proposer_Spouse_Name",
+          "value": "N/A",
+          "confidence": 0.95,
+          "source": "pattern_recognition",
+          "bbox": [1200, 1250, 2374, 1360],
+          "bbox_normalized": [0.94, 0.73, 1.86, 0.79],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "spouse_name",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "0-50",
+            "mandatory": false,
+            "data_type": "Alphabetic",
+            "note": "Strike-through line indicates N/A for single applicant"
+          }
+        },
+        {
+          "field_name": "Proposer_Date_of_Birth",
+          "value": "18/10/2026",
+          "confidence": 0.91,
+          "source": "paddleocr",
+          "bbox": [1200, 1360, 1800, 1430],
+          "bbox_normalized": [0.94, 0.79, 1.41, 0.83],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "dob",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "10",
+            "mandatory": true,
+            "data_type": "Date",
+            "format": "DD/MM/YYYY",
+            "validation": {
+              "is_valid_date": true,
+              "computed_age": 0,
+              "age_matches": false
+            }
+          }
+        },
+        {
+          "field_name": "Proposer_Age",
+          "value": "0",
+          "confidence": 0.70,
+          "source": "paddleocr",
+          "bbox": [1800, 1360, 2100, 1430],
+          "bbox_normalized": [1.41, 0.79, 1.65, 0.83],
+          "page_num": 2,
+          "status": "Needs_Review",
+          "editable": true,
+          "anchor": "age",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "1-3",
+            "mandatory": true,
+            "data_type": "Number",
+            "validation": {
+              "is_valid": true,
+              "range": [0, 100],
+              "cross_field_issue": "Age 0 contradicts DOB 18/10/2026"
+            }
+          }
+        },
+        {
+          "field_name": "Proposer_Birth_Place",
+          "value": "Hyderabad",
+          "confidence": 0.89,
+          "source": "paddleocr",
+          "bbox": [1200, 1650, 2374, 1780],
+          "bbox_normalized": [0.94, 0.96, 1.86, 1.04],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "birth_place",
+          "kb_corrected": false,
+          "kb_matches": ["Hyderabad", "Secunderabad"],
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "3-30",
+            "mandatory": false,
+            "data_type": "Alphabetic",
+            "fuzzy_match_confidence": 0.95
+          }
+        },
+        {
+          "field_name": "Proposer_Nationality",
+          "value": "Indian",
+          "confidence": 0.92,
+          "source": "paddleocr",
+          "bbox": [1200, 1850, 2374, 1920],
+          "bbox_normalized": [0.94, 1.08, 1.86, 1.12],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "nationality",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "5-20",
+            "mandatory": true,
+            "data_type": "Alphabetic"
+          }
+        },
+        {
+          "field_name": "Proposer_Citizenship",
+          "value": "Indian",
+          "confidence": 0.92,
+          "source": "paddleocr",
+          "bbox": [1200, 1920, 2374, 2000],
+          "bbox_normalized": [0.94, 1.12, 1.86, 1.17],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "citizenship",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "5-20",
+            "mandatory": true,
+            "data_type": "Alphabetic"
+          }
+        },
+        {
+          "field_name": "Proposer_Address_Line1",
+          "value": "8356, Bhoomi Green CHSL",
+          "confidence": 0.87,
+          "source": "paddleocr",
+          "bbox": [1200, 2100, 2374, 2200],
+          "bbox_normalized": [0.94, 1.23, 1.86, 1.28],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "address_line1",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "10-100",
+            "mandatory": true,
+            "data_type": "Alphanumeric"
+          }
+        },
+        {
+          "field_name": "Proposer_Town",
+          "value": "Borivali East",
+          "confidence": 0.88,
+          "source": "paddleocr",
+          "bbox": [1200, 2200, 2374, 2280],
+          "bbox_normalized": [0.94, 1.28, 1.86, 1.33],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "town",
+          "kb_corrected": false,
+          "kb_matches": ["Borivali East", "Borivali"],
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "5-30",
+            "mandatory": true,
+            "data_type": "Alphabetic"
+          }
+        },
+        {
+          "field_name": "Proposer_City",
+          "value": "Mumbai",
+          "confidence": 0.93,
+          "source": "paddleocr",
+          "bbox": [1200, 2280, 1800, 2360],
+          "bbox_normalized": [0.94, 1.33, 1.41, 1.38],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "city",
+          "kb_corrected": false,
+          "kb_matches": ["Mumbai", "Bombay"],
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "3-30",
+            "mandatory": true,
+            "data_type": "Alphabetic"
+          }
+        },
+        {
+          "field_name": "Proposer_State",
+          "value": "Maharashtra",
+          "confidence": 0.85,
+          "source": "paddleocr",
+          "bbox": [1800, 2280, 2374, 2360],
+          "bbox_normalized": [1.41, 1.33, 1.86, 1.38],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "state",
+          "kb_corrected": false,
+          "kb_matches": ["Maharashtra", "Maharastra"],
+          "cross_field_validation": {
+            "pincode_prefix": "400",
+            "state_from_pin": "Maharashtra",
+            "matches": true
+          },
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "5-20",
+            "mandatory": true,
+            "data_type": "Alphabetic"
+          }
+        },
+        {
+          "field_name": "Proposer_Pincode",
+          "value": "400066",
+          "confidence": 0.94,
+          "source": "paddleocr",
+          "bbox": [1200, 2360, 1600, 2430],
+          "bbox_normalized": [0.94, 1.38, 1.26, 1.42],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "pincode",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "6",
+            "mandatory": true,
+            "data_type": "Numeric",
+            "validation": {
+              "is_valid_pin": true,
+              "state": "Maharashtra",
+              "district": "Mumbai Suburban"
+            }
+          }
+        },
+        {
+          "field_name": "Proposer_Mobile",
+          "value": "",
+          "confidence": 0.0,
+          "source": "not_found",
+          "bbox": [1800, 2360, 2374, 2430],
+          "bbox_normalized": [1.41, 1.38, 1.86, 1.42],
+          "page_num": 2,
+          "status": "Missing",
+          "editable": true,
+          "anchor": "mobile",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "10",
+            "mandatory": true,
+            "data_type": "Numeric",
+            "validation_issues": ["Mobile number is mandatory but not provided"]
+          }
+        },
+        {
+          "field_name": "Correspondence_Address_Same",
+          "value": "Same",
+          "confidence": 0.95,
+          "source": "pattern_recognition",
+          "bbox": [1800, 2550, 2100, 2620],
+          "bbox_normalized": [1.41, 1.49, 1.65, 1.53],
+          "page_num": 2,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "correspondence_same",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "4",
+            "mandatory": false,
+            "data_type": "Alphabetic",
+            "note": "Correspondence address same as permanent"
+          }
+        }
+      ]
+    },
+    "page_3": {
+      "page_num": 3,
+      "template_type": "kyc_pmla_occupation",
+      "fields": [
+        {
+          "field_name": "ID_Proof_Aadhaar",
+          "value": "☑",
+          "confidence": 0.96,
+          "source": "checkbox_detection",
+          "bbox": [1400, 950, 1460, 1010],
+          "page_num": 3,
+          "status": "Verified",
+          "editable": false,
+          "anchor": "id_aadhaar",
+          "metadata": {
+            "field_type": "Checkbox",
+            "mandatory": true,
+            "is_checked": true
+          }
+        },
+        {
+          "field_name": "ID_Number",
+          "value": "22448559652",
+          "confidence": 0.78,
+          "source": "paddleocr",
+          "bbox": [1200, 1050, 1800, 1120],
+          "page_num": 3,
+          "status": "Needs_Review",
+          "editable": true,
+          "anchor": "id_number",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "expected_length": "12",
+            "mandatory": true,
+            "data_type": "Numeric",
+            "validation_issues": ["11 digits instead of 12 - verify full number"]
+          }
+        },
+        {
+          "field_name": "Address_Proof_Submitted",
+          "value": "Yes",
+          "confidence": 0.90,
+          "source": "paddleocr",
+          "bbox": [1600, 1150, 1800, 1220],
+          "page_num": 3,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "address_proof",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "mandatory": true
+          }
+        },
+        {
+          "field_name": "Annual_Income",
+          "value": "0",
+          "confidence": 0.85,
+          "source": "paddleocr",
+          "bbox": [1600, 1450, 1800, 1520],
+          "page_num": 3,
+          "status": "Verified",
+          "editable": true,
+          "anchor": "annual_income",
+          "metadata": {
+            "field_type": "Handwritten_Text",
+            "data_type": "Currency",
+            "note": "Zero income indicates non-working applicant"
+          }
+        }
+      ]
+    }
+  },
+  "kpis": {
+    "total_fields": 45,
+    "extracted_fields": 38,
+    "missing_fields": 7,
+    "auto_accepted": 32,
+    "needs_review": 6,
+    "field_level_accuracy": 84.4,
+    "character_level_accuracy": 91.2,
+    "manual_correction_rate": 13.3,
+    "processing_time_per_page_ms": 339
+  },
+  "validation_summary": {
+    "passed": 35,
+    "failed": 4,
+    "warnings": 6,
+    "cross_field_issues": [
+      "Age field shows '0' but DOB suggests calculated age should be computed",
+      "Mobile number missing despite being mandatory",
+      "ID number has 11 digits instead of expected 12 for Aadhaar",
+      "Last name missing - verify if single name applicant"
+    ],
+    "kb_corrections": 0,
+    "fuzzy_matches": 4
+  },
+  "hitl_queue": [
+    {
+      "field_name": "Proposer_Last_Name",
+      "priority": "high",
+      "reason": "Mandatory field missing"
+    },
+    {
+      "field_name": "Proposer_Mobile",
+      "priority": "high",
+      "reason": "Mandatory field missing"
+    },
+    {
+      "field_name": "ID_Number",
+      "priority": "high",
+      "reason": "Digit count mismatch"
+    },
+    {
+      "field_name": "Proposer_Middle_Name",
+      "priority": "medium",
+      "reason": "Unusual spelling - verify"
+    }
+  ],
+  "techathon_metrics": {
+    "forms_completed": 1,
+    "forms_rejected": 0,
+    "forms_needing_review": 1,
+    "overall_confidence": 0.84,
+    "target_confidence": 0.95,
+    "confidence_gap": 0.11
+  }
+}

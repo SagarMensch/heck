@@ -31,7 +31,7 @@ DEVICE = "cuda"
 TORCH_DTYPE = "auto"
 
 # ──────────────────────── MODEL CONFIG ────────────────────────
-QWEN_MODEL_ID = "Qwen/Qwen2.5-VL-7B-Instruct"
+QWEN_MODEL_ID = os.getenv("QWEN_MODEL_ID", "Qwen/Qwen2.5-VL-7B-Instruct")
 QWEN_MAX_NEW_TOKENS = 4096
 QWEN_TEMPERATURE = 0.1
 

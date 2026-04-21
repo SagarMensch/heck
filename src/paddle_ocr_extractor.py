@@ -12,6 +12,7 @@ Speed: ~0.5-1s/page PaddleOCR, ~5s/page Qwen fallback (only for missed fields)
 Target: 50 docs × 30 pages in <1hr
 """
 
+import gc
 import re
 import json
 import time
@@ -31,6 +32,8 @@ from src.form300_templates import (
     PAGES_WITH_TARGET_FIELDS, PAGE_TYPE_TO_PAGE_NUM,
     bbox_to_pixels, FieldTemplate,
 )
+from src.fixed_form_registration import FixedFormRegistrar
+from src.qwen_bbox_grounder import QwenReferenceBBoxStore
 
 logger = logging.getLogger(__name__)
 
@@ -43,6 +46,8 @@ class PaddleOCRFieldExtractor:
     def __init__(self):
         self._engine_hi = None
         self._engine_en = None
+        self._registrar = FixedFormRegistrar()
+        self._qwen_bbox_store = QwenReferenceBBoxStore()
 
     def _get_hindi(self):
         if self._engine_hi is None:
@@ -61,6 +66,22 @@ class PaddleOCRFieldExtractor:
             self._engine_en = PaddleOCR(lang="en", use_textline_orientation=True)
             logger.info("PaddleOCR English engine loaded (GPU)")
         return self._engine_en
+
+    def release_gpu(self):
+        released = self._engine_hi is not None or self._engine_en is not None
+        self._engine_hi = None
+        self._engine_en = None
+        gc.collect()
+
+        try:
+            import paddle
+            if paddle.device.is_compiled_with_cuda():
+                paddle.device.cuda.empty_cache()
+        except Exception as exc:
+            logger.debug("Paddle GPU cache clear skipped: %s", exc)
+
+        if released:
+            logger.info("Released PaddleOCR engines and cleared Paddle GPU cache")
 
     def _ocr_page(self, np_image: np.ndarray, lang: str = "hi") -> List[Dict]:
         engine = self._get_hindi() if lang == "hi" else self._get_english()
@@ -149,14 +170,36 @@ class PaddleOCRFieldExtractor:
             return {}
 
         template = FORM300_PAGE_TEMPLATES[page_type]
-        h_img, w_img = page_image.shape[:2]
+        registration = self._registrar.register(page_image, page_num)
+        use_aligned = registration.success or registration.method != "resize_fallback"
+        working_image = registration.aligned_bgr if use_aligned else page_image
+        cleaned_image = (
+            self._registrar.subtract_reference_form(working_image, page_num)
+            if use_aligned else working_image
+        )
+        h_img, w_img = working_image.shape[:2]
 
-        ocr_regions = self._ocr_page_bilingual(page_image)
-        logger.info(f"Page {page_num} ({page_type}): {len(ocr_regions)} OCR regions, {len(template.fields)} template fields")
+        ocr_regions = self._ocr_page_bilingual(cleaned_image)
+        fallback_regions = self._ocr_page_bilingual(working_image) if len(ocr_regions) < 6 else []
+        logger.info(
+            "Page %s (%s): registration=%s overlap=%.3f cleaned_regions=%s fallback_regions=%s template fields=%s",
+            page_num,
+            page_type,
+            registration.method,
+            registration.structure_overlap,
+            len(ocr_regions),
+            len(fallback_regions),
+            len(template.fields),
+        )
 
         fields = {}
         for field in template.fields:
-            fx1, fy1, fx2, fy2 = bbox_to_pixels(field.bbox_norm, w_img, h_img)
+            override_bbox = self._qwen_bbox_store.get_field_bbox(
+                page_num,
+                field.name,
+                target_size=(w_img, h_img),
+            )
+            fx1, fy1, fx2, fy2 = override_bbox or bbox_to_pixels(field.bbox_norm, w_img, h_img)
             f_cx = (fx1 + fx2) / 2
             f_cy = (fy1 + fy2) / 2
             f_w = fx2 - fx1
@@ -199,6 +242,30 @@ class PaddleOCRFieldExtractor:
                         best_match = region
                         best_iou = overlap_ratio
 
+            if best_match is None:
+                for region in fallback_regions:
+                    rx1, ry1, rx2, ry2 = region["bbox"]
+                    r_cx = (rx1 + rx2) / 2
+                    r_cy = (ry1 + ry2) / 2
+
+                    dist = np.sqrt(((r_cx - f_cx) / max(w_img, 1)) ** 2 +
+                                   ((r_cy - f_cy) / max(h_img, 1)) ** 2)
+
+                    ix1 = max(fx1, rx1)
+                    iy1 = max(fy1, ry1)
+                    ix2 = min(fx2, rx2)
+                    iy2 = min(fy2, ry2)
+                    inter = max(0, ix2 - ix1) * max(0, iy2 - iy1)
+                    r_area = max(1, (rx2 - rx1) * (ry2 - ry1))
+                    overlap_ratio = inter / r_area if r_area > 0 else 0
+
+                    if overlap_ratio > 0.25 or dist < 0.035:
+                        score = dist - overlap_ratio * 0.35
+                        if score < best_dist:
+                            best_dist = score
+                            best_match = region
+                            best_iou = overlap_ratio
+
             if best_match and (best_iou > 0.3 or best_dist < 0.05):
                 value = best_match["text"]
                 confidence = best_match["confidence"]
@@ -206,14 +273,38 @@ class PaddleOCRFieldExtractor:
                 value = self._postprocess_field(value, field)
                 confidence = self._calibrate_confidence(value, field, confidence)
 
+                source_ocr_bbox = best_match["bbox"]
+                source_template_bbox = [fx1, fy1, fx2, fy2]
+                if use_aligned:
+                    source_ocr_bbox = list(
+                        self._registrar.aligned_bbox_to_source_bbox(
+                            tuple(best_match["bbox"]),
+                            registration,
+                            page_image.shape,
+                        )
+                    )
+                    source_template_bbox = list(
+                        self._registrar.aligned_bbox_to_source_bbox(
+                            (fx1, fy1, fx2, fy2),
+                            registration,
+                            page_image.shape,
+                        )
+                    )
+
                 fields[field.name] = {
                     "value": value,
                     "confidence": confidence,
                     "source": f"PaddleOCR-{best_match['lang']}",
                     "field_family": field.family,
                     "page_num": page_num,
-                    "ocr_bbox": best_match["bbox"],
+                    "ocr_bbox": source_ocr_bbox,
+                    "ocr_bbox_aligned": best_match["bbox"],
+                    "template_bbox": source_template_bbox,
                     "template_bbox_norm": list(field.bbox_norm),
+                    "template_bbox_aligned": [fx1, fy1, fx2, fy2],
+                    "registration_method": registration.method,
+                    "registration_success": registration.success,
+                    "registration_overlap": registration.structure_overlap,
                 }
             else:
                 fields[field.name] = {
@@ -222,6 +313,9 @@ class PaddleOCRFieldExtractor:
                     "source": "none",
                     "field_family": field.family,
                     "page_num": page_num,
+                    "registration_method": registration.method,
+                    "registration_success": registration.success,
+                    "registration_overlap": registration.structure_overlap,
                 }
 
         return fields
@@ -377,7 +471,6 @@ class QwenCoTExtractor:
             return self._qwen_model, self._qwen_processor
 
         import torch
-        import gc
 
         if self.manager is not None:
             model, processor = self.manager.get_qwen()
@@ -387,14 +480,33 @@ class QwenCoTExtractor:
 
         from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
         logger.info(f"Loading {QWEN_MODEL_ID}...")
+        load_start = time.time()
         self._qwen_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
             QWEN_MODEL_ID,
-            dtype=torch.float16,
+            torch_dtype=torch.float16,
             device_map="auto",
             attn_implementation="eager",
+            low_cpu_mem_usage=True,
         )
         self._qwen_processor = AutoProcessor.from_pretrained(QWEN_MODEL_ID)
+        logger.info("Qwen model load completed in %.1fs", time.time() - load_start)
         return self._qwen_model, self._qwen_processor
+
+    def release(self):
+        released = self._qwen_model is not None or self._qwen_processor is not None
+        self._qwen_model = None
+        self._qwen_processor = None
+        gc.collect()
+
+        try:
+            import torch
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+        except Exception as exc:
+            logger.debug("Torch GPU cache clear skipped: %s", exc)
+
+        if released:
+            logger.info("Released Qwen model and cleared Torch GPU cache")
 
     def extract_field_cot(self, page_image: Image.Image, field_name: str,
                           field_family: str, num_votes: int = 3) -> Dict:
@@ -645,6 +757,9 @@ class HybridExtractor:
         if page_num_map is None:
             page_num_map = list(range(1, len(page_images) + 1))
 
+        if self.qwen is not None:
+            self.qwen.release()
+
         t0 = time.time()
 
         for i, (np_img, page_num) in enumerate(zip(page_images, page_num_map)):
@@ -677,6 +792,7 @@ class HybridExtractor:
                      f"{len(low_conf_fields)} need Qwen fallback")
 
         if low_conf_fields and self.use_qwen_fallback and self.qwen is not None:
+            self.paddle.release_gpu()
             t1 = time.time()
             logger.info(f"Phase 2 (Qwen CoT): Processing {len(low_conf_fields)} low-confidence fields...")
 
